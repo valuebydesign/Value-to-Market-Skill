@@ -24,26 +24,40 @@ At its core sit the framework's signature constructs: the **Value Proposition Fo
 
 ## What is in this repository
 
-This repository packages the skill for each platform in its own folder. The **Claude Code / Cowork** plugin lives in `Claude/`; other platforms will be added in their own folders over time.
+This repository packages the skill for each platform in its own folder. The method, skills, and references are identical across editions; only the packaging and load mechanics differ per platform.
 
 ```
 README.md                          this file
 LICENSE                            CC BY 4.0
 CHANGELOG.md                       release history
-dist/                              packaged plugin, ready to download
+dist/                              packaged editions, ready to download
 .claude-plugin/marketplace.json    Claude marketplace manifest
 Claude/
   value-to-market/                 the Claude Code / Cowork plugin (see its README)
+ChatGPT/
+  value-to-market/                 the ChatGPT / OpenAI Agent Skills edition (see its README)
+M365 Copilot/
+  value-to-market/                 the Microsoft 365 Copilot edition (see its README)
 ```
 
-## Install (Claude Code / Cowork)
+Because Agent Skills (`SKILL.md`) are a converging open standard, the skills port across hosts with only the load path adapted: the Claude edition uses `${CLAUDE_PLUGIN_ROOT}`, the ChatGPT and Copilot editions read the shared `references/` by relative path. Portable is not identical, so each edition's README notes how deliverables degrade where a host lacks file or document capabilities.
+
+## Install
+
+**Claude Code / Cowork:**
 
 ```
 /plugin marketplace add valuebydesign/Value-to-Market-Skill
 /plugin install value-to-market@value-by-design
 ```
 
-Or download the packaged plugin from `dist/` (or the GitHub Releases page) and install it directly. Then run `/v2m-init` in your project to begin. Full plugin documentation is in `Claude/value-to-market/README.md`.
+Or download the packaged plugin from `dist/` and install it directly, then run `/v2m-init`. Full documentation in `Claude/value-to-market/README.md`.
+
+**ChatGPT / OpenAI (and Codex):** add the `ChatGPT/value-to-market` folder, or its `dist` zip, to your workspace Skills, keeping `skills/` and `references/` together. See `ChatGPT/value-to-market/README.md`.
+
+**Microsoft 365 Copilot (Copilot Studio, GitHub Copilot, VS Code):** upload the `M365 Copilot/value-to-market` folder, or its `dist` zip. See `M365 Copilot/value-to-market/README.md`.
+
+On every platform, skills trigger from their descriptions: start by asking to initialize a value strategy project, then to run the checkup.
 
 ## Attributions
 

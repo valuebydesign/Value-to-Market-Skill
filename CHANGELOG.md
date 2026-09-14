@@ -12,4 +12,5 @@ The Value-to-Market (V2M) Framework as a Claude Code and Cowork plugin: initiali
 - Seven phase sets: Assess, Strategy, Customer & Fit, Design, Market, Engineer, Deliver.
 - The full tool set, each runnable on its own, including the ecosystem Value Matrix (after Simone Cicero), the Business Model Canvas (compiled per audience and per horizon), and the unified 3P (premise, promise, proof).
 - Every step writes a reasoning file into a numbered phase subfolder, returns one recommendation, self-scores against a scorecard with an independent evidence-bound check, and produces branded deliverables (Word by default, Excel when list-heavy; sets add a deck and PDF).
+- Ships in three editions from one source: Claude Code / Cowork (`Claude/`), ChatGPT / OpenAI Agent Skills (`ChatGPT/`), and Microsoft 365 Copilot (`M365 Copilot/`), each with a downloadable package in `dist/`.
 - Released under CC BY 4.0.

@@ -1,0 +1,20 @@
+{
+  "name": "value-by-design",
+  "version": "1.0.0",
+  "owner": {
+    "name": "Hoang Huynh",
+    "url": "https://valueproposition.design"
+  },
+  "plugins": [
+    {
+      "name": "value-to-market",
+      "displayName": "Value to Market",
+      "description": "The Value-to-Market (V2M) Framework as a plugin: init a project, run the strategy checkup, and drive seven phase sets from Assess to Deliver, each producing branded, self-scored deliverables.",
+      "source": {
+        "type": "github",
+        "repo": "valuebydesign/Value-to-Market-Skill",
+        "path": "Claude/value-to-market"
+      }
+    }
+  ]
+}

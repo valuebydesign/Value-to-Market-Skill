@@ -65,7 +65,7 @@ Each step saves its thinking and produces a document, so by the end you have a c
 
 | Book | Lens | What it covers |
 | --- | --- | --- |
-| **Value Proposition Design** | the what and who | The fundamentals of value, and how to design a value proposition: the target and anti-customer, offer mechanics, the messaging that lands, and the premise, promise, and proof that keep it honest. |
+| **Value Proposition Design** | the what and who | The fundamentals of value, and how to design a value proposition: the Value Proposition Formula, the target and anti-customer, offer mechanics, and the premise, promise, and proof that keep it honest. |
 | **Value Proposition Strategy** | the why and where | Reading the field, designing a category, building a moat, moving value against resistance through the market as wilderness. |
 | **Value Proposition Engineering** | the how and at scale | KPIs and validation, automation, AI integration, the go-to-market machinery that makes value repeatable. |
 

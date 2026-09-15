@@ -4,22 +4,30 @@ An AI Agent Skill that puts the **Value-to-Market (V2M) Framework** to work: it 
 
 **This skill is a companion to the books.** It operationalizes the method taught in the *Value by Design* collection by Hoang Huynh, so you can run the framework on a real business, with your AI, phase by phase. The books teach the thinking; the skill does the work alongside you.
 
-Built on the open Agent Skills standard (`SKILL.md`), so one install works across Claude Code, ChatGPT and Codex, Microsoft 365 Copilot, Cursor, and other compatible agents.
+Built on the open Agent Skills standard (`SKILL.md`), so the same skill package runs across Claude Code, ChatGPT and Codex, Microsoft 365 Copilot, Cursor, and other compatible agents.
 
 ## Install
 
-The quickest way, on any supported agent:
+**CLI and coding agents (Claude Code, OpenAI Codex, Cursor, and others):**
 
 ```
 npx skills add valuebydesign/Value-to-Market-Skill
 ```
 
-The CLI detects your agent and installs the skills into its skills directory. To list before installing, add `--list`; to install one skill, add `--skill v2m-init`.
+The `skills` CLI detects your installed agent and copies the skills into its skills directory. Add `--list` to preview, `--skill v2m-init` to install one, or `-a <agent>` to target a specific agent.
 
-Alternatives:
+**Claude Code / Cowork (marketplace):**
 
-- **Claude Code / Cowork marketplace:** `/plugin marketplace add valuebydesign/Value-to-Market-Skill` then `/plugin install value-to-market@value-by-design`.
-- **Manual:** download `dist/value-to-market-v1.0.0.zip` and place the `skills/` folders in your agent's skills directory.
+```
+/plugin marketplace add valuebydesign/Value-to-Market-Skill
+/plugin install value-to-market@value-by-design
+```
+
+**ChatGPT (Business, Enterprise, Healthcare, Edu):** in ChatGPT Settings, then Skills, upload the `skills/` folder (or `dist/value-to-market-v1.0.0.zip`), keeping each skill folder and its `references/` together.
+
+**Microsoft 365 Copilot (Copilot Studio, GitHub Copilot, VS Code):** upload the `skills/` folder or the `dist` zip through your Copilot skills interface.
+
+**Manual (any agent):** download `dist/value-to-market-v1.0.0.zip` and place the skill folders in your agent's skills directory.
 
 Skills trigger from their descriptions, not slash commands, so once installed just ask your agent to initialize a value strategy project (the `v2m-init` skill), then to run the value strategy checkup (`v2m-value-strategy`). Any individual set or tool can also be invoked by describing its task.
 

@@ -14,20 +14,22 @@ Value to Market turns your AI into a disciplined value proposition strategist. I
 
 ## Install
 
-On any supported agent (Claude Code, ChatGPT and Codex, Microsoft 365 Copilot, Cursor, and more):
+**CLI and coding agents (Claude Code, OpenAI Codex, Cursor, and others):**
 
 ```
 npx skills add valuebydesign/Value-to-Market-Skill
 ```
 
-Or, in Claude Code / Cowork, via the marketplace:
+**Claude Code / Cowork (marketplace):**
 
 ```
 /plugin marketplace add valuebydesign/Value-to-Market-Skill
 /plugin install value-to-market@value-by-design
 ```
 
-Or download `value-to-market-v1.0.0.zip` from the assets below. Then ask your agent to initialize a value strategy project (`v2m-init`) to begin.
+**ChatGPT (Business, Enterprise, Healthcare, Edu)** and **Microsoft 365 Copilot:** upload the `skills/` folder, or `value-to-market-v1.0.0.zip` from the assets below, through the product's skills interface, keeping each skill folder and its `references/` together.
+
+Once installed, ask your agent to initialize a value strategy project (`v2m-init`) to begin.
 
 ## The books: the *Value by Design* collection
 

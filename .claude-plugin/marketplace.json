@@ -13,7 +13,7 @@
       "source": {
         "type": "github",
         "repo": "valuebydesign/Value-to-Market-Skill",
-        "path": "Claude/value-to-market"
+        "path": "."
       }
     }
   ]

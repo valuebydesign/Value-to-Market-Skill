@@ -12,14 +12,22 @@ Value to Market turns your AI into a disciplined value proposition strategist. I
 - **Deliverables that ship.** Every step returns one clear recommendation, writes its reasoning into a numbered phase folder, and produces branded documents (spreadsheets where the work is detailed, a presentation for each phase). The Deliver phase assembles the capstone report, keynote, guidelines, business model canvas, and a Decisions and Agenda document.
 - **Honesty built in.** Each step self-scores against a sanity-test scorecard, with an independent, evidence-bound check at every gate so nothing sloppy slips through as finished.
 
-## Install (Claude Code / Cowork)
+## Install
+
+On any supported agent (Claude Code, ChatGPT and Codex, Microsoft 365 Copilot, Cursor, and more):
+
+```
+npx skills add valuebydesign/Value-to-Market-Skill
+```
+
+Or, in Claude Code / Cowork, via the marketplace:
 
 ```
 /plugin marketplace add valuebydesign/Value-to-Market-Skill
 /plugin install value-to-market@value-by-design
 ```
 
-Or download `value-to-market-v1.0.0.plugin` from the assets below and install it directly. Then run `/v2m-init` in your project to begin.
+Or download `value-to-market-v1.0.0.zip` from the assets below. Then ask your agent to initialize a value strategy project (`v2m-init`) to begin.
 
 ## The books: the *Value by Design* collection
 

@@ -51,9 +51,9 @@ For the `skills` CLI: add `--list` to preview, `--skill v2m-init` to install one
 
 Once it is installed you do not type commands. You just talk to your assistant in plain language, and it takes care of the method.
 
-1. **Start a project.** Ask it to "start a value strategy project." It will ask a handful of questions about your business, your offer, and your goal. Answer in your own words; where you are unsure, say so, and it will note the gap rather than guess.
-2. **Let it run the strategy.** Ask it to "run the value strategy checkup." From there it works through the seven phases in order, pausing to show you a clear recommendation and a quick self-check before moving on, so you always see what it decided and why.
-3. **Or ask for one thing.** At any point you can request a single piece, for example "benchmark my competitors" or "help me price this," and it will run just that.
+1. **Start a project.** Type `/v2m-init`, or simply ask "start a value strategy project." It will ask a handful of questions about your business, your offer, and your goal. Answer in your own words; where you are unsure, say so, and it will note the gap rather than guess.
+2. **Let it run the strategy.** Type `/v2m-value-strategy`, or ask "run the value strategy checkup." From there it works through the seven phases in order, pausing to show you a clear recommendation and a quick self-check before moving on, so you always see what it decided and why.
+3. **Or ask for one thing.** Type the tool's command (for example `/v2m-tool-market-benchmark`), or ask in plain words like "benchmark my competitors" or "help me price this," and it will run just that.
 
 Each step saves its thinking and produces a document, so by the end you have a complete, shareable strategy rather than a chat you have to summarize yourself. Work at whatever pace suits you; nothing is lost between sessions.
 
@@ -65,9 +65,9 @@ Each step saves its thinking and produces a document, so by the end you have a c
 
 | Book | Lens | What it covers |
 | --- | --- | --- |
-| **I. Value Proposition Design** | the what and who | Target and anti-customer, offer mechanics, the messaging that lands. The premise, the promise, and the proof that keeps it honest. |
-| **II. Value Proposition Strategy** | the why and where | Reading the field, designing a category, building a moat, moving value against resistance through the market as wilderness. |
-| **III. Value Proposition Engineering** | the how and at scale | KPIs and validation, automation, AI integration, the go-to-market machinery that makes value repeatable. |
+| **Value Proposition Design** | the what and who | The fundamentals of value, and how to design a value proposition: the target and anti-customer, offer mechanics, the messaging that lands, and the premise, promise, and proof that keep it honest. |
+| **Value Proposition Strategy** | the why and where | Reading the field, designing a category, building a moat, moving value against resistance through the market as wilderness. |
+| **Value Proposition Engineering** | the how and at scale | KPIs and validation, automation, AI integration, the go-to-market machinery that makes value repeatable. |
 
 <div align="center">
 

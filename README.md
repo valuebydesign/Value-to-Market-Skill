@@ -25,7 +25,15 @@ Built on the open Agent Skills standard (`SKILL.md`), so the same skill package 
 
 ---
 
+## What it does for you
+
+You do not need to know the framework, or any of its vocabulary, to use this. You bring what you know about your business; the skill asks plain questions, reasons through them the way an experienced value strategist would, and hands back finished work: a clear recommendation at each step, and polished documents you can share with your team or your board. Think of it as a strategist who has read the whole method and sits beside you to apply it, one phase at a time. You can go from start to finish, or dip in for a single question when that is all you need.
+
+---
+
 ## Install
+
+Installing means adding these instructions to your AI assistant once, so it knows how to run the method whenever you ask. Pick the row for the assistant you already use. If you are not sure which to choose, the friendliest path is the ChatGPT or Claude app: download the package and upload it in the app's Skills settings, with no command line involved.
 
 | Where | How |
 | --- | --- |
@@ -35,7 +43,19 @@ Built on the open Agent Skills standard (`SKILL.md`), so the same skill package 
 | **Microsoft 365 Copilot** (Copilot Studio, GitHub Copilot, VS Code) | Upload the `skills/` folder or the `dist` zip via the Copilot skills interface |
 | **Manual** (any agent) | Download `dist/value-to-market-v1.0.0.zip` and drop the skill folders into your agent's skills directory |
 
-For the `skills` CLI: add `--list` to preview, `--skill v2m-init` to install one, or `-a <agent>` to target a specific agent. Skills trigger from their descriptions, not slash commands, so once installed just ask your agent to **initialize a value strategy project** (`v2m-init`), then to **run the value strategy checkup** (`v2m-value-strategy`).
+For the `skills` CLI: add `--list` to preview, `--skill v2m-init` to install one, or `-a <agent>` to target a specific agent.
+
+---
+
+## Using it, step by step
+
+Once it is installed you do not type commands. You just talk to your assistant in plain language, and it takes care of the method.
+
+1. **Start a project.** Ask it to "start a value strategy project." It will ask a handful of questions about your business, your offer, and your goal. Answer in your own words; where you are unsure, say so, and it will note the gap rather than guess.
+2. **Let it run the strategy.** Ask it to "run the value strategy checkup." From there it works through the seven phases in order, pausing to show you a clear recommendation and a quick self-check before moving on, so you always see what it decided and why.
+3. **Or ask for one thing.** At any point you can request a single piece, for example "benchmark my competitors" or "help me price this," and it will run just that.
+
+Each step saves its thinking and produces a document, so by the end you have a complete, shareable strategy rather than a chat you have to summarize yourself. Work at whatever pace suits you; nothing is lost between sessions.
 
 ---
 

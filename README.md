@@ -83,6 +83,16 @@ Each step saves its thinking and produces a document, so by the end you have a c
 
 ---
 
+## Help and manual
+
+You do not need to memorize anything. To see what is available, ask your assistant "what can Value to Market do?" or open its skills list: every skill is named and carries a short description, and each explains itself if you ask "what does this do?".
+
+If you are not sure where to start, run `/v2m-init`. It inspects your project and recommends the next step, and from there `/v2m-value-strategy` drives the phases in order and always ends by telling you the next move. You never have to remember the order.
+
+The full method, worked examples, and the *Value by Design* books are at [valueproposition.design](https://valueproposition.design). For questions, feedback, or to report an issue, use the homepage or the project's GitHub Issues.
+
+---
+
 ## The books: the *Value by Design* collection
 
 *Value by Design* describes and implements the Value-to-Market (V2M) Framework across three books. Read them to learn the method; use this skill to apply it.

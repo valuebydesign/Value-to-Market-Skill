@@ -19,7 +19,7 @@ Save a markdown reasoning file inside a **numbered, chronologically ordered phas
 - NEVER write into a read-only reference library the user has connected for grounding (for example a notes vault). Those are read-only: read for grounding, never write, move, rename, or delete. Write only inside the project `Value Strategy/` folder.
 - If no project folder is connected, keep the reasoning in chat and tell the user where it would have been saved.
 
-Standard reasoning-file structure: Title and date; Subject; Inputs and assumptions; Working (the analysis); Recommendation (see 3); Scorecard (see 4); Open decisions; Next step (see 5).
+Standard reasoning-file structure: Title and date; Subject; Inputs and assumptions; Working (the analysis); Recommendation (see 3); Scorecard (see 4); Open decisions; Recommended next, in business terms with no skill or command names (the command-level next step goes in the chat reply only, see 5).
 
 ## 3. Return ONE clear recommendation (not a menu)
 
@@ -37,6 +37,8 @@ The self-score is a first pass, not the final word. At any gate that matters (a 
 
 Always end the response with an explicit, visible **Next step** line: the exact skill to run next with its command (for example `/v2m-set-2-strategy`, or the tool's command), and a one-line offer to run it now. This is mandatory. Never finish a set or a tool without it, no matter how long the output already is, and never assume the user knows what comes next. If the gate did not pass, the Next step is the specific iteration to run and the offer to run it; if it passed, the Next step is the next set or tool in the chain. Flag anything already in place (in the `Value Strategy/` folder or the running canvas) that can be skipped, and keep the user oriented in the larger run.
 
+**The Next step line lives only in the chat reply to the operator, never in a deliverable.** The reader of a document has no concept of a skill or a command. Never write a skill name, a command, a `/v2m-...` token, or a "run X next" line into a reasoning file, a Word report, an Excel, a deck, or a PDF. Deliverables stand on their own: where a document points forward, it does so in plain business terms, the decision or the work that comes next, not in tool terms.
+
 ## 6. Produce the deliverables
 
 Always write the reasoning `.md`. Then, unless the recorded preference in `.value-to-market/context.md` says reasoning-files-only:
@@ -44,6 +46,7 @@ Always write the reasoning `.md`. Then, unless the recorded preference in `.valu
 - **Branded Word report, by default.** Build a Word document per `report-format.md` (Arial, minimalistic white, black/white/greys, `#8E0044` highlight, the brand line in the footer) capturing the considerations and the recommendation. This is the default second output of every set and tool.
 - **Branded Excel, when the output is list-heavy.** When the result is a long list, a scored matrix, or needs filtering, also build an Excel per `report-format.md`. Default-Excel tools: `v2m-tool-market-benchmark`, `v2m-tool-jobs-to-be-done`, `v2m-tool-archetype-map`, `v2m-tool-personas`, `v2m-tool-value-proposition-canvas`, `v2m-tool-adoption-moa`, `v2m-tool-assets-assessment`, `v2m-tool-category-assessment`, `v2m-tool-rhyming`, `v2m-tool-channels`, `v2m-tool-moat-defense`, and any scorecard roll-up.
 - **The phase deck is the set's job, not the tool's.** A set (a whole phase) rolls up its tools' scorecards, carries the canvas forward, and additionally builds a branded PowerPoint deck of the phase, and a PDF, per `report-format.md`: the phase's decisions, the scorecard readiness, and the next step, ready to share. Tools default to Word (plus Excel when list-heavy); sets add the deck and PDF on top. If a phase's activities were run without launching the set, the phase is not complete: launch the set to roll up the scorecards, carry the canvas and produce the deck.
+- **Every deliverable is self-contained.** A report, spreadsheet, deck, or PDF reads as a standalone business document for someone who has no concept of skills or commands: it never names a skill, a command, or a `/v2m-...` token, and it carries no "next step: run X" line. Forward-looking recommendations appear as business next steps.
 - **PowerPoint for a single tool only on request**, or via `v2m-tool-keynote` in the Deliver set.
 
 Save all of a step's files together in that step's numbered phase subfolder (see section 2) with the branded filenames. The **final cross-run deliverables** from `v2m-set-7-deliver` (the capstone report in all its formats, the keynote, the guidelines, the Decisions and Agenda document) are the exception: save those at the top level of the `Value Strategy/` folder, not inside a numbered step subfolder, so the finished package sits above the working chronology. Honor the recorded format preference from `.value-to-market/context.md` (a user may set reasoning-files-only, or turn Excel off). Verify a generated Word or Excel by rendering or reopening before presenting.

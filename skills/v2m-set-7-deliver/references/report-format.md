@@ -6,6 +6,7 @@ Every deliverable uses one house style so it drops cleanly into any template and
 
 - **Brand line (footer of every file):** Value by Design - Value-to-Market Framework - Hoang Huynh 2026.
 - **Voice:** authored and restrained, never a dashboard. No em-dash anywhere.
+- **Self-contained:** every document reads on its own for a business reader. Never name a skill, a command, or a `/v2m-...` token, and never include a "next step: run X" line. Where the document points forward, write it as a business next step.
 
 ## Palette (exact)
 

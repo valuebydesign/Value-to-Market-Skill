@@ -4,10 +4,12 @@ All notable changes to the Value to Market plugin are documented here. This proj
 
 ## [1.0.2] - 2026-09-16
 
-Licensing and positioning.
+Distribution, licensing, and positioning.
 
-- License changed from CC BY 4.0 to **CC BY-SA 4.0**: sharing and adaptation, commercial use included, stay free with attribution, and adaptations must be released under the same license. `LICENSE`, the plugin manifest and the README are updated.
-- New commercial plugin description in the plugin and marketplace manifests.
+- **One-command install across agents.** `npx skills add valuebydesign/Value-to-Market-Skill` detects the agent and installs the skills automatically. Claude Code and Cowork can also install from the marketplace.
+- **A ready-to-drop package for every tool.** Each release now ships one archive per agent, laid out in that tool's own directory (Cursor, OpenAI Codex, GitHub Copilot, Gemini CLI, OpenCode), plus a plain skills folder for upload-based apps (ChatGPT, Microsoft 365 Copilot), a Claude plugin, and a universal package. Unzip at the project root and go.
+- **License changed to CC BY-SA 4.0**: sharing and adaptation, commercial use included, stay free with attribution, and adaptations must be released under the same license. `LICENSE`, the plugin manifest, and the README are updated.
+- New commercial description in the plugin and marketplace manifests.
 - The method and its content are unchanged from 1.0.1.
 
 ## [1.0.1] - 2026-09-16

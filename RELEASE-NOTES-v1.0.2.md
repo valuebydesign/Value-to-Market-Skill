@@ -1,35 +1,42 @@
 # Value to Market v1.0.2
 
-Turn great ideas into value customers can feel. This release refreshes how the skill presents itself and how it may be reused, and folds in the routing fix from 1.0.1.
+Turn great ideas into value customers can feel. This release makes the skill install anywhere in one step, ships a ready-to-drop package for every supported tool, and updates how the work may be reused.
 
 ## What is new
 
-- **License: now CC BY-SA 4.0.** Sharing and adaptation, commercial use included, stay free with attribution; adaptations must be released under the same license (ShareAlike). The `LICENSE`, the plugin and marketplace manifests, and the README are all updated.
-- **New commercial description** for the plugin and marketplace listings, leading with the outcome: from a blank page to a launch-ready value strategy across seven guided phases, Assess to Deliver.
-- **Included from 1.0.1:** the run no longer stops silently after a phase. Every set and tool now ends with an explicit Next step (the exact command to run next) and an offer to run it, and the run takes back control after each phase to name the next move or the iteration.
+- **One-command install.** From your project root, `npx skills add valuebydesign/Value-to-Market-Skill` detects your agent and installs the skills in the right place automatically. Claude Code and Cowork can also install from the marketplace.
+- **A package for every tool.** Each release now ships one archive per agent, already laid out in that tool's own directory, so you unzip it at the project root and it works:
+  - `value-to-market-claude-v1.0.2.plugin` (Claude Code / Cowork)
+  - `value-to-market-cursor-v1.0.2.zip` (Cursor, into `.cursor/skills/`)
+  - `value-to-market-codex-v1.0.2.zip` (OpenAI Codex, into `.agents/skills/`)
+  - `value-to-market-github-v1.0.2.zip` (GitHub Copilot, into `.github/skills/`)
+  - `value-to-market-gemini-v1.0.2.zip` (Gemini CLI, into `.gemini/skills/`)
+  - `value-to-market-opencode-v1.0.2.zip` (OpenCode, into `.opencode/skills/`)
+  - `value-to-market-chatgpt-v1.0.2.zip` (ChatGPT, Microsoft 365 Copilot, and other upload-based apps: upload the `skills/` folder)
+  - `value-to-market-v1.0.2.zip` (universal, for a manual install on any agent)
+- **License: CC BY-SA 4.0.** Sharing and adaptation, commercial use included, stay free with attribution; adaptations must be released under the same license.
+- **Included from the previous release:** the run no longer stops silently after a phase. Every step ends with an explicit next step and an offer to continue, and the run takes back control after each phase.
 
-The method and its content are unchanged from 1.0.1.
+The method and its content are unchanged from the previous release.
 
 ## Install
 
-**CLI and coding agents (Claude Code, OpenAI Codex, Cursor, and others):**
+On any command-line or coding agent:
 
 ```
 npx skills add valuebydesign/Value-to-Market-Skill
 ```
 
-**Claude Code / Cowork (marketplace):**
+In Claude Code or Cowork, from the marketplace:
 
 ```
 /plugin marketplace add valuebydesign/Value-to-Market-Skill
 /plugin install value-to-market@value-by-design
 ```
 
-**ChatGPT** (Business, Enterprise, Healthcare, Edu) and **Microsoft 365 Copilot:** upload the `skills/` folder, or the matching package from the assets below, through the product's skills interface.
+For ChatGPT, Microsoft 365 Copilot, and other upload-based apps, download `value-to-market-chatgpt-v1.0.2.zip` and upload the `skills/` folder through the app's Skills settings. For a manual install on any other tool, use the matching package above. Once installed, ask your agent to initialize a value strategy project (`v2m-init`) to begin.
 
-Packages in this release: `value-to-market-claude-v1.0.2.plugin`, `value-to-market-chatgpt-v1.0.2.zip`, `value-to-market-copilot-v1.0.2.zip`, and `value-to-market-v1.0.2.zip` (full). Once installed, ask your agent to initialize a value strategy project (`v2m-init`) to begin.
-
-If you installed an earlier version, reinstall to pick up this release.
+If you installed an earlier version, reinstall to pick up this release. Some tools require enabling Agent Skills in their settings before skills are picked up.
 
 ## License
 

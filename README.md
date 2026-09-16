@@ -33,17 +33,41 @@ You do not need to know the framework, or any of its vocabulary, to use this. Yo
 
 ## Install
 
-Installing means adding these instructions to your AI assistant once, so it knows how to run the method whenever you ask. Pick the row for the assistant you already use. If you are not sure which to choose, the friendliest path is the ChatGPT or Claude app: download the package and upload it in the app's Skills settings, with no command line involved.
+Installing means adding these instructions to your AI assistant once, so it knows how to run the method whenever you ask.
 
-| Where | How |
-| --- | --- |
-| **CLI and coding agents** (Claude Code, OpenAI Codex, Cursor, and more) | `npx skills add valuebydesign/Value-to-Market-Skill` |
-| **Claude Code / Cowork** (marketplace) | `/plugin marketplace add valuebydesign/Value-to-Market-Skill` then `/plugin install value-to-market@value-by-design`, or install `dist/value-to-market-claude-v1.0.2.plugin` directly |
-| **ChatGPT** (Business, Enterprise, Healthcare, Edu) | Settings, then Skills: upload `dist/value-to-market-chatgpt-v1.0.2.zip` (or the `skills/` folder) |
-| **Microsoft 365 Copilot** (Copilot Studio, GitHub Copilot, VS Code) | Upload `dist/value-to-market-copilot-v1.0.2.zip` (or the `skills/` folder) via the Copilot skills interface |
-| **Manual** (any agent) | Download `dist/value-to-market-v1.0.2.zip` and drop the skill folders into your agent's skills directory |
+The fastest way, on any command-line or coding agent, is a single command from your project root:
 
-For the `skills` CLI: add `--list` to preview, `--skill v2m-init` to install one, or `-a <agent>` to target a specific agent.
+```
+npx skills add valuebydesign/Value-to-Market-Skill
+```
+
+It detects your agent (Claude Code, OpenAI Codex, Cursor, Gemini CLI, OpenCode, and more) and installs the skills in the right place automatically. Add `--list` to preview, `--skill v2m-init` for a single skill, or `-a <agent>` to target one tool. Reload your agent afterwards.
+
+**Claude Code and Cowork** can also install from the marketplace:
+
+```
+/plugin marketplace add valuebydesign/Value-to-Market-Skill
+/plugin install value-to-market@value-by-design
+```
+
+**ChatGPT and Microsoft 365 Copilot**, and other upload-based apps: download `value-to-market-chatgpt-v1.0.2.zip` from the release and upload the `skills/` folder inside it through the app's Skills settings, with no command line involved.
+
+### Ready-to-drop packages (fallback)
+
+If you prefer a manual install, every release ships one archive per tool, already laid out in that tool's own directory. Download the matching package and unzip it at your project root:
+
+| Tool | Package | Unzips into |
+| --- | --- | --- |
+| Claude Code / Cowork | `value-to-market-claude-v1.0.2.plugin` | the plugin (or use the marketplace above) |
+| Cursor | `value-to-market-cursor-v1.0.2.zip` | `.cursor/skills/` |
+| OpenAI Codex | `value-to-market-codex-v1.0.2.zip` | `.agents/skills/` |
+| GitHub Copilot | `value-to-market-github-v1.0.2.zip` | `.github/skills/` |
+| Gemini CLI | `value-to-market-gemini-v1.0.2.zip` | `.gemini/skills/` |
+| OpenCode | `value-to-market-opencode-v1.0.2.zip` | `.opencode/skills/` |
+| ChatGPT, M365 Copilot, other apps | `value-to-market-chatgpt-v1.0.2.zip` | upload the `skills/` folder |
+| Any agent (universal) | `value-to-market-v1.0.2.zip` | your agent's skills directory |
+
+Some tools require turning on Agent Skills in their settings before skills are picked up. If a newly added skill does not appear, enable skills in your tool's settings and reload it.
 
 ---
 
@@ -117,7 +141,7 @@ Every step returns one clear recommendation, scores itself against a sanity-test
 skills/<name>/SKILL.md        each skill, with YAML name + description frontmatter
 skills/<name>/references/      the method references that skill reads (self-contained, relative paths)
 .claude-plugin/                Claude plugin + marketplace manifests
-dist/                          downloadable packages (Claude .plugin, ChatGPT zip, Copilot zip, full zip)
+dist/                          one ready-to-drop package per tool, plus a universal package
 scripts/build-dist.sh          rebuilds the dist packages
 README.md  LICENSE  CHANGELOG.md  package.json
 ```

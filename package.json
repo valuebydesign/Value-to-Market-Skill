@@ -1,0 +1,17 @@
+{
+  "name": "value-to-market-skill",
+  "version": "1.0.1",
+  "private": true,
+  "description": "The Value-to-Market (V2M) Framework as an AI Agent Skill (SKILL.md).",
+  "license": "CC-BY-4.0",
+  "author": "Hoang Huynh (https://valueproposition.design)",
+  "homepage": "https://valueproposition.design",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valuebydesign/Value-to-Market-Skill.git"
+  },
+  "scripts": {
+    "build": "bash scripts/build-dist.sh",
+    "dist": "bash scripts/build-dist.sh"
+  }
+}

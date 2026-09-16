@@ -38,9 +38,9 @@ Installing means adding these instructions to your AI assistant once, so it know
 | Where | How |
 | --- | --- |
 | **CLI and coding agents** (Claude Code, OpenAI Codex, Cursor, and more) | `npx skills add valuebydesign/Value-to-Market-Skill` |
-| **Claude Code / Cowork** (marketplace) | `/plugin marketplace add valuebydesign/Value-to-Market-Skill` then `/plugin install value-to-market@value-by-design` |
-| **ChatGPT** (Business, Enterprise, Healthcare, Edu) | Settings, then Skills: upload the `skills/` folder or `dist/value-to-market-v1.0.1.zip` |
-| **Microsoft 365 Copilot** (Copilot Studio, GitHub Copilot, VS Code) | Upload the `skills/` folder or the `dist` zip via the Copilot skills interface |
+| **Claude Code / Cowork** (marketplace) | `/plugin marketplace add valuebydesign/Value-to-Market-Skill` then `/plugin install value-to-market@value-by-design`, or install `dist/value-to-market-v1.0.1.plugin` directly |
+| **ChatGPT** (Business, Enterprise, Healthcare, Edu) | Settings, then Skills: upload `dist/value-to-market-chatgpt-v1.0.1.zip` (or the `skills/` folder) |
+| **Microsoft 365 Copilot** (Copilot Studio, GitHub Copilot, VS Code) | Upload `dist/value-to-market-copilot-v1.0.1.zip` (or the `skills/` folder) via the Copilot skills interface |
 | **Manual** (any agent) | Download `dist/value-to-market-v1.0.1.zip` and drop the skill folders into your agent's skills directory |
 
 For the `skills` CLI: add `--list` to preview, `--skill v2m-init` to install one, or `-a <agent>` to target a specific agent.
@@ -117,11 +117,12 @@ Every step returns one clear recommendation, scores itself against a sanity-test
 skills/<name>/SKILL.md        each skill, with YAML name + description frontmatter
 skills/<name>/references/      the method references that skill reads (self-contained, relative paths)
 .claude-plugin/                Claude plugin + marketplace manifests
-dist/                          downloadable package
-README.md  LICENSE  CHANGELOG.md
+dist/                          downloadable packages (Claude .plugin, ChatGPT zip, Copilot zip, full zip)
+scripts/build-dist.sh          rebuilds the dist packages
+README.md  LICENSE  CHANGELOG.md  package.json
 ```
 
-Every skill is self-contained: it carries the reference files it needs and reads them by relative path, so a single skill installs cleanly on any agent.
+Every skill is self-contained: it carries the reference files it needs and reads them by relative path, so a single skill installs cleanly on any agent. Maintainers can regenerate the `dist/` packages with `npm run build`.
 
 ---
 

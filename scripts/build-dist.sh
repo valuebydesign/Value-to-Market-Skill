@@ -14,7 +14,7 @@ rm -f dist/*.zip dist/*.plugin
 find skills .claude-plugin -name '.DS_Store' -delete 2>/dev/null || true
 
 # Claude Code / Cowork plugin (.plugin): manifests + skills + docs
-zip -rq "dist/value-to-market-v${VER}.plugin" .claude-plugin skills README.md LICENSE CHANGELOG.md -x '*.DS_Store'
+zip -rq "dist/value-to-market-claude-v${VER}.plugin" .claude-plugin skills README.md LICENSE CHANGELOG.md -x '*.DS_Store'
 
 # ChatGPT / OpenAI Agent Skills
 zip -rq "dist/value-to-market-chatgpt-v${VER}.zip" skills README.md LICENSE -x '*.DS_Store'

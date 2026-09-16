@@ -6,8 +6,8 @@
 
 Turn your AI into a disciplined value proposition strategist. It interviews you, distills your business from what you already have, and works your value proposition from first assessment to market launch, producing board-ready deliverables at every step.
 
-[![Version](https://img.shields.io/badge/version-1.0.1-8E0044)](CHANGELOG.md)
-[![License](https://img.shields.io/badge/license-CC%20BY%204.0-111111)](LICENSE)
+[![Version](https://img.shields.io/badge/version-1.0.2-8E0044)](CHANGELOG.md)
+[![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-111111)](LICENSE)
 [![Agent Skills](https://img.shields.io/badge/built%20on-SKILL.md-111111)](https://valueproposition.design)
 [![Install](https://img.shields.io/badge/npx%20skills%20add-valuebydesign%2FValue--to--Market--Skill-8E0044)](https://valueproposition.design)
 
@@ -38,10 +38,10 @@ Installing means adding these instructions to your AI assistant once, so it know
 | Where | How |
 | --- | --- |
 | **CLI and coding agents** (Claude Code, OpenAI Codex, Cursor, and more) | `npx skills add valuebydesign/Value-to-Market-Skill` |
-| **Claude Code / Cowork** (marketplace) | `/plugin marketplace add valuebydesign/Value-to-Market-Skill` then `/plugin install value-to-market@value-by-design`, or install `dist/value-to-market-claude-v1.0.1.plugin` directly |
-| **ChatGPT** (Business, Enterprise, Healthcare, Edu) | Settings, then Skills: upload `dist/value-to-market-chatgpt-v1.0.1.zip` (or the `skills/` folder) |
-| **Microsoft 365 Copilot** (Copilot Studio, GitHub Copilot, VS Code) | Upload `dist/value-to-market-copilot-v1.0.1.zip` (or the `skills/` folder) via the Copilot skills interface |
-| **Manual** (any agent) | Download `dist/value-to-market-v1.0.1.zip` and drop the skill folders into your agent's skills directory |
+| **Claude Code / Cowork** (marketplace) | `/plugin marketplace add valuebydesign/Value-to-Market-Skill` then `/plugin install value-to-market@value-by-design`, or install `dist/value-to-market-claude-v1.0.2.plugin` directly |
+| **ChatGPT** (Business, Enterprise, Healthcare, Edu) | Settings, then Skills: upload `dist/value-to-market-chatgpt-v1.0.2.zip` (or the `skills/` folder) |
+| **Microsoft 365 Copilot** (Copilot Studio, GitHub Copilot, VS Code) | Upload `dist/value-to-market-copilot-v1.0.2.zip` (or the `skills/` folder) via the Copilot skills interface |
+| **Manual** (any agent) | Download `dist/value-to-market-v1.0.2.zip` and drop the skill folders into your agent's skills directory |
 
 For the `skills` CLI: add `--list` to preview, `--skill v2m-init` to install one, or `-a <agent>` to target a specific agent.
 
@@ -152,4 +152,4 @@ Homepage: **[valueproposition.design](https://valueproposition.design)**. Feel f
 
 ## License
 
-Released under **[Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE)**. Share and adapt for any purpose, including commercially, with attribution to Hoang Huynh and the Value-to-Market (V2M) Framework.
+Released under **[Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](LICENSE)**. Share and adapt for any purpose, including commercially, with attribution to Hoang Huynh and the Value-to-Market (V2M) Framework, a link to the license and a note of any changes. Adaptations must be released under the same license.

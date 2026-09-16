@@ -2,6 +2,14 @@
 
 All notable changes to the Value to Market plugin are documented here. This project follows [Semantic Versioning](https://semver.org).
 
+## [1.0.2] - 2026-09-16
+
+Licensing and positioning.
+
+- License changed from CC BY 4.0 to **CC BY-SA 4.0**: sharing and adaptation, commercial use included, stay free with attribution, and adaptations must be released under the same license. `LICENSE`, the plugin manifest and the README are updated.
+- New commercial plugin description in the plugin and marketplace manifests.
+- The method and its content are unchanged from 1.0.1.
+
 ## [1.0.1] - 2026-09-16
 
 Fix: the run no longer stops silently after a phase.

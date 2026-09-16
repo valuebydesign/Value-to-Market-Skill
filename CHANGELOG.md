@@ -4,7 +4,9 @@ All notable changes to the Value to Market plugin are documented here. This proj
 
 ## [1.0.2] - 2026-09-16
 
-Distribution, licensing, and positioning.
+Distribution, partial phases, licensing, and positioning.
+
+- **Partial phases are now first-class.** Every set has a Scope rule: when only part of a phase is needed, launch the set with a skip list, and skipped activities are carried into the phase readiness with their prior score and date, never silently dropped. The run is explicit that sets are the unit of execution and that a tool is called directly only outside a run, the Masterplan renders by set first, and the phase deck and roll-up are the set's job, so running a tool alone no longer loses the plan.
 
 - **One-command install across agents.** `npx skills add valuebydesign/Value-to-Market-Skill` detects the agent and installs the skills automatically. Claude Code and Cowork can also install from the marketplace.
 - **A ready-to-drop package for every tool.** Each release now ships one archive per agent, laid out in that tool's own directory (Cursor, OpenAI Codex, GitHub Copilot, Gemini CLI, OpenCode), plus a plain skills folder for upload-based apps (ChatGPT, Microsoft 365 Copilot), a Claude plugin, and a universal package. Unzip at the project root and go.

@@ -13,6 +13,9 @@ Translate the strategy into instructions for those who execute. Cures the value-
 ## On invocation
 Read `references/output-protocol.md`, `references/frameworks.md`, `references/method-core.md`. Pull the design, channels and pricing.
 
+## Scope
+The Chain below is the full phase. When the caller passes a scope (a skip list, or a checkup marking activities done or stale), run only the activities that are missing or stale, and carry the rest forward into the roll-up with their prior score and the date they were last run. A skipped activity still appears in the phase readiness. Never silently drop one: if it is skipped, say so and say why. Run part of a phase by launching this set with a skip list, not by calling a tool on its own.
+
 ## Chain
 Run `v2m-tool-engineering-pack`: channel briefs, proof specifications, a measurement/KPI plan with a Metric Decay guard, a validation plan that proposes a technique per risky assumption from a menu (landing page / smoke test, fake door / painted door, pre-sale / crowdfunding, concierge, Wizard of Oz, and creative lateral tests) each engineered to run and report itself, the automation of the launch copy and content for the three-strike launch sequence from `v2m-set-5-market`, the horizon-trigger monitor that watches the H1/H2/H3 trigger conditions and flags the scenario move, and an internal onboarding kit. Confirm owner and cadence for each.
 

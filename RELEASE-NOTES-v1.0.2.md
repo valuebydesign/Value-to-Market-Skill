@@ -14,6 +14,7 @@ Turn great ideas into value customers can feel. This release makes the skill ins
   - `value-to-market-opencode-v1.0.2.zip` (OpenCode, into `.opencode/skills/`)
   - `value-to-market-chatgpt-v1.0.2.zip` (ChatGPT, Microsoft 365 Copilot, and other upload-based apps: upload the `skills/` folder)
   - `value-to-market-v1.0.2.zip` (universal, for a manual install on any agent)
+- **Run part of a phase without losing the plan.** Each phase can now be launched with a skip list, so activities already done or stale are carried forward with their prior score rather than re-run or silently dropped. The run keeps the phase as the unit of work, so the Masterplan and the next step stay intact.
 - **License: CC BY-SA 4.0.** Sharing and adaptation, commercial use included, stay free with attribution; adaptations must be released under the same license.
 - **Included from the previous release:** the run no longer stops silently after a phase. Every step ends with an explicit next step and an offer to continue, and the run takes back control after each phase.
 

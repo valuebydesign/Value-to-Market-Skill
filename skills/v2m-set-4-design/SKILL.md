@@ -15,6 +15,9 @@ Build the offer in the method's order on top of the strategy and the fit.
 ## On invocation
 Read `references/output-protocol.md` and `references/frameworks.md`. Confirm the line of business. Pull values and category from `v2m-set-2-strategy` and the jobs, canvas and features from `v2m-set-3-customer-fit`; a design without them is a pose.
 
+## Scope
+The Chain below is the full phase. When the caller passes a scope (a skip list, or a checkup marking activities done or stale), run only the activities that are missing or stale, and carry the rest forward into the roll-up with their prior score and the date they were last run. A skipped activity still appears in the phase readiness. Never silently drop one: if it is skipped, say so and say why. Run part of a phase by launching this set with a skip list, not by calling a tool on its own.
+
 ## Chain
 1. `v2m-tool-category-design` - take the company category from `v2m-set-2-strategy` down to this line of business: Frame, Name, Claim for this offer. If the offer needs no distinct category, say so and inherit the company one; do not invent a category to look new.
 2. `v2m-tool-3p` - the full contract in one pass: premise (belief format, exclusions and the risks they minimize), promise (primary plus sub-promises, each element with an example and a design suggestion), and proof (four families, one costly, each proof typed and routed to the BMC engagement block). Yields the open items list, promise elements paired next to their proofs and tagged by horizon.

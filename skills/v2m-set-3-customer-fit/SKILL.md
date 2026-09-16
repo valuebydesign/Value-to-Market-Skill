@@ -14,6 +14,9 @@ Understand the customer as jobs, map value to them, and check the fit before des
 ## On invocation
 Read `references/output-protocol.md`, `references/customer-fit.md`, `references/frameworks.md`. Confirm the line of business and the reference subjects. Pull values and category from `v2m-set-2-strategy`.
 
+## Scope
+The Chain below is the full phase. When the caller passes a scope (a skip list, or a checkup marking activities done or stale), run only the activities that are missing or stale, and carry the rest forward into the roll-up with their prior score and the date they were last run. A skipped activity still appears in the phase readiness. Never silently drop one: if it is skipped, say so and say why. Run part of a phase by launching this set with a skip list, not by calling a tool on its own.
+
 ## Chain
 1. `v2m-tool-jobs-to-be-done` - jobs at three levels, across audiences and cases, stress-tested with modifiers, tagged by objective, clustered into groups rated Core / Important / Irrelevant. Reused downstream for the customer journey and the prototype test.
 2. `v2m-tool-archetype-map` - cluster the jobs into coded archetypes (letter plus variation number, each with an adjective) across customers and ecosystem actors, mapped on axis pairs.

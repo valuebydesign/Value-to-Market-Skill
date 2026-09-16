@@ -13,6 +13,9 @@ Decisions taken once for the whole company, upstream of any single offer.
 ## On invocation
 Read `references/output-protocol.md`, `references/frameworks.md`, `references/principles.md`. Pull the asset sweep from `v2m-set-1-assess`; if absent, run `v2m-tool-assets-assessment` first.
 
+## Scope
+The Chain below is the full phase. When the caller passes a scope (a skip list, or a checkup marking activities done or stale), run only the activities that are missing or stale, and carry the rest forward into the roll-up with their prior score and the date they were last run. A skipped activity still appears in the phase readiness. Never silently drop one: if it is skipped, say so and say why. Run part of a phase by launching this set with a skip list, not by calling a tool on its own.
+
 ## Chain
 1. `v2m-tool-core-values` - values from assets: primary/secondary/antithesis + three-horizon evolution.
 2. `v2m-tool-category-design` - adjacency mining, Frame, Name, Claim.

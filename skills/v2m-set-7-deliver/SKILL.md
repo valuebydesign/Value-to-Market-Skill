@@ -15,6 +15,9 @@ Turn the run's reasoning files into client-ready artifacts. Read every markdown 
 ## On invocation
 Read `references/output-protocol.md`, `references/report-format.md`, `references/customer-fit.md`, `references/cheatsheets.md`. List the reasoning files and the existing deliverables, note which sources are newer than their built artifacts, and confirm with the user which deliverables to refresh or build (defaulting to only what changed; the full report only if asked).
 
+## Scope
+The Chain below is the full phase. When the caller passes a scope (a skip list, or a checkup marking activities done or stale), run only the activities that are missing or stale, and carry the rest forward into the roll-up with their prior score and the date they were last run. A skipped activity still appears in the phase readiness. Never silently drop one: if it is skipped, say so and say why. Run part of a phase by launching this set with a skip list, not by calling a tool on its own.
+
 ## Chain (pick what the user needs)
 1. `v2m-tool-value-proposition-verbalization` - the VP sentence, payoffs per rung, semantic spaces, and brand/comms seeds. Run this first: the guidelines and the deck draw on it.
 2. `v2m-tool-business-model-canvas` - the compiled, client-ready BMC, one per audience type and one per horizon stage, showing which blocks shift as each horizon trigger fires. The BMC seeded at init closes here as a final deliverable.

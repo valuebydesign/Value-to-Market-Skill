@@ -13,6 +13,9 @@ Carry the designed value into the market without dispersing it. The market is wi
 ## On invocation
 Read `references/output-protocol.md`, `references/method-core.md`, `references/frameworks.md`. Pull the design and strategy, and the category (Frame, Name, Claim) the launch will enter.
 
+## Scope
+The Chain below is the full phase. When the caller passes a scope (a skip list, or a checkup marking activities done or stale), run only the activities that are missing or stale, and carry the rest forward into the roll-up with their prior score and the date they were last run. A skipped activity still appears in the phase readiness. Never silently drop one: if it is skipped, say so and say why. Run part of a phase by launching this set with a skip list, not by calling a tool on its own.
+
 ## Chain
 1. `v2m-tool-value-to-market-tactics` - condition the category the launch enters, define the beachhead with the user, name the priority (get to value / shake pursuers / gain advantage), choose the moves, plan the launch sequence (three strikes before the big event, each with its single best action, into the concentrated reveal), kickstart the launch copy and content, and plan market expansion on three horizons with triggers and scenario responses.
 2. Audit the seven wastes of value before spending.

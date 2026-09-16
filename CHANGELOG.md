@@ -2,6 +2,14 @@
 
 All notable changes to the Value to Market plugin are documented here. This project follows [Semantic Versioning](https://semver.org).
 
+## [1.0.1] - 2026-09-16
+
+Fix: the run no longer stops silently after a phase.
+
+- Strengthened routing so every set and tool must end with an explicit **Next step** line (the exact command to run next) and an offer to run it, never finishing a phase's deliverables and stopping without telling the user how to continue.
+- The Value to Market run now takes back control after each set, states the gate result, and names the next command with an offer to proceed (or the iteration to run when a gate is red).
+- Documentation only; the method and its content are unchanged from 1.0.0.
+
 ## [1.0.0] - 2026-09-14
 
 First public release.

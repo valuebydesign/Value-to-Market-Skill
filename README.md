@@ -6,7 +6,7 @@
 
 Turn your AI into a disciplined value proposition strategist. It interviews you, distills your business from what you already have, and works your value proposition from first assessment to market launch, producing board-ready deliverables at every step.
 
-[![Version](https://img.shields.io/badge/version-1.0.0-8E0044)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-1.0.1-8E0044)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-CC%20BY%204.0-111111)](LICENSE)
 [![Agent Skills](https://img.shields.io/badge/built%20on-SKILL.md-111111)](https://valueproposition.design)
 [![Install](https://img.shields.io/badge/npx%20skills%20add-valuebydesign%2FValue--to--Market--Skill-8E0044)](https://valueproposition.design)
@@ -39,9 +39,9 @@ Installing means adding these instructions to your AI assistant once, so it know
 | --- | --- |
 | **CLI and coding agents** (Claude Code, OpenAI Codex, Cursor, and more) | `npx skills add valuebydesign/Value-to-Market-Skill` |
 | **Claude Code / Cowork** (marketplace) | `/plugin marketplace add valuebydesign/Value-to-Market-Skill` then `/plugin install value-to-market@value-by-design` |
-| **ChatGPT** (Business, Enterprise, Healthcare, Edu) | Settings, then Skills: upload the `skills/` folder or `dist/value-to-market-v1.0.0.zip` |
+| **ChatGPT** (Business, Enterprise, Healthcare, Edu) | Settings, then Skills: upload the `skills/` folder or `dist/value-to-market-v1.0.1.zip` |
 | **Microsoft 365 Copilot** (Copilot Studio, GitHub Copilot, VS Code) | Upload the `skills/` folder or the `dist` zip via the Copilot skills interface |
-| **Manual** (any agent) | Download `dist/value-to-market-v1.0.0.zip` and drop the skill folders into your agent's skills directory |
+| **Manual** (any agent) | Download `dist/value-to-market-v1.0.1.zip` and drop the skill folders into your agent's skills directory |
 
 For the `skills` CLI: add `--list` to preview, `--skill v2m-init` to install one, or `-a <agent>` to target a specific agent.
 
@@ -49,7 +49,7 @@ For the `skills` CLI: add `--list` to preview, `--skill v2m-init` to install one
 
 ## Using it, step by step
 
-Once it is installed you do not type commands. You just talk to your assistant in plain language, and it takes care of the method.
+Once it is installed, you can either type a short command or just ask in plain language, whichever you prefer, and it takes care of the method.
 
 1. **Start a project.** Type `/v2m-init`, or simply ask "start a value strategy project." It will ask a handful of questions about your business, your offer, and your goal. Answer in your own words; where you are unsure, say so, and it will note the gap rather than guess.
 2. **Let it run the strategy.** Type `/v2m-value-strategy`, or ask "run the value strategy checkup." From there it works through the seven phases in order, pausing to show you a clear recommendation and a quick self-check before moving on, so you always see what it decided and why.

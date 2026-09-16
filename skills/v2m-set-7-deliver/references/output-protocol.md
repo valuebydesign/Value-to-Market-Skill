@@ -33,9 +33,9 @@ This is a self-score, so it is the point where a skill is most tempted to grade 
 
 The self-score is a first pass, not the final word. At any gate that matters (a phase gate in a set, or before a deliverable ships), the score is confirmed by an **independent check** via `v2m-tool-scorecard`, run in a fresh pass that does not trust this self-score; prefer a separate subagent so the work is not grading itself. If the independent score comes back lower, the independent score governs.
 
-## 5. Route the next step
+## 5. Route the next step (never end silently)
 
-Say which tool or set to run next, and flag anything already in place (present in the `Value Strategy/` folder or the running canvas) that can be skipped. Keep the user oriented in the larger run.
+Always end the response with an explicit, visible **Next step** line: the exact skill to run next with its command (for example `/v2m-set-2-strategy`, or the tool's command), and a one-line offer to run it now. This is mandatory. Never finish a set or a tool without it, no matter how long the output already is, and never assume the user knows what comes next. If the gate did not pass, the Next step is the specific iteration to run and the offer to run it; if it passed, the Next step is the next set or tool in the chain. Flag anything already in place (in the `Value Strategy/` folder or the running canvas) that can be skipped, and keep the user oriented in the larger run.
 
 ## 6. Produce the deliverables
 

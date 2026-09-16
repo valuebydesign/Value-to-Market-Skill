@@ -1,7 +1,7 @@
 {
   "name": "value-to-market",
   "displayName": "Value to Market",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Value-to-Market (V2M) Framework as a plugin. Run v2m-init once per project, then v2m-value-strategy any time; v2m-value-to-market-run builds a Masterplan and launches seven phase sets (Assess, Strategy, Customer & Fit, Design, Market, Engineer, Deliver). Every step writes a reasoning file plus a branded Word report (Excel when list-heavy), self-scores, and returns one recommendation. Skills namespaced v2m-.",
   "author": {
     "name": "Hoang Huynh",

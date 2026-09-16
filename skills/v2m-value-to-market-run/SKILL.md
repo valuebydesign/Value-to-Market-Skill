@@ -32,6 +32,8 @@ Carry the canvas forward, per line of business where noted:
 
 After each set, roll its tools' scorecards into a section readiness, update the Masterplan and the canvas, and show the delta. Hold the gate: do not enter a phase while a section it depends on is below pass (average 2.0, no zero). When a gate is red, name the weakest criterion, propose the specific iteration, and continue on the user's go. Skip settled activities marked done unless the context changed them.
 
+**Take back control after every set, and never hand a finished set back in silence.** When a set completes, state plainly where the run now stands and end with the next move: either "gate passed, next: `/v2m-set-<n>-<name>`, shall I proceed?" or "gate red, here is the iteration to run first". The run advances phase by phase, pausing for the user's go, so every phase must close by naming the exact next command and offering to run it. This is the single most common failure to avoid: finishing a phase's deliverables and stopping without telling the user how to continue.
+
 ## Output
 
-Per `output-protocol.md`: the updated Masterplan, the per-section readiness and overall readiness with the 3P headline, and the next step. End by offering `v2m-set-7-deliver` to produce the report, keynote, guidelines, cheatsheets and scorecards.
+Per `output-protocol.md`: the updated Masterplan, the per-section readiness and overall readiness with the 3P headline, and, mandatory, the explicit Next step line naming the next command with an offer to run it. Never end without it. The final phase ends by offering `v2m-set-7-deliver` to produce the report, keynote, guidelines, cheatsheets and scorecards.

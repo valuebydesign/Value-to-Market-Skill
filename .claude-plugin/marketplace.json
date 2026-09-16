@@ -1,6 +1,6 @@
 {
   "name": "value-by-design",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "owner": {
     "name": "Hoang Huynh",
     "url": "https://valueproposition.design"
@@ -13,7 +13,7 @@
       "source": {
         "type": "github",
         "repo": "valuebydesign/Value-to-Market-Skill",
-        "path": "."
+        "path": "Claude/value-to-market"
       }
     }
   ]

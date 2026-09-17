@@ -6,7 +6,7 @@
 
 Turn your AI into a disciplined value proposition strategist. It interviews you, distills your business from what you already have, and works your value proposition from first assessment to market launch, producing board-ready deliverables at every step.
 
-[![Version](https://img.shields.io/badge/version-1.0.2-8E0044)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-1.1.0-8E0044)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-111111)](LICENSE)
 [![Agent Skills](https://img.shields.io/badge/built%20on-SKILL.md-111111)](https://valueproposition.design)
 [![Install](https://img.shields.io/badge/npx%20skills%20add-valuebydesign%2FValue--to--Market--Skill-8E0044)](https://valueproposition.design)
@@ -50,7 +50,7 @@ It detects your agent (Claude Code, OpenAI Codex, Cursor, Gemini CLI, OpenCode, 
 /plugin install value-to-market@value-by-design
 ```
 
-**ChatGPT and Microsoft 365 Copilot**, and other upload-based apps: download `value-to-market-chatgpt-v1.0.2.zip` from the release and upload the `skills/` folder inside it through the app's Skills settings, with no command line involved.
+**ChatGPT and Microsoft 365 Copilot**, and other upload-based apps: download `value-to-market-chatgpt-v1.1.0.zip` from the release and upload the `skills/` folder inside it through the app's Skills settings, with no command line involved.
 
 ### Ready-to-drop packages (fallback)
 
@@ -58,14 +58,14 @@ If you prefer a manual install, every release ships one archive per tool, alread
 
 | Tool | Package | Unzips into |
 | --- | --- | --- |
-| Claude Code / Cowork | `value-to-market-claude-v1.0.2.plugin` | the plugin (or use the marketplace above) |
-| Cursor | `value-to-market-cursor-v1.0.2.zip` | `.cursor/skills/` |
-| OpenAI Codex | `value-to-market-codex-v1.0.2.zip` | `.agents/skills/` |
-| GitHub Copilot | `value-to-market-github-v1.0.2.zip` | `.github/skills/` |
-| Gemini CLI | `value-to-market-gemini-v1.0.2.zip` | `.gemini/skills/` |
-| OpenCode | `value-to-market-opencode-v1.0.2.zip` | `.opencode/skills/` |
-| ChatGPT, M365 Copilot, other apps | `value-to-market-chatgpt-v1.0.2.zip` | upload the `skills/` folder |
-| Any agent (universal) | `value-to-market-v1.0.2.zip` | your agent's skills directory |
+| Claude Code / Cowork | `value-to-market-claude-v1.1.0.plugin` | the plugin (or use the marketplace above) |
+| Cursor | `value-to-market-cursor-v1.1.0.zip` | `.cursor/skills/` |
+| OpenAI Codex | `value-to-market-codex-v1.1.0.zip` | `.agents/skills/` |
+| GitHub Copilot | `value-to-market-github-v1.1.0.zip` | `.github/skills/` |
+| Gemini CLI | `value-to-market-gemini-v1.1.0.zip` | `.gemini/skills/` |
+| OpenCode | `value-to-market-opencode-v1.1.0.zip` | `.opencode/skills/` |
+| ChatGPT, M365 Copilot, other apps | `value-to-market-chatgpt-v1.1.0.zip` | upload the `skills/` folder |
+| Any agent (universal) | `value-to-market-v1.1.0.zip` | your agent's skills directory |
 
 Some tools require turning on Agent Skills in their settings before skills are picked up. If a newly added skill does not appear, enable skills in your tool's settings and reload it.
 

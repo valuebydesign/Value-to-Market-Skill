@@ -1,7 +1,7 @@
 {
   "name": "value-to-market",
   "displayName": "Value to Market",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Turn great ideas into value customers can feel. The Value-to-Market (V2M) Framework by Hoang Huynh takes you from a blank page to a launch-ready value strategy: benchmark the market, find your core values, design a category you can own, nail premise, promise and proof, price with confidence and plan the strike. Seven guided phases, from Assess to Deliver, with honest scorecards that tell you when you are ready and one clear recommendation at every step. Start with v2m-init, then run v2m-value-strategy whenever your market moves.",
   "author": {
     "name": "Hoang Huynh",

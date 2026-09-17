@@ -2,16 +2,21 @@
 
 All notable changes to the Value to Market plugin are documented here. This project follows [Semantic Versioning](https://semver.org).
 
+## [1.1.0] - 2026-09-17
+
+Partial phases, self-contained deliverables, and humanized writing.
+
+- **Partial phases are now first-class.** Every set has a Scope rule: when only part of a phase is needed, launch the set with a skip list, and skipped activities are carried into the phase readiness with their prior score and date, never silently dropped. Sets are the unit of execution, the Masterplan renders by set first, and the phase deck and roll-up are the set's job, so running a tool alone no longer loses the plan.
+- **Deliverables are self-contained.** Reports, spreadsheets, decks, and PDFs read as standalone business documents: they never name a skill, a command, or a `/v2m-...` token, and carry no "run this next" line. The command-level next step stays in the working chat only; documents point forward in business terms.
+- **Humanized writing, built in.** Every document, slide, and reasoning file passes a humanization check before it is finalized, editing out the common tells of machine prose (staged contrasts, forced triads, inflated significance, sales language, decorative bold, chatbot residue, and the rest) while keeping every fact. The result reads as written by a person.
+- A Help and manual section in the README, for discovering skills and getting oriented.
+
 ## [1.0.2] - 2026-09-16
 
-Distribution, partial phases, licensing, and positioning.
-
-- **Partial phases are now first-class.** Every set has a Scope rule: when only part of a phase is needed, launch the set with a skip list, and skipped activities are carried into the phase readiness with their prior score and date, never silently dropped. The run is explicit that sets are the unit of execution and that a tool is called directly only outside a run, the Masterplan renders by set first, and the phase deck and roll-up are the set's job, so running a tool alone no longer loses the plan.
-- **Deliverables are self-contained.** Reports, spreadsheets, decks, and PDFs now read as standalone business documents: they never name a skill, a command, or a `/v2m-...` token, and carry no "run this next" line. The command-level next step stays in the working chat only; documents point forward in business terms.
-- **Humanized writing, built in.** Every document, slide, and reasoning file now passes a humanization check before it is finalized, editing out the common tells of machine prose (staged contrasts, forced triads, inflated significance, sales language, decorative bold, chatbot residue, and the rest) while keeping every fact. The result reads as written by a person.
+Distribution and licensing.
 
 - **One-command install across agents.** `npx skills add valuebydesign/Value-to-Market-Skill` detects the agent and installs the skills automatically. Claude Code and Cowork can also install from the marketplace.
-- **A ready-to-drop package for every tool.** Each release now ships one archive per agent, laid out in that tool's own directory (Cursor, OpenAI Codex, GitHub Copilot, Gemini CLI, OpenCode), plus a plain skills folder for upload-based apps (ChatGPT, Microsoft 365 Copilot), a Claude plugin, and a universal package. Unzip at the project root and go.
+- **A ready-to-drop package for every tool.** Each release ships one archive per agent, laid out in that tool's own directory (Cursor, OpenAI Codex, GitHub Copilot, Gemini CLI, OpenCode), plus a plain skills folder for upload-based apps (ChatGPT, Microsoft 365 Copilot), a Claude plugin, and a universal package. Unzip at the project root and go.
 - **License changed to CC BY-SA 4.0**: sharing and adaptation, commercial use included, stay free with attribution, and adaptations must be released under the same license. `LICENSE`, the plugin manifest, and the README are updated.
 - New commercial description in the plugin and marketplace manifests.
 - The method and its content are unchanged from 1.0.1.

@@ -4,6 +4,10 @@ For the strategy job (and, in a lighter form, for the engineer job), the work ca
 
 An architect that scores its own strategy goes easy on it, so drafting, attacking and scoring run in separate contexts.
 
+## How it starts
+
+The user types `/v2m agents` (or asks for agents in plain words), or accepts the offer below. The keyword counts as the request; the explicit go after seeing the plan is still required.
+
 ## When to offer it
 
 - Offer it in the Strategy job when the host can spawn subagents (in Claude Code, the Agent tool; in other hosts, their equivalent).

@@ -25,6 +25,9 @@ Six keywords cover everything the skill does. Type them after `/v2m`, or just as
                                          ▲                        │
                                          └──────── evolve ◄───────┘
 
+  Scale up      agents     run strategy (or engineer) as a team of parallel agents:
+                           scouts, rival strategies, red team, scenario stress test
+
   Anytime       help       how to use it, and where your project stands
                 tools      every tool that runs on its own; tools <name> runs one
 ```
@@ -37,7 +40,7 @@ Six keywords cover everything the skill does. Type them after `/v2m`, or just as
 |---|---|---|---|
 | `assess` (or `review`) | Assess a value proposition | "Assess our value proposition from our website", "Compare us with these four competitors", "How do players in industrial cleaning position themselves?" | a diagnosis of the proposition, the competitive landscape, the costliest gap and the quickest fix |
 | `design` | Design a value proposition | "Design a value proposition for our new consulting line", "I want to start a business in pet insurance, build it from scratch" | what the business really owns, the values it will stand for, who it serves and turns away, the promise and its proof, price logic, channels, and the words to say it |
-| `strategy` | Build a value strategy | "Build our value strategy", "Run it in agentic mode" | the category, the company's values and defense, the proposition of each line of business, and the scenarios the strategy must survive |
+| `strategy` | Build a value strategy | "Build our value strategy", or `/v2m agents` to run it as a team of agents | the category, the company's values and defense, the proposition of each line of business, and the scenarios the strategy must survive |
 | `engineer` | Put the strategy into the market | "Engineer the Value to Market plan for our strategy" | a workplan with owners and budget, the launch with its three preparatory strikes and their events, a social and content plan, and playbooks for the three horizons that fire when their conditions are met |
 | `evolve` | Adapt to what changed | "Our market changed, evolve our value proposition" | what changed and what it hits, plausible scenarios of what comes next, and a revised proposition with the order of the changes |
 | `align` | Check reality against the plan | "We are three months in: align the plan with what we actually did" | the status of every planned item, why the gaps opened, what changes, and every document updated to match |
@@ -196,6 +199,29 @@ Each document answers one question and holds its own facts and figures. When it 
 **`Value Workspace/`** is the working space and the project's memory, written as plain markdown you can open in any notes app, Obsidian included. It holds a Home page with the current state and the open decisions, knowledge pages (company, assets, values, customers, each proposition, the strategy, one page per competitor with its moves over time, triggers, scenarios, the plan in force, the progress log, the decision log), one folder per run with the working notes, and extracts of the sources read. Each new job reads this memory first, so you are not asked the same thing twice.
 
 ## Agentic mode
+
+**How to start it.** Type `/v2m agents`, or ask in plain words: "use agents", "run it in agentic mode", "run it as a team". The skill can also offer it during a `strategy` job when your market is contested or you have several lines of business. Agentic mode is a way of running a job, and it applies to two of them:
+
+| You type | What runs |
+|---|---|
+| `/v2m agents` | the `strategy` job, as a team of agents |
+| `/v2m agents <request>` | the `strategy` job on your request |
+| `/v2m agents engineer <request>` | the `engineer` job, with parallel agents drafting the social plan, the events and the horizon playbooks |
+
+Examples:
+
+```
+/v2m agents
+/v2m agents strategy for our three business lines, against Acme, Globex and Initech
+/v2m agents strategy for the premium line only, with four rival theses
+/v2m agents engineer the launch plan for the premium line, big event in March
+"Use agents to build our value strategy, and stress-test it against a price war"
+"Run the strategy as a team, but keep it lean: five agents at most"
+```
+
+Asking for agents with `assess`, `design`, `evolve` or `align` runs those jobs normally: they do not use agentic mode.
+
+**What happens.**
 
 For a value strategy, and optionally for a Value to Market plan, the skill can split the work across several agents running in parallel, on hosts that support it. Scouts research competitors' recent moves, trends and customers. A scenario builder drafts plausible futures. Several strategy architects each develop a different strategic thesis without seeing the others. A red team plays your strongest rivals against each strategy, a stress test runs every strategy through every scenario, and an independent checker scores them. The skill then builds the final strategy from the strongest candidate and reports what was considered and why it lost.
 

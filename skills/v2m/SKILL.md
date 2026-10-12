@@ -40,6 +40,7 @@ The user can just ask, or call a job by its keyword after `/v2m`. The keywords a
 | `evolve` | Evolve a value proposition | fine-tune, refresh, update, evolve, "things have changed", a new strategy, a new market, new trends | `jobs/evolve.md` |
 | `engineer` | Engineer the Value to Market plan | go to market, launch plan, execution plan, social plan, events, "make it happen", horizons and triggers | `jobs/engineer.md` |
 | `align` | Align with reality | "review our progress", "what was done", "we are behind", "this is not working", realign, update the plan to reality | `jobs/align.md` |
+| `agents` | Run strategy (or engineer) in agentic mode | "use agents", "agentic mode", "run it as a team" | `engine/commands.md`, `engine/agentic.md` |
 | `init`, `help`, `tools` | Set up, explain, single tools | set up the project, how does this work, which tools, run one tool | `engine/commands.md` |
 | (none) | Answer a question | one precise question ("how should I price this", "do we have a moat") | see below |
 

@@ -25,11 +25,24 @@ Show this map, exactly as drawn, at the end of `init`, at the top of `help`, and
                                          ▲                        │
                                          └──────── evolve ◄───────┘
 
+  Scale up      agents     run strategy (or engineer) as a team of parallel agents:
+                           scouts, rival strategies, red team, scenario stress test
+
   Anytime       help       how to use it, and where your project stands
                 tools      every tool that runs on its own; tools <name> runs one
 ```
 
 The keyword `review` is an alias for `assess`.
+
+## agents
+
+`agents` is a mode, not a job: it runs a job as a team of parallel agents, following `engine/agentic.md`.
+
+- `/v2m agents` or `/v2m agents <request>`: the `strategy` job in agentic mode.
+- `/v2m agents engineer <request>`: the `engineer` job with parallel agents for social, events and horizon playbooks.
+- Plain language: "use agents", "agentic mode", "run it as a team".
+
+Typing the keyword is the request for agentic mode, so do not ask whether to use it. Still show the plan (roles, number of agents, waves, the research budget) and wait for an explicit go before launching anything. If the host cannot run agents in parallel, say so and offer the sequential fallback. Any other job named after `agents` (assess, design, evolve, align) runs normally; say that agentic mode applies to strategy and engineer only.
 
 ## init
 

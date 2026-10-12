@@ -33,7 +33,7 @@ You bring a need, not a command. The skill recognizes the job, picks the method'
 | --- | --- | --- |
 | `assess` | **Assess** a value proposition: yours, a competitor's, a list of websites, a folder, your five competitors, a whole industry | a diagnosis of the proposition, the competitive landscape, the costliest gap and the quickest fix |
 | `design` | **Design** a value proposition, for an existing business or from scratch | what the business really owns, the values it stands for, who it serves and turns away, the promise and its proof, price logic, channels, and the words to say it |
-| `strategy` | Build a value **strategy** for the company, optionally in agentic mode | the category, the values, the defense, the proposition of each line of business, and the scenarios the strategy must survive |
+| `strategy` | Build a value **strategy** for the company, optionally with a team of agents (`agents`) | the category, the values, the defense, the proposition of each line of business, and the scenarios the strategy must survive |
 | `engineer` | **Engineer** the Value to Market plan that puts the strategy into the market | a workplan with owners and budget, the three launch strikes and their events, a social and content plan, and horizon playbooks that fire when their conditions are met |
 | `evolve` | **Evolve** the proposition when the market, the strategy or the trends move | what changed and what it hits, plausible scenarios of what comes next, and the revised proposition with the order of the changes |
 | `align` | **Align** the plan and the strategy with what really happened | the status of every planned item, why the gaps opened, what changes, and every document updated to match |
@@ -52,7 +52,14 @@ Single questions work too: "how should I price this?", "do we have a moat?".
 
 **It separates strategy from execution.** `strategy` decides; `engineer` turns the decisions into the Value to Market plan; `align` checks the plan against what happened and sends only what reality disproved back to the strategy.
 
-**It can work as a team of agents.** For a value strategy, agentic mode runs scouts on competitors and trends, several architects drafting rival strategies, a red team and a scenario stress test, then assembles the strongest strategy. It always asks before starting, and states how many agents it will use.
+**It can work as a team of agents.** Type `/v2m agents` and the value strategy runs as a team: scouts on competitors and trends, several architects drafting rival strategies, a red team and a scenario stress test, then the strongest strategy assembled from what survives. `/v2m agents engineer` does the same for the Value to Market plan. It always shows the plan and the number of agents first, and starts only on your go.
+
+```
+/v2m agents
+/v2m agents strategy for our three business lines, against Acme, Globex and Initech
+/v2m agents engineer the launch plan for the premium line, big event in March
+"Use agents to build our value strategy, and stress-test it against a price war"
+```
 
 **It checks itself.** Every analysis is scored against a short sanity test and re-scored independently before a document ships. All prose is edited to remove the marks of machine writing.
 
@@ -85,11 +92,27 @@ Or call it by name with a keyword. In Claude Code and Cowork, type `/v2m <keywor
                                          ▲                        │
                                          └──────── evolve ◄───────┘
 
+  Scale up      agents     run strategy (or engineer) as a team of parallel agents:
+                           scouts, rival strategies, red team, scenario stress test
+
   Anytime       help       how to use it, and where your project stands
                 tools      every tool that runs on its own; tools <name> runs one
 ```
 
-For example: `/v2m init`, then `/v2m assess example.com against acme.com and globex.com`. `/v2m help` shows this map with what makes sense next for your project; `/v2m tools <name>` runs a single tool. In other assistants, name the skill in your message or pick it from the skills menu. Calling it by name is the safer route when your request is vague or when other installed skills cover similar ground.
+For example:
+
+```
+/v2m init
+/v2m assess example.com against acme.com and globex.com
+/v2m design a value proposition for our new consulting line
+/v2m strategy for the company, three business lines
+/v2m engineer the launch plan, big event in March
+/v2m evolve: a new competitor entered with half our price
+/v2m align: we are three months into the plan
+/v2m tools pricing
+```
+
+`/v2m help` shows this map with what makes sense next for your project; `/v2m tools <name>` runs a single tool. In other assistants, name the skill in your message or pick it from the skills menu. Calling it by name is the safer route when your request is vague or when other installed skills cover similar ground.
 
 ---
 

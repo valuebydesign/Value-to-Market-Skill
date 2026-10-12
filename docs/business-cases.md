@@ -99,7 +99,45 @@ He points `init` at the website, a folder of tender responses and the names of f
 
 ---
 
-## Case 4. A group with three business lines, using a team of agents
+## Case 4. A consultancy building its value strategy, step by step
+
+**Situation.** Calder & Wynn is an engineering consultancy with two lines: structural design for developers and inspection services for building owners. It has grown on reputation and referrals, and the partners now want a value strategy for the next three years before hiring. The market is familiar to them, there are two lines to cover, and they want to weigh in on every decision themselves.
+
+**Why without agents.** Agentic mode pays off when the field is contested and you want rival strategies argued against each other. Here the partners want to steer each step, so a single analyst working with them through checkpoints fits better and costs less.
+
+**What she types.**
+
+```
+/v2m init
+/v2m strategy for the firm, both lines, three-year horizon
+```
+
+`init` reads the website, the last two years of proposals and the partners' notes.
+
+**How the run goes.** The skill opens with a stage check (what is already decided and what is not), writes the plan, and then works through five checkpoints:
+
+1. **The field.** After the benchmark and the category scan: "Developers file you with the large engineering firms; owners file you with local inspectors. Which comparison do you want to win, and which do you want to leave?"
+2. **Foundations.** After the asset inventory: the value set drawn from what the firm owns (a decade of inspection records on the same buildings, two partners on the regional standards committee), with one antithesis. The partners sign it or change it before anything else is designed.
+3. **Company strategy.** The category, the defense and the posture: "If a national firm with ten times your resources copied your inspection offer tomorrow, what would it still fail to replicate?" The answer, the building history only Calder & Wynn holds, becomes the spine of the category: building lifecycle assurance, joining the two lines.
+4. **Each line's 3P.** For inspection and then for design, the premise read aloud ("would the owner who only wants the cheapest certificate walk away?"), the promise, and the proof gap.
+5. **Before writing.** The scenarios (a new inspection regulation, a downturn in development) and the open decisions.
+
+**What runs.** `strategy`: `source-read` on the rivals, `benchmark`, `category-scan`, `change-scan`, `business-sketch`, `assets`, `core-values`, `category-design`, `value-matrix`, `defense`, `power`, `rhyming`, then for each line `jobs`, `personas`, `canvas`, `adoption`, `3p`, `ladder`, `pricing`, `channels`, `formula`, `verbalization`, and finally `scenarios` and `bmc`.
+
+**What she receives.**
+
+- `Value Strategy/Market/`: the Market and Category Landscape.
+- `Value Strategy/Value Proposition/`: Foundations, and for each line a Customer and Fit report and a Value Proposition Design.
+- `Value Strategy/Strategy/`: the Company Strategy (category, value matrix, defense, posture, next moves, business model per horizon) and Evolution and Scenarios.
+- The Executive Summary, whose Decisions and Agenda table lists every open promise element next to its proof, the proofs to build, the tests to run and the scenario triggers to watch: the input for the plan.
+
+**Decisions that stay with the partners.** The value set, the category, who each line turns away, the price corridor, which scenario responses to pre-approve.
+
+**What comes next.** `/v2m engineer` to turn the strategy into a plan, starting with the inspection line. Had the field been crowded with aggressive rivals, `/v2m agents` would have been the better start.
+
+---
+
+## Case 5. A group with three business lines, using a team of agents
 
 **Situation.** Fornaci is a family group with three lines: industrial ovens, a maintenance service, and a young software line for monitoring energy use. The board asks for a value strategy for the next three years and wants to see options, not a single answer.
 
@@ -131,7 +169,7 @@ He points `init` at the website, a folder of tender responses and the names of f
 
 ---
 
-## Case 5. A consumer brand launching a premium line
+## Case 6. A consumer brand launching a premium line
 
 **Situation.** Olivara sells olive oil through supermarkets and wants to launch a premium single-estate line, sold direct and to restaurants. The strategy is set; the team needs a plan they can run.
 
@@ -163,7 +201,7 @@ He points `init` at the website, a folder of tender responses and the names of f
 
 ---
 
-## Case 6. Three months in, and the second strike did not land
+## Case 7. Three months in, and the second strike did not land
 
 **Situation.** Olivara, three months later. The chefs' dinner went well, the blind tasting was postponed twice, and the waitlist is far below target.
 
@@ -194,7 +232,7 @@ Then the causes: "What would have to be true for the tasting to happen next mont
 
 ---
 
-## Case 7. A single question, a single tool
+## Case 8. A single question, a single tool
 
 **Situation.** A studio owner wants to raise prices and only needs that answered.
 
@@ -256,6 +294,6 @@ Each step reads the memory left by the previous one, so nothing is asked twice a
 
 ## Learn the method behind the cases
 
-Every case above applies the Value-to-Market (V2M) Framework from Hoang Huynh's *Value by Design* collection. Marta's premise and promise come from ***Value Proposition Design***. Fornaci's category reframing and Brightline's moat come from ***Value Proposition Strategy***. Olivara's strikes, playbooks and measures come from ***Value Proposition Engineering***. The skill runs the method; the books show you how to judge its recommendations and turn them into decisions you can defend.
+Every case above applies the Value-to-Market (V2M) Framework from Hoang Huynh's *Value by Design* collection. Marta's premise and promise come from ***Value Proposition Design***. Calder & Wynn's category, Fornaci's reframing and Brightline's moat come from ***Value Proposition Strategy***. Olivara's strikes, playbooks and measures come from ***Value Proposition Engineering***. The skill runs the method; the books show you how to judge its recommendations and turn them into decisions you can defend.
 
 **[Get the *Value by Design* collection at valueproposition.design](https://valueproposition.design)**

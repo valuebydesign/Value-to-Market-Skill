@@ -193,7 +193,6 @@ The Value-to-Market (V2M) Framework contains derivative work built on the work o
 | MOA (Motivation, Opportunity, Ability) | MacInnis, Moorman, and Jaworski |
 | Category Design | Al Ramadan, Dave Peterson, Christopher Lochhead, Kevin Maney (*Play Bigger*) |
 | Stages of economic value used in Rhyming | B. Joseph Pine II and James H. Gilmore |
-| Humanized-prose check | Wikipedia's "Signs of AI writing" (WikiProject AI Cleanup) |
 
 The full list, including further credits for the Rhyming model, is in [`skills/v2m/CREDITS.md`](skills/v2m/CREDITS.md). All other constructs, including the Value Proposition Formula and the Value to Market framework, along with Rhyming, the 3P of Value, the Promise Ladder, Power Shifting, and the Confrontational Model, are original to Hoang Huynh's *Value by Design* collection.
 

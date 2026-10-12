@@ -16,7 +16,6 @@ The framework adapts and integrates the work of others. Each originator keeps fu
 | Stages of economic value used in Rhyming | B. Joseph Pine II and James H. Gilmore |
 | Metric Decay Paradox | Meyer and Gupta |
 | Performance Zone and Learning Zone | Eduardo Briceño |
-| Humanized-prose check | Wikipedia's "Signs of AI writing" (WikiProject AI Cleanup), CC BY-SA |
 
 Further credits for the Rhyming model are listed in `method/rhyming.md`, section "Prior art and credits".
 

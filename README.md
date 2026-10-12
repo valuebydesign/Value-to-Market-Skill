@@ -29,14 +29,14 @@ Built on the open Agent Skills standard (`SKILL.md`), so the same skill runs in 
 
 You bring a need, not a command. The skill recognizes the job, picks the method's tools for it, and works with you through a short conversation.
 
-| You want to | You get |
-| --- | --- |
-| **Assess** a value proposition: yours, a competitor's, a list of websites, a folder, your five competitors, a whole industry | a diagnosis of the proposition, the competitive landscape, the costliest gap and the quickest fix |
-| **Build** a value proposition, for an existing business or from scratch | what the business really owns, the values it stands for, who it serves and turns away, the promise and its proof, price logic, channels, and the words to say it |
-| **Fine-tune** a value proposition when the market, the strategy or the trends move | what changed and what it hits, plausible scenarios of what comes next, and the revised proposition with the order of the changes |
-| **Build a value strategy** for the company, optionally in agentic mode | the category, the values, the defense, the proposition of each line of business, and the scenarios the strategy must survive |
-| Run **Value to Market**: put the strategy into the market | a workplan with owners and budget, the three launch strikes and their events, a social and content plan, and horizon playbooks that fire when their conditions are met |
-| **Realign** with reality | the status of every planned item, why the gaps opened, what changes, and every document updated to match |
+| Keyword | You want to | You get |
+| --- | --- | --- |
+| `assess` | **Assess** a value proposition: yours, a competitor's, a list of websites, a folder, your five competitors, a whole industry | a diagnosis of the proposition, the competitive landscape, the costliest gap and the quickest fix |
+| `design` | **Design** a value proposition, for an existing business or from scratch | what the business really owns, the values it stands for, who it serves and turns away, the promise and its proof, price logic, channels, and the words to say it |
+| `strategy` | Build a value **strategy** for the company, optionally in agentic mode | the category, the values, the defense, the proposition of each line of business, and the scenarios the strategy must survive |
+| `engineer` | **Engineer** the Value to Market plan that puts the strategy into the market | a workplan with owners and budget, the three launch strikes and their events, a social and content plan, and horizon playbooks that fire when their conditions are met |
+| `evolve` | **Evolve** the proposition when the market, the strategy or the trends move | what changed and what it hits, plausible scenarios of what comes next, and the revised proposition with the order of the changes |
+| `align` | **Align** the plan and the strategy with what really happened | the status of every planned item, why the gaps opened, what changes, and every document updated to match |
 
 Single questions work too: "how should I price this?", "do we have a moat?".
 
@@ -50,7 +50,7 @@ Single questions work too: "how should I price this?", "do we have a moat?".
 
 **It writes one coherent set of documents.** Each document answers one question and holds its own facts and figures; the others point to it instead of copying it. You choose the form: a conversation, short briefs, or full documents.
 
-**It separates strategy from execution.** The Value Strategy job decides; the Value to Market job turns the decisions into a plan; Realign checks the plan against what happened and sends only what reality disproved back to the strategy.
+**It separates strategy from execution.** `strategy` decides; `engineer` turns the decisions into the Value to Market plan; `align` checks the plan against what happened and sends only what reality disproved back to the strategy.
 
 **It can work as a team of agents.** For a value strategy, agentic mode runs scouts on competitors and trends, several architects drafting rival strategies, a red team and a scenario stress test, then assembles the strongest strategy. It always asks before starting, and states how many agents it will use.
 
@@ -62,18 +62,34 @@ The full user guide, with every tool and how to call it, is in **[How Value to M
 
 ## Using it
 
-Just ask, in your own words: "Assess our value proposition against these four competitors", "Build a value proposition for our new consulting line", "Turn our strategy into a launch plan". Your assistant recognizes the request from the skill's description and opens it.
+Just ask, in your own words: "Assess our value proposition against these four competitors", "Design a value proposition for our new consulting line", "Engineer the launch plan for our strategy". Your assistant recognizes the request from the skill's description and opens it.
 
-Or call it by name. In Claude Code and Cowork:
+Or call it by name with a keyword. In Claude Code and Cowork, type `/v2m <keyword> <request>`:
 
-| Command | What it does |
-| --- | --- |
-| `/v2m init` | Sets up a project once: creates the folders, reads your website, documents and competitors, drafts the project context for you to confirm, and records your preferences |
-| `/v2m help` | Explains how to use the skill and, for an existing project, where it stands and what makes sense next |
-| `/v2m tools` | Lists every tool that can run on its own, what it answers and which jobs use it; `/v2m tools <name>` runs one |
-| `/v2m <request>` | Anything else, for example `/v2m assess example.com against acme.com` |
+```
+  VALUE TO MARKET                                         /v2m <keyword> <request>
 
-In other assistants, name the skill in your message or pick it from the skills menu. Calling it by name is the safer route when your request is vague or when other installed skills cover similar ground.
+  Set up        init       create the folders, read your sources, draft the context
+
+  Decide        assess     diagnose a value proposition, a set of rivals or a market    (alias: review)
+                design     build a value proposition, for a business or from scratch
+                strategy   build the value strategy; agentic mode on request
+
+  Execute       engineer   the Value to Market plan: workplan, launch strikes and events,
+                           social and content, horizon playbooks, measures
+
+  Keep it true  evolve     adapt to what changed, with plausible scenarios
+                align      what was done, delayed or not working, why, and what changes
+
+  The flow      assess ──► design ──► strategy ──► engineer ──► align
+                                         ▲                        │
+                                         └──────── evolve ◄───────┘
+
+  Anytime       help       how to use it, and where your project stands
+                tools      every tool that runs on its own; tools <name> runs one
+```
+
+For example: `/v2m init`, then `/v2m assess example.com against acme.com and globex.com`. `/v2m help` shows this map with what makes sense next for your project; `/v2m tools <name>` runs a single tool. In other assistants, name the skill in your message or pick it from the skills menu. Calling it by name is the safer route when your request is vague or when other installed skills cover similar ground.
 
 ---
 
@@ -121,7 +137,7 @@ Some tools require turning on Agent Skills in their settings first. If the skill
 
 At the core sits the **Value Proposition Formula**: VP = [ Channels x Core Values x Promise ] + USP. The bracket multiplies, so a factor near zero sinks the whole proposition; the USP is added on top. Around it the method works in a fixed order: assets first, then the core values drawn from them, the premise (who it is for and who it is not), the promise, the proof, the category, and the channels. The **3P of Value** (Premise, Promise, Proof) is the contract with the market, the **Promise Ladder** measures how high a promise reaches, and **Rhyming** plans a portfolio whose launches compound over time.
 
-The jobs map onto the method's run. Assess, Build, Fine-tune and Value Strategy cover envisioning and strategy design. Value to Market covers engineering: turning the strategy into specifications, plans and measures for the people who execute. Realign closes the loop against reality.
+The keywords map onto the method's run. `assess`, `design`, `strategy` and `evolve` cover envisioning and strategy design. `engineer` covers engineering: turning the strategy into specifications, plans and measures for the people who execute. `align` closes the loop against reality.
 
 ---
 

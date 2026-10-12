@@ -85,7 +85,7 @@ Value Workspace/
 
 - **Read before asking.** Every job opens `Home.md`, `context.md` and the relevant `Knowledge/` pages first, and asks only what they leave open.
 - **Promote conclusions.** Modules write to the run folder. At the end of the job, promote the conclusions into the matching `Knowledge/` page: replace what changed, keep the date of each statement, and link back to the run (`[[Runs/2026-10-12 Assess - Acme/modules/benchmark]]`). Knowledge pages hold the current state; earlier states stay in the run folders.
-- **Decisions are logged.** Every decision the user takes at a checkpoint goes into `Knowledge/Decisions.md` with what would reopen it. Fine-tune reads this log to know which decisions the changes now challenge.
+- **Decisions are logged.** Every decision the user takes at a checkpoint goes into `Knowledge/Decisions.md` with what would reopen it. Evolve reads this log to know which decisions the changes now challenge.
 - **Competitors accumulate.** Each read of a player adds dated entries to `Knowledge/Market/<Player>.md`, so later jobs can see moves over time.
 - **Links instead of copies.** Pages link to each other with wiki links. A fact lives on one page.
 - **Front matter.** Each note starts with a short YAML block: `type`, `date`, `job`, `status` (draft, current, superseded), `sources`.

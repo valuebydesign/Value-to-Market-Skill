@@ -1,4 +1,4 @@
-# Job: Build a value proposition
+# Job: Design a value proposition
 
 Design a value proposition for one line of business, in the method's order: what the business owns, what it stands for, who it is for, what it promises, how it proves it, how it is priced, where it is said and how it sounds.
 
@@ -12,7 +12,7 @@ Design a value proposition for one line of business, in the method's order: what
 
 ## Intake
 
-Read the sources, then ask what is open from the Build questions in `engine/intake.md`: the business, how it will evolve, the triggers already in place, the assets, the constraints. Push on triggers and assets: they decide what the proposition can honestly promise and how long it will hold.
+Read the sources, then ask what is open from the Design questions in `engine/intake.md`: the business, how it will evolve, the triggers already in place, the assets, the constraints. Push on triggers and assets: they decide what the proposition can honestly promise and how long it will hold.
 
 In B3, ask the reduced set (space, ambition, founder's assets, choose or let the engine pick), then run `business-sketch` to generate two or three directions. That choice is the first checkpoint. Everything that follows is Assumed until validated, and the report says so in its opening paragraph.
 
@@ -52,4 +52,4 @@ The filled Formula has no factor near zero, the 3P passes its scorecards, and fi
 
 ## Hand-off
 
-Offer Strategy when the user has several lines of business or the category itself needs designing, Value to Market when the proposition is ready to be put into execution, and Fine-tune as the routine to rerun when the triggers fire.
+Offer Strategy when the user has several lines of business or the category itself needs designing, Engineer when the proposition is ready to be put into execution, and Evolve as the routine to rerun when the triggers fire.

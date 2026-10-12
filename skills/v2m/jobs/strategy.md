@@ -4,7 +4,7 @@ The company-level job that decides what the company stands for and where it goes
 
 ## Scope
 
-This job takes the strategic decisions: category, values, premise, promise and proof, defense, posture, the next moves on the staff, and the futures to prepare for. It names the beachhead and the horizons as choices and leaves their execution to Value to Market, under the boundary rule in `SKILL.md`. When the user asks for the whole journey, run this job, then hand over to Value to Market in the same session.
+This job takes the strategic decisions: category, values, premise, promise and proof, defense, posture, the next moves on the staff, and the futures to prepare for. It names the beachhead and the horizons as choices and leaves their execution to the Engineer job, under the boundary rule in `SKILL.md`. When the user asks for the whole journey, run this job, then hand over to Engineer in the same session.
 
 ## Intake
 
@@ -31,7 +31,7 @@ Depth: Quick runs Field, Foundations, Company strategy and a single-line Design 
 ## Gates
 
 - Do not design any line of business while core values or the category are below pass.
-- Do not hand over to Value to Market while a line's Formula has a factor near zero, or while the scenarios lack signposts and pre-decided responses.
+- Do not hand over to Engineer while a line's Formula has a factor near zero, or while the scenarios lack signposts and pre-decided responses.
 
 ## Checkpoints
 
@@ -50,8 +50,8 @@ Single-analyst mode: after Field (the rivals and the ocean), after Foundations (
 | 7 Evolution and Scenarios | no | yes | yes |
 | Guidelines, Strategy Deck | no | no | yes |
 
-The Executive Summary's Decisions and Agenda table gathers the open items of every 3P (promise element next to its proof), the proofs to build, the validation tests, the scenario triggers and any section below pass, each with owner, horizon and before or after launch. These items are the input of the Value to Market job.
+The Executive Summary's Decisions and Agenda table gathers the open items of every 3P (promise element next to its proof), the proofs to build, the validation tests, the scenario triggers and any section below pass, each with owner, horizon and before or after launch. These items are the input of the Engineer job.
 
 ## Hand-off
 
-Offer Value to Market next, to turn the decisions into an executable plan. Fine-tune is the routine that keeps the strategy alive when a trigger in `Knowledge/Changes and Triggers.md` fires.
+Offer Engineer next, to turn the decisions into an executable plan. Evolve is the routine that keeps the strategy alive when a trigger in `Knowledge/Changes and Triggers.md` fires.

@@ -1,11 +1,11 @@
-# Job: Fine-tune a value proposition
+# Job: Evolve a value proposition
 
 Adjust an existing value proposition to what has changed and to what is likely to change, keeping what still works. The output is a revised proposition, a set of plausible scenarios with their triggers, and the order in which to make the changes.
 
 ## Intake
 
 1. **Load the baseline.** In order of preference: the `Knowledge/` pages and the last run in `Value Workspace/`, the user's documents, the website. If there is no baseline, run `source-read` and a quick `vp-audit` first and say that the baseline was reconstructed.
-2. **Ask what changed.** Use the Fine-tune questions in `engine/intake.md`. For each change the user selects, ask one follow-up: what exactly, since when, with what evidence. Then ask what they expect to change next and which triggers they already see. Offer your own reading of the changes visible in the sources and in `Knowledge/Market/` ("Two of your rivals moved to usage pricing this year. Is that on your list?").
+2. **Ask what changed.** Use the Evolve questions in `engine/intake.md`. For each change the user selects, ask one follow-up: what exactly, since when, with what evidence. Then ask what they expect to change next and which triggers they already see. Offer your own reading of the changes visible in the sources and in `Knowledge/Market/` ("Two of your rivals moved to usage pricing this year. Is that on your list?").
 3. **Ask how far to go:** sharpen the wording, reposition within the category, or rethink.
 
 ## Modules
@@ -56,9 +56,9 @@ The Decisions and Agenda table separates the no-regret moves (now) from the scen
 
 Every change in the redline cites the change or scenario that justifies it; every scenario has signposts and a pre-decided response; the revised Formula has no factor near zero.
 
-## Fine-tune or Realign
+## Evolve or Align
 
-Fine-tune starts from the world: something changed outside or in the strategy. Realign starts from the plan: what the team did and what it produced. When a Realign finds that an assumption was falsified, it runs the redline of this job on the affected elements only. When a Fine-tune changes the proposition and a Value to Market plan exists, offer Realign afterwards to bring the plan in line.
+Evolve starts from the world: something changed outside or in the strategy. Align starts from the plan: what the team did and what it produced. When a Align finds that an assumption was falsified, it runs the redline of this job on the affected elements only. When a Evolve changes the proposition and a Value to Market plan exists, offer Align afterwards to bring the plan in line.
 
 ## Memory
 

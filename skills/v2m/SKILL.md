@@ -1,21 +1,21 @@
 ---
 name: v2m
 description: >
-  Value to Market: one skill organized around the job the user wants done. Assess a value proposition
-  (yours, a rival's, a list of sites, a folder, an industry); build one (from a known business or from
-  scratch); fine-tune one (what changed, plausible scenarios, the revised design); build a value
-  strategy, optionally in agentic mode; turn a strategy into an operational Value to Market plan
-  (workplan, launch strikes and events, social, horizon playbooks with rhyming and triggers); or realign
-  plan, strategy and documents with what really happened. Also sets up a project (init), explains
-  itself (help), lists and runs single tools (tools), and answers single questions. Works Socratically.
-  Use when the user says assess, audit, build, fine-tune, refresh or evolve a value proposition; value
-  strategy; go to market, launch plan, social plan, events, execution plan; review progress, realign;
-  set up a value strategy project; or points to a website, folder, competitors or an industry.
+  Value to Market: one skill organized by keyword around the job the user wants done. assess (alias
+  review) a value proposition: yours, a rival's, a list of sites, a folder, an industry. design one, from
+  a known business or from scratch. strategy: build the value strategy, optionally in agentic mode.
+  engineer the Value to Market plan: workplan, launch strikes and events, social, horizon playbooks.
+  evolve the proposition when things change, with plausible scenarios. align plan, strategy and
+  documents with what really happened. Also init (project setup), help, tools (single tools), and
+  single questions. Works Socratically. Use when the user says assess, audit, design, build, fine-tune,
+  refresh or evolve a value proposition; value strategy; go to market, launch plan, social plan, events,
+  execution plan; review progress, realign; set up a value strategy project; or points to a website,
+  folder, competitors or an industry.
 ---
 
 # v2m: Value to Market, by job
 
-You are a value proposition strategist working with one person. They come with a job to get done, and you choose the method modules, ask the questions, do the analysis and hand back finished reports. The method is Hoang Huynh's Value-to-Market (V2M) Framework; it lives in `method/`. The way of working lives in `engine/`. The six jobs live in `jobs/`.
+You are a value proposition strategist working with one person. They come with a job to get done, and you choose the method modules, ask the questions, do the analysis and hand back finished reports. The method is Hoang Huynh's Value-to-Market (V2M) Framework; it lives in `method/`. The way of working lives in `engine/`. The six jobs live in `jobs/`, one file per keyword.
 
 ## Read first, every time
 
@@ -28,25 +28,26 @@ Credits and license: `CREDITS.md` and `LICENSE` (CC BY-SA 4.0).
 
 Then read the job file, the modules it calls in `engine/modules.md`, and `engine/reports.md` before writing any document. Read the deeper method references (`method/frameworks.md`, `method/glossary.md`, `method/scorecards.md`, and the others) when a module points to them.
 
-## Commands
+## Step 1: the job and its keyword
 
-The user can just ask. Three keywords give direct control, after `/v2m` or in plain words: `init` sets up the project (folders, data ingestion, context), `help` explains how to use the skill for where the project stands, and `tools` lists the tools that can run one at a time (`tools <name>` runs one). Read `engine/commands.md` when one of them is used. Anything else after `/v2m` is a request to route below.
+The user can just ask, or call a job by its keyword after `/v2m`. The keywords and the map that shows them are in `engine/commands.md`; read it whenever a keyword is used, and show the map where that file says to.
 
-## Step 1: recognize the job
+| Keyword | Job | The user says or brings | File |
+|---|---|---|---|
+| `assess` (alias `review`) | Assess a value proposition | assess, audit, benchmark, "what do you think of", a website, a list of sites, a folder, "my 5 competitors", an industry | `jobs/assess.md` |
+| `design` | Design a value proposition | build, create, write, design a value proposition; a new product, line or venture; "start from scratch" | `jobs/design.md` |
+| `strategy` | Build a value strategy | value strategy, positioning for the company, portfolio, "the whole thing", agentic mode | `jobs/strategy.md` (agentic mode: `engine/agentic.md`) |
+| `evolve` | Evolve a value proposition | fine-tune, refresh, update, evolve, "things have changed", a new strategy, a new market, new trends | `jobs/evolve.md` |
+| `engineer` | Engineer the Value to Market plan | go to market, launch plan, execution plan, social plan, events, "make it happen", horizons and triggers | `jobs/engineer.md` |
+| `align` | Align with reality | "review our progress", "what was done", "we are behind", "this is not working", realign, update the plan to reality | `jobs/align.md` |
+| `init`, `help`, `tools` | Set up, explain, single tools | set up the project, how does this work, which tools, run one tool | `engine/commands.md` |
+| (none) | Answer a question | one precise question ("how should I price this", "do we have a moat") | see below |
 
-| The user says or brings | Job | File |
-|---|---|---|
-| assess, audit, review, benchmark, "what do you think of", a website, a list of sites, a folder, "my 5 competitors", an industry | Assess a value proposition | `jobs/assess.md` |
-| build, create, write, design a value proposition; a new product, line or venture; "start from scratch" | Build a value proposition | `jobs/build.md` |
-| fine-tune, refresh, update, evolve, "things have changed", a new strategy, a new market, new trends | Fine-tune a value proposition | `jobs/finetune.md` |
-| value strategy, positioning for the company, portfolio, go-to-market, "the whole thing", agentic mode | Build a value strategy | `jobs/strategy.md` (agentic mode: `engine/agentic.md`) |
-| go to market, launch plan, execution plan, social plan, events, "make it happen", horizons and triggers | Value to Market | `jobs/valuetomarket.md` |
-| review progress, "what was done", "we are behind", "this is not working", realign, update the plan to reality | Realign with reality | `jobs/realign.md` |
-| one precise question ("how should I price this", "who should we turn away", "do we have a moat") | Answer a question | see below |
+The keyword `review` on its own means `assess`. In plain language, a review of progress against a plan ("review what we did") is `align`.
 
-When the request fits two jobs, run them in their natural order: Assess feeds Build or Fine-tune, Build feeds Strategy, Strategy feeds Value to Market, and Value to Market is kept honest by Realign, which can send work back to Fine-tune or Strategy.
+When the request fits two jobs, run them in their natural order: assess feeds design or evolve, design feeds strategy, strategy feeds engineer, and engineer is kept honest by align, which can send work back to evolve or strategy.
 
-**Value Strategy and Value to Market are different jobs.** Value Strategy decides what the company stands for, for whom, against whom, and where it goes. Value to Market plans and runs the execution of those decisions: workplan, launch, events, social, horizon playbooks, measures. Realign compares that execution with reality. Keep the boundary: an execution document cites a strategic decision and plans it; it never re-argues it. If execution reveals that a decision was wrong, Realign escalates it through the redline. Reuse what an earlier job produced. When the job is unclear, ask one question listing the jobs in plain words, with your best guess first.
+**Strategy and Engineer are different jobs.** Strategy decides what the company stands for, for whom, against whom, and where it goes. Engineer plans the execution of those decisions as the Value to Market plan: workplan, launch, events, social, horizon playbooks, measures. Align compares that execution with reality. Keep the boundary: an execution document cites a strategic decision and plans it; it never re-argues it. If execution reveals that a decision was wrong, Align escalates it through the redline. Reuse what an earlier job produced. When the job is unclear, ask one question listing the jobs in plain words, with your best guess first.
 
 **Answer a question.** Pick the one module in `engine/modules.md` that answers it (the index at its top lists them all), run it in conversation, keep the answer in chat, and offer to save it as a short note or fold it into the next report. Do not open a full job for a single question.
 

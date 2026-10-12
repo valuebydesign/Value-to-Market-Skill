@@ -1,16 +1,16 @@
-# Job: Value to Market
+# Job: Engineer (the Value to Market plan)
 
 Turn a value strategy into an operational plan the team can execute: who does what and when, the launch with its three strikes and its events, social and content, the three horizons as playbooks that fire when their conditions are met, and the measures that tell whether it is working. The strategy is the input; the boundary rule in `SKILL.md` applies.
 
 ## Starting point
 
-- **A strategy exists** in `Knowledge/` (from a Strategy or Build job, from version 1 of this skill, or from the user's own documents): load it, list the decisions that need execution, and confirm the list with the user.
-- **Only a value proposition exists** (a Build job, no company strategy): proceed for that line of business; note that the category, defense and horizons were not designed and keep the horizon playbooks short.
-- **Nothing exists:** say that without a strategy every plan item rests on assumptions. Offer to run Build (Quick) or Strategy first; proceed without it only if the user insists, and mark every strategic input as Assumed.
+- **A strategy exists** in `Knowledge/` (from a Strategy or Design job, from version 1 of this skill, or from the user's own documents): load it, list the decisions that need execution, and confirm the list with the user.
+- **Only a value proposition exists** (a Design job, no company strategy): proceed for that line of business; note that the category, defense and horizons were not designed and keep the horizon playbooks short.
+- **Nothing exists:** say that without a strategy every plan item rests on assumptions. Offer to run Design (Quick) or Strategy first; proceed without it only if the user insists, and mark every strategic input as Assumed.
 
 ## Intake
 
-Ask what is open from the Value to Market questions in `engine/intake.md`: the launch window and the date of the big event, the team and its capacity, the budget, the channels and social accounts in use and their tools, the events calendar already committed, the approval process, the lines of business in scope.
+Ask what is open from the Engineer questions in `engine/intake.md`: the launch window and the date of the big event, the team and its capacity, the budget, the channels and social accounts in use and their tools, the events calendar already committed, the approval process, the lines of business in scope.
 
 ## Modules
 
@@ -55,8 +55,8 @@ The Executive Summary's Decisions and Agenda table holds the commitments needed 
 
 ## Memory
 
-Write `Knowledge/Plan.md` (the plan in force, with playbook states) and seed `Knowledge/Progress Log.md` with the baseline: every item planned, status "not started", and the first review date. Realign reads both.
+Write `Knowledge/Plan.md` (the plan in force, with playbook states) and seed `Knowledge/Progress Log.md` with the baseline: every item planned, status "not started", and the first review date. Align reads both.
 
 ## Hand-off
 
-Remind the user of the first Realign review date set in the plan (offer to create a reminder only if the host supports it and the user says yes), and say what evidence to collect until then (the KPI sources, the status updates, the event results).
+Remind the user of the first Align review date set in the plan (offer to create a reminder only if the host supports it and the user says yes), and say what evidence to collect until then (the KPI sources, the status updates, the event results).

@@ -1,14 +1,14 @@
-# Job: Realign with reality
+# Job: Align with reality
 
 Compare what was planned with what happened, find out why the gaps opened, and bring the plan, the strategy and every document back in line with reality. Run it on the review dates the plan sets, after a strike or a big event, when a trigger fires, or whenever the user says the plan and reality have drifted apart.
 
 ## Starting point
 
-Load `Knowledge/Plan.md`, `Knowledge/Progress Log.md`, the last Value to Market run and the current documents in `Value Strategy/`. If no plan exists in the workspace, ask for the plan the team actually works from (a document, a spreadsheet, a project board export) and reconstruct the planned items from it first.
+Load `Knowledge/Plan.md`, `Knowledge/Progress Log.md`, the last Engineer run and the current documents in `Value Strategy/`. If no plan exists in the workspace, ask for the plan the team actually works from (a document, a spreadsheet, a project board export) and reconstruct the planned items from it first.
 
 ## Intake
 
-Ask what is open from the Realign questions in `engine/intake.md`: the period under review, where the evidence lives (analytics, CRM, social reports, project board, event results, finance), what the user believes was done and not done, the surprises, and any change in team, budget or priorities. Read the evidence before the conversation about causes: people tend to report what they meant to do.
+Ask what is open from the Align questions in `engine/intake.md`: the period under review, where the evidence lives (analytics, CRM, social reports, project board, event results, finance), what the user believes was done and not done, the surprises, and any change in team, budget or priorities. Read the evidence before the conversation about causes: people tend to report what they meant to do.
 
 ## Modules
 
@@ -42,7 +42,7 @@ Ask what is open from the Realign questions in `engine/intake.md`: the period un
 
 The Alignment Review covers: what was planned, what happened (status with evidence), the results against targets, the causes grouped by kind, the decision per item, the strategy changes and why, the revised plan in summary, the documents updated, the lessons, and the next review date. It states each number once; the updated documents carry their own.
 
-For every updated document: archive the previous version in `Value Strategy/Archive/<date> Realign/`, rewrite only the stale sections, and open the document with a short "Changes in this version" paragraph that cites the Alignment Review by section. Log every document touched in the run's `delivery.md`.
+For every updated document: archive the previous version in `Value Strategy/Archive/<date> Align/`, rewrite only the stale sections, and open the document with a short "Changes in this version" paragraph that cites the Alignment Review by section. Log every document touched in the run's `delivery.md`.
 
 ## Gate
 
@@ -54,4 +54,4 @@ Append the review to `Knowledge/Progress Log.md` (dated statuses, results, cause
 
 ## Hand-off
 
-Confirm the next review date. If the review found the world had changed, offer Fine-tune. If it found the strategy itself failing in several places, say so plainly and offer a Strategy job on the affected parts.
+Confirm the next review date. If the review found the world had changed, offer Evolve. If it found the strategy itself failing in several places, say so plainly and offer a Strategy job on the affected parts.

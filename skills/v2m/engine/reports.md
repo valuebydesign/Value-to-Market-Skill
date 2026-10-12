@@ -8,10 +8,10 @@ A report clusters the working notes of one phase's modules into a single argumen
 |---|---|---|---|---|
 | 0 | Executive Summary, with Decisions and Agenda | root | What did we find, what do we recommend, what must be decided and by whom | the conclusions of every report in the job; the open items of 3p; validation tests; triggers to watch |
 | 1 | Market and Category Landscape | Market | Where do we play, against whom, and where is the open water | source-read (rivals), benchmark, category-scan |
-| 2 | Value Proposition Diagnosis | Market | How good is this value proposition today, and what is it costing | source-read (subject), vp-audit, drift-test (Fine-tune) |
+| 2 | Value Proposition Diagnosis | Market | How good is this value proposition today, and what is it costing | source-read (subject), vp-audit, drift-test (Evolve) |
 | 3 | Foundations: Assets and Core Values | Value Proposition | What do we really own and what will we stand for | business-sketch, assets, core-values |
 | 4 | Customer and Fit | Value Proposition | Who hires us, for which jobs, and will they adopt | jobs, archetypes, personas, canvas, adoption |
-| 5 | Value Proposition Design | Value Proposition | What exactly do we promise, to whom, proven how, priced how, said how | 3p, ladder, pricing, channels, formula, verbalization, redline (Fine-tune) |
+| 5 | Value Proposition Design | Value Proposition | What exactly do we promise, to whom, proven how, priced how, said how | 3p, ladder, pricing, channels, formula, verbalization, redline (Evolve) |
 | 6 | Company Strategy | Strategy | Which category, which ecosystem, which defense, which posture, which next moves | category-design, value-matrix, defense, power, rhyming, bmc |
 | 7 | Evolution and Scenarios | Strategy | What is changing, what could happen, and how the proposition will respond | change-scan, scenarios |
 | 8 | Value to Market Plan | Value to Market | Who does what, by when, with which budget, measured how | workplan, engineering |

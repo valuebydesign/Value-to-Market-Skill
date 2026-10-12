@@ -24,7 +24,7 @@ Read every source first (`engine/intake.md`). Then ask only what is open from th
 | Full | + assets (visible and declared), power | + power, defense (rival's moat) | + power per key rival | + power and ladder read per key player |
 
 Notes:
-- In A1, the assets module runs only on what the sources show plus what the user states; mark the rest as unknown. It is a first read, owned later by Build.
+- In A1, the assets module runs only on what the sources show plus what the user states; mark the rest as unknown. It is a first read, owned later by Design.
 - In A3, run `vp-audit` with the same yardstick for every player so the scores compare. The diagnosis report then holds one section per player and a comparison section.
 - In A2, write the diagnosis as the user's competitive read: where the rival is strong, where it is exposed, and what that opens for the user.
 
@@ -50,4 +50,4 @@ The job is done when the 3P headline, the reddest structural challenge with its 
 
 ## Hand-off
 
-Offer the natural next job in chat: Build (when the diagnosis says to rebuild), Fine-tune (when the proposition is sound but drifting), or Strategy (when the landscape shows the category itself is the problem).
+Offer the natural next job in chat: Design (when the diagnosis says to rebuild), Evolve (when the proposition is sound but drifting), or Strategy (when the landscape shows the category itself is the problem).

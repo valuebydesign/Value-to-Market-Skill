@@ -1,14 +1,35 @@
-# Commands: init, help, tools
+# Commands: the keywords and the map
 
-Most of the time the user simply asks for what they need and the router in `SKILL.md` picks the job. Three keywords give direct control. They work after the slash command (`/v2m init`, `/v2m help`, `/v2m tools`) and in plain language ("set up the project", "how does this work", "which tools do you have").
+Most of the time the user simply asks for what they need and the router in `SKILL.md` picks the job. Keywords give direct control. They work after the slash command (`/v2m assess example.com`) and in plain language ("assess our site", "set up the project", "which tools do you have"). Anything after the keyword is the request: `/v2m design a value proposition for our consulting line`.
 
-| Keyword | What it does |
-|---|---|
-| `init` | sets up the project once: folders, data ingestion, context and preferences |
-| `help` | explains how to use the skill, adapted to where the project stands |
-| `tools` | lists the tools that can be run one at a time; `tools <name>` runs one |
+## The command map
 
-Anything else after `/v2m` is read as a request and routed to a job (`/v2m assess example.com against acme.com`).
+Show this map, exactly as drawn, at the end of `init`, at the top of `help`, and whenever the user asks what they can do. Below it, add one line suggesting the keyword that fits the project's state.
+
+```
+  VALUE TO MARKET                                         /v2m <keyword> <request>
+
+  Set up        init       create the folders, read your sources, draft the context
+
+  Decide        assess     diagnose a value proposition, a set of rivals or a market    (alias: review)
+                design     build a value proposition, for a business or from scratch
+                strategy   build the value strategy; agentic mode on request
+
+  Execute       engineer   the Value to Market plan: workplan, launch strikes and events,
+                           social and content, horizon playbooks, measures
+
+  Keep it true  evolve     adapt to what changed, with plausible scenarios
+                align      what was done, delayed or not working, why, and what changes
+
+  The flow      assess ──► design ──► strategy ──► engineer ──► align
+                                         ▲                        │
+                                         └──────── evolve ◄───────┘
+
+  Anytime       help       how to use it, and where your project stands
+                tools      every tool that runs on its own; tools <name> runs one
+```
+
+The keyword `review` is an alias for `assess`.
 
 ## init
 
@@ -19,17 +40,17 @@ Run once per project, before or instead of the first job. Re-running it refreshe
 3. **Build the context.** From the sources, draft `context.md` (project, offering type, business model, lines of business, market and audiences, goal and horizon, constraints, known assets, triggers in place) and show the draft to the user as a hypothesis to confirm or correct. Ask only what the sources leave open, in one round.
 4. **Seed the memory.** Create `Home.md`, and seed `Knowledge/Company.md`, `Knowledge/Assets.md` (assets visible so far, unscored) and one `Knowledge/Market/<Player>.md` page per competitor read. Mark everything as a first read.
 5. **Preferences.** Language, tone, the default depth and output form, the document formats wanted, terms to use and to avoid. Record them in `context.md`.
-6. **Close.** Say in a few lines what was set up and read, the gaps that matter, and recommend the first job, phrased as a job ("I would start by assessing your proposition against the three rivals we read").
+6. **Close.** Say in a few lines what was set up and read and the gaps that matter. Then show the command map and recommend the first keyword with a ready-to-use example ("Next: `/v2m assess` our proposition against the three rivals we read").
 
 `init` produces no report. It writes only into `Value Workspace/` and creates the empty `Value Strategy/` folder.
 
 ## help
 
-Answer in conversation, short, and adapted to the project's state:
+Answer in conversation, short, and adapted to the project's state. Always open with the command map.
 
-- **No workspace yet:** what the skill does (the six jobs in one line each, single questions), how to call it (plain language, `/v2m`, the three keywords), what to point it to, the two settings (depth and output form), and the suggestion to start with `init` or with a job.
+- **No workspace yet:** under the map, how to call the skill (plain language or `/v2m <keyword>`), what to point it to, the two settings (depth and output form), and the suggestion to start with `init` or with `assess`.
 - **A workspace exists:** read `Home.md` first. Say where the project stands (last jobs, open decisions, triggers being watched, the next review date) and the one or two jobs that make sense next.
-- **`help <topic>`:** explain that topic only. Topics: jobs, sources, settings, folders, memory, agentic mode, reports, scoring, privacy, or the name of a job or tool.
+- **`help <topic>`:** explain that topic only. Topics: any keyword, sources, settings, folders, memory, agentic mode, reports, scoring, privacy, or the name of a tool.
 
 Never paste the reference files into the answer. Keep it to what the user needs to take the next step, and offer `tools` for the full list of tools.
 

@@ -12,7 +12,7 @@ The intake has two halves. First read whatever the user pointed to. Then ask onl
 | An industry or category name | Search the web for the main players, the category leaders, the challengers and the alternatives (including do-nothing). Propose the set and let the user add or remove names. | The competitor rings, the category's expected values, the ocean read. |
 | A folder or files | Read decks, briefs, site copy, research, interview notes, sales material, CRM exports, prior strategy documents. Read-only: never move, rename or write into it. | The business as the company describes it internally, its assets, its numbers, and the gap between internal and external language. |
 | A pasted pitch, slogan or paragraph | Use it as the off-the-cuff baseline of the value proposition. | The starting point for challenge 11 of the checklist (the distance between what people say and what the analysis finds). |
-| A previous run of this skill (version 1 included) | Load `Value Workspace/Home.md`, `context.md`, the `Knowledge/` pages and the last run folder (or a version 1 `.value-to-market/context.md`). | The baseline for Fine-tune, and settled work to reuse in any job. |
+| A previous run of this skill (version 1 included) | Load `Value Workspace/Home.md`, `context.md`, the `Knowledge/` pages and the last run folder (or a version 1 `.value-to-market/context.md`). | The baseline for Evolve, and settled work to reuse in any job. |
 | Nothing at all | Work from scratch: generate hypotheses and mark them Assumed. | A complete draft built on stated assumptions, with a validation plan heavier than usual. |
 
 Sources combine freely: "here is our site, the folder with last year's deck, and assess us against these four rivals" is one intake.
@@ -36,7 +36,7 @@ Skip any question the sources, `context.md` or the `Knowledge/` pages already an
 3. **Comparison set.** I find the players, you give me the list, or no comparison.
 4. **Purpose.** What the assessment will be used for: a rebuild, an investor conversation, a pitch, a competitive response. This decides what the Executive Summary leads with.
 
-### Build
+### Design
 
 1. **Starting point.** An existing business that needs a value proposition (or a new one for a new line), a defined venture idea, or from scratch with only a space or an industry.
 2. **The business.** What you sell, to whom, how money comes in, and what it costs you to deliver.
@@ -47,7 +47,7 @@ Skip any question the sources, `context.md` or the `Knowledge/` pages already an
 
 From scratch, replace 2 to 5 with: the space or industry, the ambition (size, timeline), the founder's own assets and unfair advantages, and whether the user wants to choose among generated directions or let you pick.
 
-### Fine-tune
+### Evolve
 
 1. **The current value proposition.** Where it lives: a website, a document, a previous run, or the user's own words.
 2. **What has changed.** Multi-select: strategy, industry, customers, competitors, trends, technology, regulation, costs or pricing, team or assets, performance data, ownership or funding. Then one follow-up per change selected: what exactly, since when, and with what evidence.
@@ -63,7 +63,7 @@ From scratch, replace 2 to 5 with: the space or industry, the ambition (size, ti
 4. **Decision makers and dates.** Who signs, and any launch or board date the strategy must meet.
 5. **Agentic mode.** On or off, and the agent budget (see `engine/agentic.md`). Offer it when the host supports subagents, recommend it for multi-line or contested markets, and state the cost in plain terms before starting.
 
-### Value to Market
+### Engineer
 
 1. **The strategy to execute.** Confirm the decisions found in the workspace or the documents, and the lines of business in scope.
 2. **Dates.** The launch window, the date of the big event, any fixed dates (trade fairs, seasons, board meetings).
@@ -72,7 +72,7 @@ From scratch, replace 2 to 5 with: the space or industry, the ambition (size, ti
 5. **Channels and tools.** The social accounts and channels in use and their audience, the publishing and CRM tools, the events already committed.
 6. **Approvals.** Who signs content, events and spend, and how long it takes.
 
-### Realign
+### Align
 
 1. **Period.** The span under review and the plan version it is measured against.
 2. **Evidence.** Where results live: analytics, CRM, social reports, project board, event results, finance.

@@ -63,7 +63,7 @@ Single questions work too: "how should I price this?", "do we have a moat?".
 
 **It checks itself.** Every analysis is scored against a short sanity test and re-scored independently before a document ships. All prose is edited to remove the marks of machine writing.
 
-The full user guide, with every tool and how to call it, is in **[How Value to Market works](docs/how-it-works.md)**.
+The full documentation is listed below, in [Documentation](#documentation).
 
 ---
 
@@ -113,6 +113,16 @@ For example:
 ```
 
 `/v2m help` shows this map with what makes sense next for your project; `/v2m tools <name>` runs a single tool. In other assistants, name the skill in your message or pick it from the skills menu. Calling it by name is the safer route when your request is vague or when other installed skills cover similar ground.
+
+---
+
+## Documentation
+
+| Guide | Read it to |
+| --- | --- |
+| **[How Value to Market works](docs/how-it-works.md)** | learn the keywords and the command map, what to point the skill to, the settings, the folders, agentic mode, and privacy |
+| **[Business cases and scenarios](docs/business-cases.md)** | follow fictional companies through every keyword, see how scenarios of the future are built, and watch one company use the skill over a year |
+| **[The tools of the Value-to-Market Framework](docs/tools.md)** | see every tool in detail, with the book of the *Value by Design* collection that goes deeper on each |
 
 ---
 
@@ -193,7 +203,7 @@ skills/v2m/engine/       commands, conversation, intake, modules (the tools), re
 skills/v2m/method/       the V2M method: core, frameworks, glossary, principles, checklist, customer fit,
                          rhyming, scorecards, humanize, report format
 skills/v2m/CREDITS.md    attributions; LICENSE ships with the skill
-docs/how-it-works.md     the user guide
+docs/                    the user guide, business cases and scenarios, the tools reference
 .claude-plugin/          Claude plugin and marketplace manifests
 dist/                    one ready-to-drop package per tool, plus a universal package
 scripts/build-dist.sh    rebuilds the dist packages (npm run build)

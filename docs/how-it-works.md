@@ -1,6 +1,8 @@
 # How Value to Market works
 
-This guide is for the person using the skill: founders, marketers, strategists, consultants. You do not need to know the method's vocabulary to start. You describe what you need, point to what you have, and the skill does the rest with you.
+This guide is for the person using the skill. For worked examples see [Business cases and scenarios](business-cases.md); for every tool in detail see [The tools of the Value-to-Market Framework](tools.md).
+
+It is written for founders, marketers, strategists, consultants. You do not need to know the method's vocabulary to start. You describe what you need, point to what you have, and the skill does the rest with you.
 
 ## The command map
 
@@ -72,7 +74,7 @@ The same words work in plain language: "set up the project", "how does this work
 
 Each job runs a set of tools in the method's order. You can run any tool on its own with `/v2m tools <name>` (or by asking for it in plain words), or run a job limited to the tools you name: `/v2m assess example.com, only benchmark and vp-audit`. When a tool needs the result of another one that has not run yet (personas need jobs, for example), the skill tells you and offers to run the missing one first or to proceed on stated assumptions.
 
-The tables follow the command map and list each tool under the keyword it belongs to most; `/v2m tools` shows every job that uses it.
+The tables follow the command map and list each tool under the keyword it belongs to most; `/v2m tools` shows every job that uses it. [The tools reference](tools.md) describes each one in detail.
 
 ### assess: Assess a value proposition
 

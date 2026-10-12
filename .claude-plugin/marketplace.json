@@ -1,6 +1,6 @@
 {
   "name": "value-by-design",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "owner": {
     "name": "Hoang Huynh",
     "url": "https://valueproposition.design"
@@ -9,7 +9,7 @@
     {
       "name": "value-to-market",
       "displayName": "Value to Market",
-      "description": "Turn great ideas into value customers can feel: seven guided phases from Assess to Deliver, honest scorecards and one clear recommendation at every step.",
+      "description": "Value to Market by Hoang Huynh: one skill that assesses, builds and fine-tunes your value proposition, builds your value strategy, turns it into an operational launch plan with events, social and horizon playbooks, and keeps it honest against reality. Socratic, evidence-tagged, with documents kept apart from a working memory vault.",
       "source": {
         "type": "github",
         "repo": "valuebydesign/Value-to-Market-Skill",

@@ -24,7 +24,7 @@ STAGE="$(mktemp -d)"
 trap 'rm -rf "$STAGE"' EXIT
 
 # Claude Code / Cowork plugin: manifests + skills + docs
-zip -rq "dist/value-to-market-claude-v${VER}.plugin" .claude-plugin skills README.md LICENSE CHANGELOG.md -x '*.DS_Store'
+zip -rq "dist/value-to-market-claude-v${VER}.plugin" .claude-plugin skills docs README.md LICENSE CHANGELOG.md -x '*.DS_Store'
 
 # Per-tool packages: each stages skills under the tool's own config directory,
 # so the archive unzips straight into the project root.
@@ -51,7 +51,7 @@ cp LICENSE README.md "$STAGE/chatgpt/"
 ( cd "$STAGE/chatgpt" && zip -rq "$ROOT/dist/value-to-market-chatgpt-v${VER}.zip" skills LICENSE README.md -x '*.DS_Store' )
 
 # Universal package: everything, for manual installs on any agent.
-zip -rq "dist/value-to-market-v${VER}.zip" skills .claude-plugin README.md LICENSE CHANGELOG.md -x '*.DS_Store'
+zip -rq "dist/value-to-market-v${VER}.zip" skills docs .claude-plugin README.md LICENSE CHANGELOG.md -x '*.DS_Store'
 
 echo "Built dist packages for v${VER}:"
 ls -1 dist/

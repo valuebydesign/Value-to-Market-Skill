@@ -1,4 +1,4 @@
-# Customer and Fit - Jobs, the Canvas, and Verbalization
+# Customer and Fit: Jobs, the Canvas, and Verbalization
 
 The bridge between the company strategy and the per-offer design: understand the customer as jobs, map value to those jobs, check the fit, and articulate the result. Grounded in the method's Jobs To Be Done (the Three Levels), The Value Proposition Canvas, and the Promise Ladder.
 
@@ -6,27 +6,27 @@ The bridge between the company strategy and the per-offer design: understand the
 
 People do not buy products, they hire them to make progress. A job is the progress a customer is trying to make in a circumstance, not a demographic and not a feature. Read every job at three levels:
 
-- **Functional** - the practical task to get done.
-- **Social** - how the customer wants to be seen while doing it.
-- **Emotional** - how the customer wants to feel.
+- **Functional**: the practical task to get done.
+- **Social**: how the customer wants to be seen while doing it.
+- **Emotional**: how the customer wants to feel.
 
 Generate jobs across two axes so the set has real variety and nuance, not one flat list:
 
-- **Audiences and cases** - run the job set per reference subject (and, in B2B, per decision-maker and user), and per concrete case or circumstance, because the same product is hired for different jobs by different people.
-- **Modifiers** - stress-test each job under a constraint that changes what "good" means: under stress, on a tight time constraint, under limited resources, with limited knowledge or visibility. A job under stress is often a different job.
+- **Audiences and cases**: run the job set per reference subject (and, in B2B, per decision-maker and user), and per concrete case or circumstance, because the same product is hired for different jobs by different people.
+- **Modifiers**: stress-test each job under a constraint that changes what "good" means: under stress, on a tight time constraint, under limited resources, with limited knowledge or visibility. A job under stress is often a different job.
 
 Sort the resulting jobs by the objective they serve, so priorities are legible:
 
-- **Personal gain** - the individual is better off (status, relief, mastery).
-- **Task** - the immediate functional outcome.
-- **Business or company advantage** - the organization is better off (revenue, cost, risk, speed).
-- **Greater call** - a purpose beyond the transaction (identity, belonging, mission).
+- **Personal gain**: the individual is better off (status, relief, mastery).
+- **Task**: the immediate functional outcome.
+- **Business or company advantage**: the organization is better off (revenue, cost, risk, speed).
+- **Greater call**: a purpose beyond the transaction (identity, belonging, mission).
 
 The output is a structured job set: jobs at three levels, multiplied by audience/case and by modifier, tagged by objective, with the highest-leverage jobs called out.
 
 ## Archetypes
 
-An archetype is a customer type defined by the cluster of jobs it hires you for, not a demographic. Cluster the jobs, then code each archetype with a letter and its category (for example "A - the precise lawyer"), and a number for each contextual variation that carries its own job cluster ("A1" in a company, "A2" in an SME, "A3" in a group enterprise). Assign every job cluster to an archetype so none is orphaned, and place the archetypes on several axis pairs (value-sought vs price-sensitivity, expertise vs autonomy, urgency vs risk, decision-power vs usage) to see spread and white space. The codes are stable and reused by every later customer-facing step.
+An archetype is a customer type defined by the cluster of jobs it hires you for, not a demographic. Cluster the jobs, then code each archetype with a letter and its category (for example "A, the precise lawyer"), and a number for each contextual variation that carries its own job cluster ("A1" in a company, "A2" in an SME, "A3" in a group enterprise). Assign every job cluster to an archetype so none is orphaned, and place the archetypes on several axis pairs (value-sought vs price-sensitivity, expertise vs autonomy, urgency vs risk, decision-power vs usage) to see spread and white space. The codes are stable and reused by every later customer-facing step.
 
 ## Personas
 

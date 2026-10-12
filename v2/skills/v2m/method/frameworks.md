@@ -1,4 +1,4 @@
-# Value Strategy - Frameworks
+# Value Strategy: Frameworks
 
 Deep reference for every model in the system. Grouped by what it does. Read the entry your module needs.
 
@@ -20,11 +20,11 @@ Deep reference for every model in the system. Grouped by what it does. Read the 
 
 **Promise Ladder.** The depth of a promise across five rungs, orthogonal to quality. It measures height, not truth. Each rung subsumes the one below (no jumps); the climb is a lever on the P&L (positional rent), so the rung belongs to the industrial plan, not marketing.
 
-1. **Empty Promise** - hollow slogans; swap test (swap your payoff with a rival's and nobody notices); pricing anchored to cost.
-2. **Solution Promise** - the functional promise done well; closes deals but lives in the comparison table.
-3. **Value Promise** - differentiated on unique values; pricing detaches from cost; most serious companies stop here.
-4. **Cultural Resonance** - connects to cultural drivers; the brand talks through customers; belonging revenue.
-5. **Higher Call** - transcends the product, a mission to transform society; buying becomes participating.
+1. **Empty Promise**: hollow slogans; swap test (swap your payoff with a rival's and nobody notices); pricing anchored to cost.
+2. **Solution Promise**: the functional promise done well; closes deals but lives in the comparison table.
+3. **Value Promise**: differentiated on unique values; pricing detaches from cost; most serious companies stop here.
+4. **Cultural Resonance**: connects to cultural drivers; the brand talks through customers; belonging revenue.
+5. **Higher Call**: transcends the product, a mission to transform society; buying becomes participating.
 
 The climb must be earned, not declared (greenwashing = a higher call without the rungs beneath = **Air-Inflated Promise**).
 
@@ -34,11 +34,11 @@ The climb must be earned, not declared (greenwashing = a higher call without the
 
 **Assets.** Everything distinctive, cultivated over time, monetizable: relationships, positionings, legacy, people, not just fixed assets. Two conditions: an asset must be monetizable, and having one and not monetizing it is a **crime** (a dormant asset is a cost you pay without collecting, often letting someone else monetize it for you). Eight families: physical/productive, technological, relational, human, reputational, community, institutional, narrative. The two most forgotten: reputational-as-permission (the MoonSwatch monetizes a permission only Omega had) and narrative (the true story already in stock nobody tells). A full inventory yields twenty to forty entries; the unique-plus-dormant entries are your crimes in progress.
 
-**Defensibility Ladder.** Classify each asset by how defensible its benefit is. **Unique/inimitable** (structural, long horizon - build the strategy on it, monetize it) → executive label "strategic moat asset". **Replicable** (temporal advantage, a running stopwatch - run, convert the time into more defensible assets) → "operational differentiator". **Imitable** (positional, the benefit is achievable otherwise - work the **court**) → "commodity". The court: services and values around the asset, either so numerous they cannot be replaced as a block, or themselves distinctive. The espresso is imitable; the bar where the barista knows your name is not.
+**Defensibility Ladder.** Classify each asset by how defensible its benefit is. **Unique/inimitable** (structural, long horizon: build the strategy on it, monetize it) → executive label "strategic moat asset". **Replicable** (temporal advantage, a running stopwatch: run, convert the time into more defensible assets) → "operational differentiator". **Imitable** (positional, the benefit is achievable otherwise: work the **court**) → "commodity". The court: services and values around the asset, either so numerous they cannot be replaced as a block, or themselves distinctive. The espresso is imitable; the bar where the barista knows your name is not.
 
-**Triple Constraint** - the flower: three primary values as vectors, with the axiom of the pair. **Distance Scale** - the balance: opposing forces, lever, fulcrum, to prioritize and make a trade-off visible and decided. **Evolution of Values** - planned evolution via **Value Attribution** vs **Value Bandwagoning**, with trigger-based substitution and a reserve pool (required by Transient Stability).
+**Triple Constraint**: the flower: three primary values as vectors, with the axiom of the pair. **Distance Scale**: the balance: opposing forces, lever, fulcrum, to prioritize and make a trade-off visible and decided. **Evolution of Values**: planned evolution via **Value Attribution** vs **Value Bandwagoning**, with trigger-based substitution and a reserve pool (required by Transient Stability).
 
-**Rhyming.** The portfolio-over-time model that extends Evolution of Values: plot each launch as a **Singleton** (a champion plus its bounded supporting ecosystem, fractal) on a five-line staff of Pine and Gilmore value stages (Commodity, Product, Service, Experience, Transformation), and read the result as music. Dots form **strings**, strings group into **movements** of one to four notes, repeated movements mark **beats**, and beat spacing is the **tempo** set by the organization's speed. The governing law: **winners extend, losers orphan.** The discipline: **rhyme, do not copy** - echo your own earlier patterns (internal rhyme, so the portfolio compounds) and land in time with the market (external rhyme). Six success patterns (The Climb, The Repeated Cadence, The Flywheel, The Platform Turn, The Price Cascade, The Commodity Ascent) and six antipatterns (The Orphan, The Stutter, Ahead of the Market's Tempo, No Follow-Through, Over-Rotation, Borrowed Audience). The three horizons read as one three-beat movement. Full notation, pattern cards, scored gallery, credits and limits in `rhyming.md`; run it as the `rhyming` module.
+**Rhyming.** The portfolio-over-time model that extends Evolution of Values: plot each launch as a **Singleton** (a champion plus its bounded supporting ecosystem, fractal) on a five-line staff of Pine and Gilmore value stages (Commodity, Product, Service, Experience, Transformation), and read the result as music. Dots form **strings**, strings group into **movements** of one to four notes, repeated movements mark **beats**, and beat spacing is the **tempo** set by the organization's speed. The governing law: **winners extend, losers orphan.** The discipline: **rhyme, do not copy**: echo your own earlier patterns (internal rhyme, so the portfolio compounds) and land in time with the market (external rhyme). Six success patterns (The Climb, The Repeated Cadence, The Flywheel, The Platform Turn, The Price Cascade, The Commodity Ascent) and six antipatterns (The Orphan, The Stutter, Ahead of the Market's Tempo, No Follow-Through, Over-Rotation, Borrowed Audience). The three horizons read as one three-beat movement. Full notation, pattern cards, scored gallery, credits and limits in `rhyming.md`; run it as the `rhyming` module.
 
 ## Perception
 
@@ -55,14 +55,14 @@ The climb must be earned, not declared (greenwashing = a higher call without the
 - **Bridge** = alliances (the right license grafted onto an asset, LEGO and Star Wars); a moat without bridges isolates you.
 - **Moat** = uniqueness made structural: being the only one doing this thing, this way, for these people. Diagnostic: if a competitor with ten times your capital copied you tomorrow, what would they still fail to replicate? If nothing, you have a castle without a moat. The deepest moat is an ecosystem, not a feature. **The moat is never drained by the enemy, it is usually drained by the purchasing department.** Seven moats, each with its classic attack: network effect (attack the edges), switching cost (attack by paying it), scale (attack by changing the cost structure), brand/permission (attack with the next generation), exclusive asset (bypass or wait out the expiry), court/density (unbundle one piece at a time), community/identity (attack only on the day of exodus). Moats add up; each has a maintenance cost; some are welcomed, some tolerated with resentment (resentment moats die of exodus at the first breach).
 
-**The Asymmetry of Power** - five approaches; **Power Timeline** - four phases: expressive, interactional, positional, identity.
+**The Asymmetry of Power**: five approaches; **Power Timeline**: four phases: expressive, interactional, positional, identity.
 
-**Power Shifting - the Ten Figures.** Power organizes reality; in branding it looks like normality (defaults, what is made easy). Most brand failures are misdiagnosed as communication problems when they are power misalignments. Read through body language: ten observable postures, one per market condition, committed to (not climbed). The danger is not weak power, it is **confused power** (contradictory signals the market feels). Value propositions fail late: scale and success move the power while the language stays the same.
+**Power Shifting: the Ten Figures.** Power organizes reality; in branding it looks like normality (defaults, what is made easy). Most brand failures are misdiagnosed as communication problems when they are power misalignments. Read through body language: ten observable postures, one per market condition, committed to (not climbed). The danger is not weak power, it is **confused power** (contradictory signals the market feels). Value propositions fail late: scale and success move the power while the language stays the same.
 
-- **Expressive** - Emblem (Nike, when recognition beats explanation); Illustrator (Apple, when adoption is fragile and understanding must be orchestrated); Affect display (Coca-Cola, when differentiation is only emotional).
-- **Interactional** - Regulator (Amazon, when friction kills conversion); Adaptor (Tesla, when the category is unstable).
-- **Positional** - Stance (Patagonia, when conviction beats growth); Steeple (Rolex, when authority must be preserved); Proxemics (Hermes, when distance creates value).
-- **Identity** - Orientation (IKEA, when empowerment beats service); Mirroring (Spotify, when identity is the product).
+- **Expressive**: Emblem (Nike, when recognition beats explanation); Illustrator (Apple, when adoption is fragile and understanding must be orchestrated); Affect display (Coca-Cola, when differentiation is only emotional).
+- **Interactional**: Regulator (Amazon, when friction kills conversion); Adaptor (Tesla, when the category is unstable).
+- **Positional**: Stance (Patagonia, when conviction beats growth); Steeple (Rolex, when authority must be preserved); Proxemics (Hermes, when distance creates value).
+- **Identity**: Orientation (IKEA, when empowerment beats service); Mirroring (Spotify, when identity is the product).
 
 Rule: read the market condition first, then choose the gesture. Brands that fail here execute the wrong gesture perfectly.
 
@@ -70,12 +70,28 @@ Rule: read the market condition first, then choose the gesture. Brands that fail
 
 **Value to Market.** See `method-core.md` (the run, the 6%, the three phases, the cadence). Three operational steps in order: build assets → position → craft a story.
 
-**MOA Model.** You build the ladder to your value; three uprights: **Motivation** (why care - extrinsic, intrinsic, emulation, competition, persuasion), **Opportunity** (where/when it makes sense - use cases, setting, what-ifs, honest urgency, constraints), **Ability** (can they understand/use it - calibrated language, metaphors, layered explanation, visual simplification, multiple levels). All three or nothing; volume cures only volume problems. Audit grid: score red/yellow/green per subject, attack the reddest column first. B2B double pass: decision-maker and user are different subjects. The 97% pyramid: only 3% buy now; the other 97% are tomorrow's revenue if educated today.
+**MOA Model.** You build the ladder to your value; three uprights: **Motivation** (why care: extrinsic, intrinsic, emulation, competition, persuasion), **Opportunity** (where/when it makes sense: use cases, setting, what-ifs, honest urgency, constraints), **Ability** (can they understand/use it: calibrated language, metaphors, layered explanation, visual simplification, multiple levels). All three or nothing; volume cures only volume problems. Audit grid: score red/yellow/green per subject, attack the reddest column first. B2B double pass: decision-maker and user are different subjects. The 97% pyramid: only 3% buy now; the other 97% are tomorrow's revenue if educated today.
 
-**Habit 3Rs** - Reminder, Routine, Reward: turn trying into recurring habit after MOA.
+**Habit 3Rs**: Reminder, Routine, Reward: turn trying into recurring habit after MOA.
 
 **Value Stick.** Four notches: WTS (willingness to sell) ≤ costs ≤ price ≤ WTP (willingness to pay). Three slices: **delight** (WTP − price), **margin** (price − costs), **supplier surplus** (costs − WTS). Widen the stick, then decide how to spend the delight slice (share with the customer, take as margin, build loyalty, or reinvest in WTP). De-ideologizes pricing.
 
-**Strategic Storytelling** - context framing and storytelling are two faces of the same coin. **Value Sequence and Value Network** - which value architecture governs the market; moats live disproportionately in the backward links.
+**Strategic Storytelling**: context framing and storytelling are two faces of the same coin. **Value Sequence and Value Network**: which value architecture governs the market; moats live disproportionately in the backward links.
 
-**Value Proposition Checklist** - the fifteen challenges (see `checklist-15.md`), the auditing instrument.
+**Value Proposition Checklist**: the fifteen challenges (see `checklist-15.md`), the auditing instrument.
+
+## Instruments
+
+Field instruments that support the modules. Use them where a module's step calls for them.
+
+- **Stage Assessment.** One true-false statement per step of the order of work in `method-core.md` (assets inventoried, values extracted, premise declared, promise written, proof planned, category framed, channels mapped), read in order; the first false marks the project's real phase. Cuts the assumption that you are further along than you are.
+- **Category Value Map.** Score every player on the five value lenses (functional, emotional, social, ethical, transformational); read crowded zones and empty cells. Only empty cells your assets can prove are candidate frames.
+- **Figure-and-Ladder Read.** Tag each rival's Power Shifting figure and Promise Ladder rung.
+- **USP vs VP Clarification.** End the conflation: the USP is the additive object; the VP is the whole bracket.
+- **Paradox Finder.** Surface the gap between what the organization declares and what it practices.
+- **The Table Protocol.** The values session: half a day, five to eight mixed people, silent individual sorting, compare maps, the asset test, priorities and antitheses. Produces the signed values page.
+- **Channel Census and Triplet Map.** Map value x recipient x channel as single units; build the repair list.
+- **Multi-Proposition Matrix.** Portfolio coherence with local resonance across several value propositions; watch spillover.
+- **The 97% Pipeline.** The demand-pyramid education engine: only 3% buy now, the rest are educated toward a later purchase.
+- **Inflection-Point Audit.** What each unit of premium really pays for.
+- **Spillover Assessment.** Check that several channels carry the proposition without contradicting each other.

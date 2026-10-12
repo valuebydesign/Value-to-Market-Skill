@@ -1,4 +1,4 @@
-# Rhyming - The Model, the Notation, and the Pattern Library
+# Rhyming: The Model, the Notation, and the Pattern Library
 
 Read a company's growth as a piece of music: plot each launch as a dot on a five-line staff of value stages, watch the dots form strings, movements and beats, and rhyme your next move with your own past patterns and the market's tempo instead of copying anyone.
 
@@ -78,31 +78,31 @@ Tie-break: when a launch straddles (AWS is Commodity and Platform at once), plac
 
 ## The six success patterns
 
-**1. The Climb** - `PR1 → EX1 → SR1 → SR2 → CD1` (ascend the staff, then reach down to own the base). Anchor a job-solving offer, wrap it in an Experience that raises switching cost, open a Platform, layer Services, then own the substrate. Each rung reuses the one below. Evidence: Apple, Amazon, Microsoft, Netflix.
+**1. The Climb**: `PR1 → EX1 → SR1 → SR2 → CD1` (ascend the staff, then reach down to own the base). Anchor a job-solving offer, wrap it in an Experience that raises switching cost, open a Platform, layer Services, then own the substrate. Each rung reuses the one below. Evidence: Apple, Amazon, Microsoft, Netflix.
 
-**2. The Repeated Cadence** - `(PR1→EX1→SR1) │ (PR2→EX2→SR2) │ (PR3→EX3→SR3)`. Find a movement that works and re-run it every horizon; each repeat is a clean beat, and the three horizons read as one three-beat movement. Evidence: Apple, Sony, Nintendo.
+**2. The Repeated Cadence**: `(PR1→EX1→SR1) │ (PR2→EX2→SR2) │ (PR3→EX3→SR3)`. Find a movement that works and re-run it every horizon; each repeat is a clean beat, and the three horizons read as one three-beat movement. Evidence: Apple, Sony, Nintendo.
 
-**3. The Flywheel** - `(PR1→EX1→PR2→SR1) │ (PR3→EX2→PR4→SR2)`. A story or IP hub feeds a Product, an Experience, merchandise and a Service, each monetizing the hub and feeding the others. Credited to Jim Collins. Evidence: Disney, LEGO, Nintendo.
+**3. The Flywheel**: `(PR1→EX1→PR2→SR1) │ (PR3→EX2→PR4→SR2)`. A story or IP hub feeds a Product, an Experience, merchandise and a Service, each monetizing the hub and feeding the others. Credited to Jim Collins. Evidence: Disney, LEGO, Nintendo.
 
-**4. The Platform Turn** - `SR1 → SR2* → EX1 → CD1*`. Build a capability for yourself, prove it, then open it as a platform others build on; a repeatable move that becomes its own cadence. Evidence: Amazon, Tesla, LEGO, Meta.
+**4. The Platform Turn**: `SR1 → SR2* → EX1 → CD1*`. Build a capability for yourself, prove it, then open it as a platform others build on; a repeatable move that becomes its own cadence. Evidence: Amazon, Tesla, LEGO, Meta.
 
-**5. The Price Cascade** - `PR1 → SR1* → PR2 → PR3 → PR4`. Enter premium with a halo Product, then descend the price ladder, each success funding the next cheaper model, with an infrastructure Service across the descent. Evidence: Tesla, Xiaomi.
+**5. The Price Cascade**: `PR1 → SR1* → PR2 → PR3 → PR4`. Enter premium with a halo Product, then descend the price ladder, each success funding the next cheaper model, with an infrastructure Service across the descent. Evidence: Tesla, Xiaomi.
 
-**6. The Commodity Ascent** - `CD1 → EX1 → SR1 → SR2*`. Take a Commodity, wrap it in a premium Experience, convert regulars into a membership Service, then license the brand as a Platform. Evidence: Starbucks, Dyson.
+**6. The Commodity Ascent**: `CD1 → EX1 → SR1 → SR2*`. Take a Commodity, wrap it in a premium Experience, convert regulars into a membership Service, then license the brand as a Platform. Evidence: Starbucks, Dyson.
 
 ## The six antipatterns
 
-**A1 The Orphan** - `SR1 ● … PR1 ○`. A launch that echoes nothing in the architecture and has no ecosystem to pull it; on the staff it sits alone. Evidence: GoPro, Peloton, Amazon (Fire Phone), Microsoft, Snapchat, Apple Vision Pro.
+**A1 The Orphan**: `SR1 ● … PR1 ○`. A launch that echoes nothing in the architecture and has no ecosystem to pull it; on the staff it sits alone. Evidence: GoPro, Peloton, Amazon (Fire Phone), Microsoft, Snapchat, Apple Vision Pro.
 
-**A2 The Stutter** - `SR1 → PR1○ → PR2○ → PR3○`. A wrong move made again in the same beat. One off-pattern note is a stumble; repeating it makes the mistake the pattern. Evidence: Snapchat, Peloton, Microsoft.
+**A2 The Stutter**: `SR1 → PR1○ → PR2○ → PR3○`. A wrong move made again in the same beat. One off-pattern note is a stumble; repeating it makes the mistake the pattern. Evidence: Snapchat, Peloton, Microsoft.
 
-**A3 Ahead of the Market's Tempo** - `EX1◐` launched before the market arrives. Internally coherent but early on market, technology or economics: right shape, wrong time. Evidence: Meta, Stadia, Quibi, Sony.
+**A3 Ahead of the Market's Tempo**: `EX1◐` launched before the market arrives. Internally coherent but early on market, technology or economics: right shape, wrong time. Evidence: Meta, Stadia, Quibi, Sony.
 
-**A4 No Follow-Through** - `SR1 ● , PR1✕ , EX1✕ , SR2✕`. Serial launches killed or starved so nothing repeats into a beat, and the audience stops trusting the next one. Really a chain that never formed. Evidence: Google, Amazon (Alexa), Stadia.
+**A4 No Follow-Through**: `SR1 ● , PR1✕ , EX1✕ , SR2✕`. Serial launches killed or starved so nothing repeats into a beat, and the audience stops trusting the next one. Really a chain that never formed. Evidence: Google, Amazon (Alexa), Stadia.
 
-**A5 Over-Rotation on One Rung** - `EX1 → SR1 → SR2 → SR3 → CD1`. Over-committing to one stage and hollowing out the others, until the neglected rung forces a costly swing back. Evidence: Nike, Starbucks, LEGO.
+**A5 Over-Rotation on One Rung**: `EX1 → SR1 → SR2 → SR3 → CD1`. Over-committing to one stage and hollowing out the others, until the neglected rung forces a costly swing back. Evidence: Nike, Starbucks, LEGO.
 
-**A6 Borrowed Audience and Hype** - `SR1(spike) → SR1○(churn)`. Riding borrowed distribution or hype with no internal rhyme: a spike followed by churn. Bandwagoning without rhyme. Evidence: Meta (Threads), Snapchat, Starbucks, Nike.
+**A6 Borrowed Audience and Hype**: `SR1(spike) → SR1○(churn)`. Riding borrowed distribution or hype with no internal rhyme: a spike followed by churn. Bandwagoning without rhyme. Evidence: Meta (Threads), Snapchat, Starbucks, Nike.
 
 ## Chains and horizons
 
@@ -117,6 +117,8 @@ Horizon 1 (launch)   Horizon 2 (growth)   Horizon 3 (scale)
 Companies that compound run one legible chain for a long time. Companies that stall have no chain at all, only scattered notes.
 
 ## Gallery: companies scored
+
+Illustrative readings of public histories: the author's interpretation for teaching the notation, not factual findings about these companies.
 
 - **Amazon** `SR1 → SR2* → EX1 → PR1 → CD1* → PR2○` (store, Marketplace opened, Prime, Kindle, AWS opened, Fire Phone missed)
 - **Tesla** `PR1 → PR2 → SR1* → PR3 → PR4◐` (Roadster, Model S, Supercharger opened, Model 3, Cybertruck mixed)

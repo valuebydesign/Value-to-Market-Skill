@@ -2,11 +2,9 @@
 
 The company-level job that decides what the company stands for and where it goes. It reads the field, settles what the company owns and stands for, designs the category and the defense, builds the value proposition of each line of business, and sets the scenarios the strategy must survive. It can run with a single analyst (you) or in agentic mode with parallel agents (`engine/agentic.md`).
 
-## Value Strategy and Value to Market
+## Scope
 
-Value Strategy decides: which category, which values, which premise, promise and proof, which defense, which posture, which next moves on the staff, which futures to prepare for. Value to Market executes: the plan, the launch, the events, social, the horizon playbooks, the measures, and the reviews against reality (`jobs/valuetomarket.md` and `jobs/realign.md`).
-
-This job stops at the decisions. It names the beachhead and the horizons as strategic choices and leaves their execution to Value to Market. When the user asks for the whole journey, run Strategy, then hand over to Value to Market in the same session.
+This job takes the strategic decisions: category, values, premise, promise and proof, defense, posture, the next moves on the staff, and the futures to prepare for. It names the beachhead and the horizons as choices and leaves their execution to Value to Market, under the boundary rule in `SKILL.md`. When the user asks for the whole journey, run this job, then hand over to Value to Market in the same session.
 
 ## Intake
 
@@ -14,7 +12,7 @@ Read the sources, then ask what is open from the Strategy questions in `engine/i
 
 ## The plan
 
-Write `plan.md` in the run folder: the modules in order, grouped by report, with the checkpoint after each group. Size it with the 6% rule from `method/method-core.md`: the strategy and its engineering are about 6% of the whole project's effort, so state the implied horizon of the delivery it feeds. Cadence: 3 days to align, 12 weeks to design and equip, 6 months to show effects.
+Start with the Stage Assessment (`method/frameworks.md`, Instruments) so the plan begins where the project really is, and skip what `Knowledge/` shows as settled. Write `plan.md` in the run folder: the modules in order, grouped by report, with the checkpoint after each group. Size it with the 6% rule from `method/method-core.md`: the strategy and its engineering should take about 6% of the total project budget; state the delivery horizon this implies. Cadence: 3 days to align, 12 weeks to design and equip, 6 months to show effects.
 
 ## Modules
 

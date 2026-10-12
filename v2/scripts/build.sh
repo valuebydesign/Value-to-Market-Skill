@@ -2,6 +2,7 @@
 # Package the v2 test skill. Output goes to v2/dist/ (ignored by git).
 #   bash v2/scripts/build.sh
 set -euo pipefail
+command -v python3 >/dev/null && command -v zip >/dev/null || { echo "build.sh needs python3 and zip" >&2; exit 1; }
 V2="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$V2"
 VER="$(python3 -c "import json;print(json.load(open('.claude-plugin/plugin.json'))['version'])")"

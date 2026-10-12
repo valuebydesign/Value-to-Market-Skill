@@ -1,4 +1,4 @@
-# Scorecards - quick sanity tests per section
+# Scorecards: quick sanity tests per section
 
 A scorecard is a fast diagnosis, not a grade: fill it the way you take blood tests, hoping it is fine and wanting to know if it is not. Every module self-scores against its scorecard here; the job rolls them into a readiness per report and an overall readiness.
 

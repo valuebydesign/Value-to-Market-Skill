@@ -1,6 +1,6 @@
-# Humanizing the prose - remove AI writing tells
+# Humanizing the prose: removing AI writing tells
 
-Every document, slide, spreadsheet caption, and reasoning file this method produces must read as if a person wrote it for one reader, not as generic machine prose. Before any deliverable is finalized, pass its prose through this check and edit the tells out. Keep every fact, number, name, date, and claim exactly: never invent one to smooth a sentence, and never drop one to remove a tell. This changes how the text reads, not what it says.
+Every document, slide, spreadsheet caption, and reasoning file this method produces must read as if a person wrote it for one reader, not as generic machine prose. Before any deliverable is finalized, pass its prose through this check and edit the tells out. Keep every fact, number, name, date, and claim exactly: never invent one to smooth a sentence, and never drop one to remove a tell. Only the wording changes; the content stays as written.
 
 ## The principle
 A model writes the most likely next words, which fit the widest range of readers, so its prose stages importance, falls into rhythm by rule, inflates ordinary facts, decorates formatting, and leaves chat residue. A person writes for one reader and one subject, so their choices are specific and uneven. Remove the default choices and keep the specific ones.
@@ -25,7 +25,7 @@ Formatting by rule: bold used as decoration, and every list item given a bold la
 Leftovers: chatbot residue ("great question", "I hope this helps", "let me know"); knowledge-limit disclaimers and plausible guesses; a heading restated in its first sentence; writing about the previous version outside a changelog.
 
 ## When not to act
-A person may make any one of these on purpose, so the weaker tells (a single dash, one qualifier, passive voice, hyphenated pairs, curly quotes) count only when several appear together in the same passage. Never strip a real business specific: a number, a named competitor, a date, a sourced figure, a proof point, a first-person judgement the author can defend, or a genuine caveat, scope statement, or legal note. Removing tells is half the job; the result must still sound like a person and still carry every fact.
+A person may make any one of these on purpose, so the weaker tells (a single dash, one qualifier, passive voice, hyphenated pairs, curly quotes) count only when several appear together in the same passage. Never strip a real business specific: a number, a named competitor, a date, a sourced figure, a proof point, a first-person judgement the author can defend, or a genuine caveat, scope statement, or legal note.
 
 ## Source
 The patterns are drawn from Wikipedia's "Signs of AI writing" (WikiProject AI Cleanup), a public catalogue of the marks of machine-generated text.

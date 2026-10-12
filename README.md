@@ -93,6 +93,21 @@ The full method, worked examples, and the *Value by Design* books are at [valuep
 
 ---
 
+## Where it is heading: v2 (preview)
+
+The current release follows the method phase by phase, which works well when you walk the whole run but asks you to know which phase or tool answers your question. The next version, in preview in the [`v2/`](v2/) folder, starts from what you want done instead:
+
+- Assess a value proposition: yours, a competitor's, a list of websites, a folder, a whole industry.
+- Build one, for an existing business or from scratch.
+- Fine-tune one when the market, the strategy or the trends move, with plausible scenarios of what comes next.
+- Build a value strategy, optionally in agentic mode, where parallel agents scout competitors, draft rival strategies, attack them and stress-test them against scenarios before the strongest one is assembled.
+- Value to Market: turn the strategy into an operational plan with a workplan, the launch strikes and their events, social and content, and horizon playbooks that fire when their conditions are met.
+- Realign: review what was done, delayed or not working, find out why, and bring the plan, the strategy and the documents back in line with reality.
+
+It is one skill with one copy of the method. It talks with you Socratically, delivers in conversation, as short briefs or as full documents, and keeps finished deliverables (`Value Strategy/`) apart from the working space that serves as the project's memory (`Value Workspace/`). Read [how v2 works](v2/docs/how-it-works.md) and the [v2 notes](v2/README.md). The preview may change before it replaces the current release; your feedback shapes it.
+
+---
+
 ## The books: the *Value by Design* collection
 
 *Value by Design* describes and implements the Value-to-Market (V2M) Framework across three books. Read them to learn the method; use this skill to apply it.
@@ -103,9 +118,11 @@ The full method, worked examples, and the *Value by Design* books are at [valuep
 | **Value Proposition Strategy** | the why and where | Reading the field, designing a category, building a moat, moving value against resistance through the market as wilderness. |
 | **Value Proposition Engineering** | the how and at scale | KPIs and validation, automation, AI integration, the go-to-market machinery that makes value repeatable. |
 
+The skill applies the method; the books give you the judgement behind it: why the order of work matters, how to read a weak promise or a drained moat, and how to shape a value strategy your team can defend in front of a board and a market. If you want the skill's recommendations to become your own decisions, start with the books.
+
 <div align="center">
 
-Learn more and get the books at **[valueproposition.design](https://valueproposition.design)**
+**[Get the *Value by Design* books at valueproposition.design](https://valueproposition.design)**
 
 </div>
 
@@ -154,6 +171,7 @@ skills/<name>/references/      the method references that skill reads (self-cont
 dist/                          one ready-to-drop package per tool, plus a universal package
 scripts/build-dist.sh          rebuilds the dist packages
 README.md  LICENSE  CHANGELOG.md  package.json
+v2/                            the v2 preview: one job-driven skill, its docs, manifest and build script
 ```
 
 Every skill is self-contained: it carries the reference files it needs and reads them by relative path, so a single skill installs cleanly on any agent. Maintainers can regenerate the `dist/` packages with `npm run build`.

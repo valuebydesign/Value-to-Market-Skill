@@ -8,7 +8,7 @@ Load `Knowledge/Plan.md`, `Knowledge/Progress Log.md`, the last Value to Market 
 
 ## Intake
 
-Ask what is open from the Realign questions in `engine/intake.md`: the period under review, where the evidence lives (analytics, CRM, social reports, project board, event results, finance), what the user believes was done and not done, the surprises, and any change in team, budget or priorities. Read the evidence before the conversation about causes: people remember intentions, the evidence shows outcomes.
+Ask what is open from the Realign questions in `engine/intake.md`: the period under review, where the evidence lives (analytics, CRM, social reports, project board, event results, finance), what the user believes was done and not done, the surprises, and any change in team, budget or priorities. Read the evidence before the conversation about causes: people tend to report what they meant to do.
 
 ## Modules
 
@@ -22,7 +22,7 @@ Ask what is open from the Realign questions in `engine/intake.md`: the period un
 
 - **Status before judgement.** Settle the status of every item with the user before asking why. Mixing the two turns the review into a defense.
 - **Ask why without blame.** The question is what in the plan, the strategy, the market or the measurement produced the gap. Use the Socratic moves in `engine/conversation.md`, especially "what would have to be true for this to work next time".
-- **Not working is a different finding from not done.** A thing delivered without the expected result tests the strategy. A thing not delivered tests the plan.
+- **Separate not working from not done.** Delivered without the expected result points to the strategy; not delivered points to the plan.
 - **Escalate only what failed.** A strategy change touches only the elements whose assumptions the evidence falsified. Everything else stays, and the report says so.
 
 ## Checkpoints

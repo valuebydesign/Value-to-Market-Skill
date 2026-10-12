@@ -46,7 +46,7 @@ The Decisions and Agenda table in the Executive Summary holds the fixes ranked b
 
 ## Gate
 
-The job is done when the 3P headline, the reddest structural challenge with its cost, and the fastest quick win are stated and independently checked. A low score is a finding, and reporting it completes the job.
+The job is done when the 3P headline, the reddest structural challenge with its cost, and the fastest quick win are stated and independently checked. Report a low score as the result; the job is still complete.
 
 ## Hand-off
 

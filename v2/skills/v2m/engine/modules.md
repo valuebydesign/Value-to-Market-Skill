@@ -1,6 +1,6 @@
 # Modules: the toolbox
 
-Each module is one unit of analysis. Jobs call modules; modules never produce a document on their own. A module writes its working note to `modules/<module>-<subject>.md` in the run folder (`engine/workspace.md`) (inputs and evidence, working, one recommendation, self-score, open decisions) and, where listed, fills a tab of the run workbook. The reports in `engine/reports.md` are composed from these notes.
+Each module is one unit of analysis. Modules run only inside a job and produce notes, never documents. A module writes its working note (inputs and evidence, working, one recommendation, self-score, open decisions) to `modules/<module>-<subject>.md` in the run folder described in `engine/workspace.md` and, where listed, fills a tab of the run workbook. The reports in `engine/reports.md` are composed from these notes.
 
 Format of each entry: **Purpose**, **Reads** (method references), **Steps**, **Produces** (note fields and workbook tab), **Score** (scorecard in `method/scorecards.md`), **Feeds**.
 
@@ -20,7 +20,7 @@ Modules are grouped by what they do. Run them in the method's order: assets, val
 
 ### benchmark
 - **Purpose:** read the field with the customer's yardstick.
-- **Reads:** `method/frameworks.md` (Three Oceans, Category Design), `method/tools-and-chains.md` (Category Value Map, Figure-and-Ladder Read).
+- **Reads:** `method/frameworks.md` (Three Oceans, Category Design), `method/frameworks.md` (Instruments: Category Value Map, Figure-and-Ladder Read).
 - **Steps:** 1. Build four rings: direct competitors, competitors (same job, other offer), alternatives (other solution, do-nothing, in-house), similarities (analogous industries with the same structure). 2. Profile each player on value proposition, USP, core values, claims, strategic direction; mark evidenced or inferred. 3. Ocean read per line of business: red, blue or new, and the arsenal each demands. 4. Category Value Map on the five lenses (functional, emotional, social, ethical, transformational); mark crowded zones and empty cells. 5. Power figure and ladder rung of each key rival. 6. Standing: lead, match or lag by lens, in benefit terms. 7. White space: keep only the empty cells an owned asset can prove.
 - **Produces:** rings, profiles, value map, standing, white space; tabs "Rings", "Value map", "White space".
 - **Score:** Benchmark.
@@ -144,7 +144,7 @@ Modules are grouped by what they do. Run them in the method's order: assets, val
 
 ### channels
 - **Purpose:** carry the value without dispersing it.
-- **Reads:** `method/frameworks.md`, `method/tools-and-chains.md` (Channel Census and Triplet Map).
+- **Reads:** `method/frameworks.md` (Value Proposition Formula; Instruments: Channel Census and Triplet Map, Spillover Assessment).
 - **Steps:** 1. Census of channels and touchpoints. 2. Triplet map: value, recipient, channel as one unit. 3. Spillover check. 4. Unconventional channels rivals ignore, each with the audience it reaches and why it is hard to follow. 5. Repair list by damage. 6. One brief per channel.
 - **Produces:** triplet map, repairs, briefs; tabs "Triplets", "Channel repairs".
 - **Score:** Channels.
@@ -220,7 +220,7 @@ Modules are grouped by what they do. Run them in the method's order: assets, val
 
 ## F. Value to Market (execution)
 
-These modules belong to the Value to Market job. They take a strategy as given and turn it into work people can start on Monday. Every action they plan cites the strategic decision it executes; an action that executes nothing is cut or flagged as a proposal.
+These modules belong to the Value to Market job and follow the boundary rule in `SKILL.md`. Every action they plan cites the strategic decision it executes; an action that executes nothing is cut or flagged as a proposal.
 
 ### tactics
 - **Purpose:** carry the value into the market without a frontal fight.

@@ -1,54 +1,52 @@
-# Value to Market v2 (test version)
+# Value to Market v2 (preview)
 
-An experimental rework of the Value to Market skill, kept apart from v1 in this folder. It may be merged, changed or deleted. v1 in `skills/` is untouched and keeps working.
+The next version of the Value to Market skill, kept apart from the current release in this folder while it is tested. The current release in `skills/` is untouched and keeps working; both can be installed side by side.
 
-## Why a v2
+## The direction
 
-v1 is organized by the method's phases: 38 skills (init, run, seven phase sets, 29 tools), each carrying its own copy of the reference files. It guides well when the user follows the run, but it does not answer the requests people actually bring: "assess this value proposition", "build me one", "things changed, fine-tune it", "build me a value strategy". The user has to know which set or tool to call, the reports come out one per tool and repeat each other, and working files sit next to the deliverables.
+The current release follows the method phase by phase: an initialization skill, a run engine, one skill per phase and one per tool, each carrying its own copy of the method. It guides well when you walk the whole run, but it expects you to know which phase or tool answers your question, it produces one document per tool, and its working files sit next to the deliverables.
 
-v2 starts from the job instead:
+v2 starts from what you want done. You ask to assess a value proposition, build one, fine-tune one, build a value strategy, turn that strategy into an operational Value to Market plan, or realign the plan and the strategy with what really happened. The skill picks the method's tools for the job, asks only the questions your sources leave open, and hands back one coherent set of documents.
 
-- **One skill, `v2m`,** with six jobs (Assess, Build, Fine-tune, Value Strategy, Value to Market, Realign) and a free-question mode. The skill picks the modules; the user never has to know their names.
-- **One copy of the method,** in `skills/v2m/method/`, shared by every job.
-- **Socratic conversation:** the skill reads the sources first, states a hypothesis, and asks only the questions that change the result, at a few checkpoints.
-- **Any source:** a website, a list of websites, "my 5 competitors", an industry, a folder, a pasted pitch, a previous run, or nothing at all (from scratch).
-- **Reports clustered by phase,** with every element in one home report and no figure repeated across documents.
-- **Three output forms:** Conversational (talked through in chat), Synthetic (one-page briefs), Documents (full reports).
-- **Delivery separated from work:** `Value Strategy/` holds only finished documents in three semantic folders; `Value Workspace/` holds notes, sources, agent outputs and the project's durable memory as a markdown vault.
-- **Agentic mode** for the Strategy job: scouts, scenario builder, rival strategy architects, red team and wind tunnel run in parallel, and the orchestrator synthesizes the strongest strategy.
-- **Value Strategy and Value to Market kept apart:** the strategy decides; Value to Market turns the decisions into an operational plan (workplan with RACI and budget, the three launch strikes and their events, social and content with a community playbook, horizon playbooks that fire when their conditions are met and rhyme with the portfolio, KPIs, validation and a trigger monitor).
-- **Realign with reality:** a review run that sets the status of every planned item (done, not done, delayed, not working), finds the causes, decides what changes, escalates only falsified assumptions to the strategy, and updates every stale document with the old version archived.
-- **Fine-tune with scenarios:** change scan, drift test, plausible scenarios with signposts and pre-decided responses, and a redline of the proposition.
+Under the hood it is a single skill with a single copy of the method. It works Socratically: it reads what you point to, states a hypothesis, and lets you confirm or correct it at a few checkpoints. Results come in the form you choose (a conversation, short briefs or full documents), and every fact lives in one document only, so updating one never leaves another out of date. Finished documents go to `Value Strategy/`, organized in four subject folders and an archive; the working notes, sources and the project's memory go to `Value Workspace/`, a markdown vault that every later job reads first.
+
+The strategy and its execution are separate jobs. Value Strategy decides the category, the values, the premise, promise and proof, the defense and the scenarios to prepare for. Value to Market turns those decisions into a workplan, the three launch strikes and their events, a social and content plan, and horizon playbooks that fire when their conditions are met and rhyme with the portfolio. Realign compares the plan with reality, finds out why things were delayed or did not work, and sends only what reality disproved back to the strategy.
+
+For a value strategy, an agentic mode can run the work in parallel: scouts research competitors and trends, several architects draft rival strategies, a red team and a scenario stress test attack them, and the strongest strategy is assembled from what survives.
+
+Read [how v2 works](docs/how-it-works.md) for the user guide.
 
 ## Layout
 
 ```
 v2/
+  docs/how-it-works.md   the user guide
   skills/v2m/
-    SKILL.md            the router: recognize the job, intake, plan, work, deliver
-    jobs/               assess, build, finetune, strategy, valuetomarket, realign
-    engine/             conversation, intake, modules, reports, workspace, agentic
-    method/             the V2M method: core, frameworks, glossary, principles, checklist,
-                        customer fit, rhyming, scorecards, humanize, report format
-  .claude-plugin/       plugin manifest (name: value-to-market-v2, coexists with v1)
-  scripts/build.sh      packages the test skill into v2/dist/
+    SKILL.md             the router: recognize the job, intake, plan, work, deliver, and the rules for every job
+    jobs/                assess, build, finetune, strategy, valuetomarket, realign
+    engine/              conversation, intake, modules, reports, workspace, agentic
+    method/              the V2M method: core, frameworks, glossary, principles, checklist,
+                         customer fit, rhyming, scorecards, humanize, report format
+    CREDITS.md, LICENSE  attributions and the CC BY-SA 4.0 license, shipped with the skill
+  .claude-plugin/        plugin manifest (value-to-market-v2, coexists with the current release)
+  scripts/build.sh       packages the preview into v2/dist/
 ```
 
-## How v1 maps to v2
+## From the current release to v2
 
-| v1 | v2 |
+| Current release | v2 |
 |---|---|
-| `v2m-init`, `v2m-value-strategy`, `v2m-value-to-market-run` | the router in `SKILL.md`, the intake, and the masterplan inside the Strategy job |
-| `v2m-set-1` to `v2m-set-7` | the jobs, which call modules in the method's order, and the report library |
-| `v2m-tool-*` (29 tools) | modules in `engine/modules.md`, same procedures, no per-tool documents |
-| one Word, Excel or deck per tool and per set | one report per phase cluster, one workbook per job, deck on request |
-| numbered phase folders inside `Value Strategy/` | `Value Strategy/` for delivery (Market, Value Proposition, Strategy, Value to Market, Archive) and `Value Workspace/` for work and memory |
-| `v2m-set-5-market`, `v2m-set-6-engineer` | the Value to Market job, with tactics and engineering joined by workplan, social, events and horizon-playbooks |
-| new in v2 | source-read, business-sketch, change-scan, drift-test, scenarios, redline, the Realign job (progress-review, kpi-readout, root-cause, realign), agentic mode, output forms |
+| initialization, value strategy and run skills | the router in `SKILL.md`, the intake, and the plan inside each job |
+| one skill per phase | jobs that call modules in the method's order, and a library of phase reports |
+| one skill per tool | modules in `engine/modules.md`, with the same procedures |
+| market and engineering phases | the Value to Market job, extended with workplan, social, events and horizon playbooks |
+| one document per tool and per phase | one report per phase cluster, one workbook per job, a deck on request |
+| numbered phase folders | `Value Strategy/` for delivery, `Value Workspace/` for work and memory |
+| new in v2 | reading sources, business sketch, change scan, drift test, scenarios, redline, the Realign job, agentic mode, output forms |
 
 ## Try it
 
-Claude Code, from the repository root:
+In Claude Code, from the repository root:
 
 ```
 claude --plugin-dir ./v2
@@ -58,14 +56,23 @@ Then ask, for example:
 
 - "Assess the value proposition of example.com against these four competitors: ..."
 - "Build me a value proposition from scratch for a B2B service in industrial maintenance."
-- "Our market changed, fine-tune our value proposition." (pointing to a folder or a previous run)
+- "Our market changed, fine-tune our value proposition."
 - "Build our value strategy in agentic mode."
 - "Turn our strategy into a Value to Market plan: launch events, social, the three horizons."
 - "Three months in: review what we did against the plan and realign everything."
-- `/v2m assess https://example.com`
 
-Other agents: run `bash v2/scripts/build.sh` and copy the `v2m` folder from `v2/dist/value-to-market-v2-skill-*.zip` into the agent's skills directory. If v1 is installed too, both work side by side.
+For other agents, run `bash v2/scripts/build.sh` and copy the `v2m` folder from `v2/dist/value-to-market-v2-skill-*.zip` into the agent's skills directory.
 
-## Removing the test
+## Learn the method
 
-Delete the `v2/` folder. Nothing outside it depends on it.
+The skill applies the Value-to-Market (V2M) Framework from Hoang Huynh's *Value by Design* collection: *Value Proposition Design*, *Value Proposition Strategy* and *Value Proposition Engineering*. The skill gives you recommendations; the books give you the judgement to make them your own decisions and to shape a value strategy your team can defend.
+
+**[Get the books at valueproposition.design](https://valueproposition.design)**
+
+## Credits and license
+
+Released under CC BY-SA 4.0 (`skills/v2m/LICENSE`). The frameworks the method adapts, and their originators, are listed in `skills/v2m/CREDITS.md`.
+
+## Removing the preview
+
+Delete the `v2/` folder and the "Where it is heading" section of the root README. Nothing else depends on it.

@@ -7,11 +7,12 @@ Every deliverable uses one house style so it drops cleanly into any template and
 - **Brand line (footer of every file):** Value by Design - Value-to-Market Framework - Hoang Huynh 2026.
 - **Voice:** authored and restrained, never a dashboard. No em-dash anywhere.
 - **Self-contained:** every document reads on its own for a business reader. Never name a skill, a module, a command, or a `/v2m` token, and never include a "next step: run X" line. Where the document points forward, write it as a business next step.
+- **Decision support:** every document ends with one line stating that it supports decisions and is not legal, financial or investment advice.
 - **Human, not machine:** before finalizing, remove the AI writing tells per `humanize.md` (no staged not-X-but-Y contrasts, one-line closers, forced triads, inflated significance, sales language, decorative bold, or chatbot residue). Keep every fact; the result must sound like a person.
 
 ## Palette (exact)
 
-- Highlight (the tactical color): `#8E0044` - used sparingly, as the single accent (a thin rule, a table header fill, one key figure). Never as a fill behind long text.
+- Highlight (the tactical color): `#8E0044`: used sparingly, as the single accent (a thin rule, a table header fill, one key figure). Never as a fill behind long text.
 - Black text: `#111111`. Body text dark grey: `#262626`. Muted grey: `#595959`. Hairlines and borders: `#D9D9D9`. Light fill / banding: `#F2F2F2`. White: `#FFFFFF`.
 - No other colors. Do not use red/green/amber fills for scores; use the words Green/Yellow/Red or a grey scale plus the single highlight.
 

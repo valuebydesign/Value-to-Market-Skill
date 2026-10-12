@@ -1,12 +1,12 @@
 # Job: Value to Market
 
-Turn a value strategy into an operational plan the team can execute: who does what and when, the launch with its three strikes and its events, social and content, the three horizons as playbooks that fire when their conditions are met, and the measures that tell whether it is working. The strategy is an input here. This job plans its execution and does not reopen its decisions.
+Turn a value strategy into an operational plan the team can execute: who does what and when, the launch with its three strikes and its events, social and content, the three horizons as playbooks that fire when their conditions are met, and the measures that tell whether it is working. The strategy is the input; the boundary rule in `SKILL.md` applies.
 
 ## Starting point
 
 - **A strategy exists** in `Knowledge/` (from a Strategy or Build job, from v1, or from the user's own documents): load it, list the decisions that need execution, and confirm the list with the user.
 - **Only a value proposition exists** (a Build job, no company strategy): proceed for that line of business; note that the category, defense and horizons were not designed and keep the horizon playbooks short.
-- **Nothing exists:** say that a plan without a strategy executes guesses. Offer to run Build (Quick) or Strategy first; proceed without it only if the user insists, and mark every strategic input as Assumed.
+- **Nothing exists:** say that without a strategy every plan item rests on assumptions. Offer to run Build (Quick) or Strategy first; proceed without it only if the user insists, and mark every strategic input as Assumed.
 
 ## Intake
 
@@ -22,7 +22,7 @@ Ask what is open from the Value to Market questions in `engine/intake.md`: the l
 
 Order matters: tactics sets the beachhead and the strikes; the workplan locks milestones to them; social and events fill the strike phases; horizon-playbooks prepare what follows the beachhead; engineering wires the measures, the validation tests and the trigger monitor across all of it.
 
-Agentic mode is available here too (`engine/agentic.md`): once tactics and the workplan are agreed, run social, events and horizon-playbooks as parallel agents briefed with the same strike sequence, then reconcile their outputs in the workplan.
+Agentic mode is available here too (`engine/agentic.md`), after stating the number of agents and getting the user's go: once tactics and the workplan are agreed, run social, events and horizon-playbooks as parallel agents briefed with the same strike sequence, then reconcile their outputs in the workplan.
 
 ## Checkpoints
 
@@ -59,4 +59,4 @@ Write `Knowledge/Plan.md` (the plan in force, with playbook states) and seed `Kn
 
 ## Hand-off
 
-Offer to schedule the first Realign review on the date set in the plan, and say what evidence to collect until then (the KPI sources, the status updates, the event results).
+Remind the user of the first Realign review date set in the plan (offer to create a reminder only if the host supports it and the user says yes), and say what evidence to collect until then (the KPI sources, the status updates, the event results).

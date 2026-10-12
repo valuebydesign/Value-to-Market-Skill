@@ -1,6 +1,6 @@
 # Reports: one coherent set, no overlap
 
-Modules produce notes. Reports are written for people. A report clusters the modules of one phase into a single argument, so the reader gets one document per question they care about, whatever number of tools fed it.
+A report clusters the working notes of one phase's modules into a single argument for a human reader, one document per question the reader cares about.
 
 ## The report library
 
@@ -23,7 +23,7 @@ Modules produce notes. Reports are written for people. A report clusters the mod
 | | Strategy Deck | Strategy | The argument on slides | deck |
 | | Workbook | root | Every table behind the reports, including the execution calendar | the workbook tab of each module |
 
-Each job uses a subset (see the job files). Reports 4 and 5 are written once per line of business. Reports 1 to 7 hold the strategy (what we decide and why); reports 8 to 12 hold Value to Market (how it gets done and how it is going). An execution document never re-argues a strategic decision: it cites it by document and section and plans its execution.
+Each job uses a subset (see the job files). Reports 4 and 5 are written once per line of business. Reports 1 to 7 hold the strategy; reports 8 to 12 hold Value to Market and follow the boundary rule in `SKILL.md`.
 
 ## One fact, one home
 
@@ -40,6 +40,8 @@ After drafting, run the overlap check: compare the reports section by section, a
 ## How a report reads
 
 Organize each report around the reader's questions. Headings name what the reader wants to know ("Who it is for", "What we promise", "Why it will hold"); the canonical terms (Premise, Promise, Proof, Core Values, Formula) appear in the text exactly as `method/glossary.md` defines them.
+
+Statements about named companies carry their source and observation date; inferences about them are labelled as the analyst's reading (see the rules in `SKILL.md`). Every report closes with one line stating that it is decision support and not legal, financial or investment advice.
 
 Structure of a phase report:
 
@@ -76,7 +78,7 @@ Record what was reconciled in the run's `delivery.md`. Anything that cannot be r
 
 ## Independent check
 
-Run the `independent-check` module on each report before it ships, ideally as a separate subagent that sees the report and not the working notes. The appendix shows the independent score. If a report fails, say so in chat, name the weakest criterion, and offer the iteration; never present a failing report as finished.
+Run the `independent-check` module on each report before it ships, ideally in one separate checker subagent that sees the reports and not the working notes (one checker for the whole set, not one per report). The appendix shows the independent score. If a report fails, say so in chat, name the weakest criterion, and offer the iteration; never present a failing report as finished.
 
 ## Production
 

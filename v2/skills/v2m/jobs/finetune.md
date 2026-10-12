@@ -35,7 +35,7 @@ Re-run only what the change touches. Everything else is carried forward from `Kn
 ## Checkpoints
 
 1. After the change scan: show the changes mapped to the Formula factors and the P they weaken; ask whether anything is missing or overstated.
-2. After the scenarios: show the scenarios in one line each with their plausibility, and ask which the user finds most and least likely, and why. Their answer is evidence; record it.
+2. After the scenarios: show the scenarios in one line each with their plausibility, and ask which the user finds most and least likely, and why. Record their answer in `assumptions.md`.
 3. Before writing: show the redline (keep, adjust, replace) for the elements that change, and the no-regret moves.
 
 ## Reports

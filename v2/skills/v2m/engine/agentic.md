@@ -1,6 +1,6 @@
 # Agentic mode
 
-For the Value Strategy job, the work can be split across several agents running in parallel. Scouts gather evidence, architects draft rival strategies, a red team attacks them, and the orchestrator (you) synthesizes the strongest strategy and writes the reports. Use it when the market is contested, when there are several lines of business, or when the user wants several strategic options weighed against each other.
+For the Value Strategy job (and, in a lighter form, for Value to Market), the work can be split across several agents running in parallel. Scouts gather evidence, architects draft rival strategies, a red team attacks them, and the orchestrator (you) synthesizes the strongest strategy and writes the reports. Use it when the market is contested, when there are several lines of business, or when the user wants several strategic options weighed against each other.
 
 The modes of thinking the method needs (diagnosis, generation, attack) work better when kept apart. An architect who also scores its own strategy will go easy on it, and a red team that never wrote a strategy attacks without mercy. Agentic mode keeps those roles in separate contexts.
 

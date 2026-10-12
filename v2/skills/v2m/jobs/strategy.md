@@ -1,6 +1,12 @@
 # Job: Build a value strategy
 
-The company-level job: read the field, settle what the company owns and stands for, design the category and the defense, build the value proposition of each line of business, plan the go-to-market and the evolution. It can run with a single analyst (you) or in agentic mode with parallel agents (`engine/agentic.md`).
+The company-level job that decides what the company stands for and where it goes. It reads the field, settles what the company owns and stands for, designs the category and the defense, builds the value proposition of each line of business, and sets the scenarios the strategy must survive. It can run with a single analyst (you) or in agentic mode with parallel agents (`engine/agentic.md`).
+
+## Value Strategy and Value to Market
+
+Value Strategy decides: which category, which values, which premise, promise and proof, which defense, which posture, which next moves on the staff, which futures to prepare for. Value to Market executes: the plan, the launch, the events, social, the horizon playbooks, the measures, and the reviews against reality (`jobs/valuetomarket.md` and `jobs/realign.md`).
+
+This job stops at the decisions. It names the beachhead and the horizons as strategic choices and leaves their execution to Value to Market. When the user asks for the whole journey, run Strategy, then hand over to Value to Market in the same session.
 
 ## Intake
 
@@ -8,7 +14,7 @@ Read the sources, then ask what is open from the Strategy questions in `engine/i
 
 ## The plan
 
-Write `plan.md` in the run folder as the masterplan: the modules in order, grouped by report, with the checkpoint after each group. Size it with the 6% rule from `method/method-core.md`: the strategy work is about 6% of the whole project's effort, so state the implied horizon of the delivery it feeds. Cadence: 3 days to align, 12 weeks to design and equip, 6 months to show effects.
+Write `plan.md` in the run folder: the modules in order, grouped by report, with the checkpoint after each group. Size it with the 6% rule from `method/method-core.md`: the strategy and its engineering are about 6% of the whole project's effort, so state the implied horizon of the delivery it feeds. Cadence: 3 days to align, 12 weeks to design and equip, 6 months to show effects.
 
 ## Modules
 
@@ -18,7 +24,6 @@ Write `plan.md` in the run folder as the masterplan: the modules in order, group
 | Foundations | business-sketch, assets, core-values | company level, once |
 | Company strategy | category-design, value-matrix, defense, power, rhyming | in agentic mode: the architects draft rival strategies here and through Design |
 | Per line of business | jobs, archetypes (Full), personas, canvas, adoption, 3p, ladder, pricing, channels, formula, verbalization | once per line in scope |
-| Market and execution | tactics, engineering | |
 | Evolution | scenarios | in agentic mode: the scenario builder and the wind tunnel |
 | Model | bmc | per audience and per horizon |
 | Packaging | guidelines and deck (Full) | |
@@ -28,9 +33,7 @@ Depth: Quick runs Field, Foundations, Company strategy and a single-line Design 
 ## Gates
 
 - Do not design any line of business while core values or the category are below pass.
-- Do not plan the launch while a line's Formula has a factor near zero.
-- The launch passes only if each strike has an owner, a best action and a confirming signal, and the big event has a date, a single message and a landing metric.
-- The engineering pack passes only with a decay guard on KPIs, a falsification test, and an owner and automation for each validation test.
+- Do not hand over to Value to Market while a line's Formula has a factor near zero, or while the scenarios lack signposts and pre-decided responses.
 
 ## Checkpoints
 
@@ -46,12 +49,11 @@ Single-analyst mode: after Field (the rivals and the ocean), after Foundations (
 | 6 Company Strategy (with "Options considered" in agentic mode) | yes | yes | yes |
 | 4 Customer and Fit, per line | no | yes | yes |
 | 5 Value Proposition Design, per line | yes | yes | yes |
-| 7 Go-to-Market and Execution | no | yes | yes |
-| 8 Evolution and Scenarios | no | yes | yes |
+| 7 Evolution and Scenarios | no | yes | yes |
 | Guidelines, Strategy Deck | no | no | yes |
 
-The Executive Summary's Decisions and Agenda table gathers the open items of every 3P (promise element next to its proof), the proofs to build, the validation tests, the launch decisions, the scenario triggers and any section below pass, each with owner, horizon and before or after launch.
+The Executive Summary's Decisions and Agenda table gathers the open items of every 3P (promise element next to its proof), the proofs to build, the validation tests, the scenario triggers and any section below pass, each with owner, horizon and before or after launch. These items are the input of the Value to Market job.
 
 ## Hand-off
 
-Fine-tune is the routine that keeps the strategy alive: offer to rerun it when a trigger in `Knowledge/Changes and Triggers.md` fires, or on a cadence the user chooses.
+Offer Value to Market next, to turn the decisions into an executable plan. Fine-tune is the routine that keeps the strategy alive when a trigger in `Knowledge/Changes and Triggers.md` fires.

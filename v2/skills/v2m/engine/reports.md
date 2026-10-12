@@ -13,13 +13,17 @@ Modules produce notes. Reports are written for people. A report clusters the mod
 | 4 | Customer and Fit | Value Proposition | Who hires us, for which jobs, and will they adopt | jobs, archetypes, personas, canvas, adoption |
 | 5 | Value Proposition Design | Value Proposition | What exactly do we promise, to whom, proven how, priced how, said how | 3p, ladder, pricing, channels, formula, verbalization, redline (Fine-tune) |
 | 6 | Company Strategy | Strategy | Which category, which ecosystem, which defense, which posture, which next moves | category-design, value-matrix, defense, power, rhyming, bmc |
-| 7 | Go-to-Market and Execution | Strategy | How we enter, launch and expand, and how the team executes and measures it | tactics, engineering |
-| 8 | Evolution and Scenarios | Strategy | What is changing, what could happen, and how the proposition will respond | change-scan, scenarios |
+| 7 | Evolution and Scenarios | Strategy | What is changing, what could happen, and how the proposition will respond | change-scan, scenarios |
+| 8 | Value to Market Plan | Value to Market | Who does what, by when, with which budget, measured how | workplan, engineering |
+| 9 | Launch and Events Playbook | Value to Market | How we enter the market: the beachhead, the three strikes, the big event, and each event's brief | tactics, events |
+| 10 | Social and Content Plan | Value to Market | What we publish, where, when, and how we run the community | social |
+| 11 | Horizons Playbook | Value to Market | What we launch next and when: the conditions, the rhyming moves, the readiness of each play | horizon-playbooks |
+| 12 | Alignment Review | Value to Market | What was done, what was not, why, and what changes in the plan, the strategy and the documents | progress-review, kpi-readout, root-cause, realign |
 | | Guidelines | Value Proposition | How the team applies the proposition consistently | guidelines |
 | | Strategy Deck | Strategy | The argument on slides | deck |
-| | Workbook | root | Every table behind the reports | the workbook tab of each module |
+| | Workbook | root | Every table behind the reports, including the execution calendar | the workbook tab of each module |
 
-Each job uses a subset (see the job files). Reports 4 and 5 are written once per line of business.
+Each job uses a subset (see the job files). Reports 4 and 5 are written once per line of business. Reports 1 to 7 hold the strategy (what we decide and why); reports 8 to 12 hold Value to Market (how it gets done and how it is going). An execution document never re-argues a strategic decision: it cites it by document and section and plans its execution.
 
 ## One fact, one home
 

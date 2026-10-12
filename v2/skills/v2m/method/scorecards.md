@@ -253,6 +253,70 @@ Each criterion scores 0 to 3:
 4. Changes sequenced: no-regret now, scenario-dependent with triggers.
 5. Revised Formula has no factor near zero.
 
+## Workplan (module: workplan)
+
+1. Every strategic decision that needs execution appears in the plan, and every action cites the decision it executes.
+2. Workstreams have deliverables, owners, dates, dependencies and budget.
+3. Milestones are locked to the strikes and the big event.
+4. Capacity and budget checked against the constraints, with the cut named where they do not fit.
+5. Critical path, top risks and the operating rhythm, including the first realignment review date.
+
+## Social (module: social)
+
+1. Each platform carries a named value for a named recipient; platforms that carry none are dropped.
+2. Pillars drawn from the core values and semantic spaces, each tied to a proof family and a rung.
+3. Calendar locked to the strike phases and the big event.
+4. Community playbook covers excluded customers, complaints and crisis escalation, in the agreed tone.
+5. KPIs per pillar mapped to MOA with a decay guard, and sample posts written.
+
+## Events (module: events)
+
+1. One event per strike and one for the big event, each format matched to the strike's job.
+2. Each event has a single message, the proof shown and at least one costly proof across the set.
+3. Audience, invitation list and sequence defined.
+4. Date, run of show, logistics, budget and owner set.
+5. Confirming signal gates the next strike, with a fallback if it does not come.
+
+## Horizon Playbooks (module: horizon-playbooks)
+
+1. Entry conditions for each horizon with thresholds.
+2. The Singleton move for each horizon, with its internal and external rhyme.
+3. The play: workstreams, owner, budget reserve, first thirty days.
+4. Lead-time preparation listed and readiness states (dormant, prepare, armed, fire) with the conditions between them.
+5. Abort conditions, success signal and a tempo check.
+
+## Progress Review (module: progress-review)
+
+1. Every planned item has a status.
+2. Each status carries evidence, or is marked as the user's account only.
+3. Not working is distinguished from not done.
+4. Delays carry the new date and the reason.
+5. Unplanned work is listed with its reason.
+
+## KPI Readout (module: kpi-readout)
+
+1. Each KPI shows actual, target, baseline and source.
+2. Validation tests marked passed, failed, inconclusive or not run.
+3. Triggers read: fired, close, silent, with the playbook states updated.
+4. Decayed metrics identified and replaced.
+5. The readout separates signal from noise (sample size, period, seasonality).
+
+## Root Cause (module: root-cause)
+
+1. Every gap has a cause pursued until it is actionable.
+2. Each cause classified: execution, plan, strategy, market, measurement.
+3. Evidence and confidence stated per cause.
+4. Repeated causes grouped into one problem.
+5. Strategy-level causes named as the assumptions they falsify.
+
+## Realignment (module: realign)
+
+1. A decision per item: continue, fix, re-plan, drop, escalate.
+2. Strategy changes limited to the elements whose assumptions failed, each traced through the redline.
+3. Revised plan re-sequenced within capacity.
+4. Every stale document section listed and updated, with the old version archived.
+5. Lessons recorded and the next review dated.
+
 ## Overall Readiness (every job)
 
 Roll up the section readiness scores. Report:

@@ -14,7 +14,7 @@ Adjust an existing value proposition to what has changed and to what is likely t
 |---|---|
 | Quick | change-scan, drift-test, redline (wording and the elements directly hit) |
 | Standard | change-scan, benchmark refresh (only the players that moved), drift-test, scenarios, redline, the modules the change table below calls for |
-| Full | Standard + power, defense, rhyming refresh, engineering (trigger monitor and validation for the new elements) |
+| Full | Standard + power, defense, rhyming refresh, and, when a Value to Market plan exists, horizon-playbooks and engineering (triggers and validation for the new elements) |
 
 ### Which modules a change reopens
 
@@ -45,8 +45,8 @@ Re-run only what the change touches. Everything else is carried forward from `Kn
 | 0 Executive Summary | yes | yes | yes |
 | 2 Value Proposition Diagnosis (drift) | no | yes | yes |
 | 5 Value Proposition Design (revised) | yes | yes | yes |
-| 8 Evolution and Scenarios | no | yes | yes |
-| 7 Go-to-Market and Execution | no | no | yes (trigger monitor and validation) |
+| 7 Evolution and Scenarios | no | yes | yes |
+| 11 Horizons Playbook (updated triggers and playbook states) | no | no | yes, when a Value to Market plan exists |
 
 The revised Value Proposition Design replaces the previous one in `Value Strategy/Value Proposition/`; the previous version moves to `Archive/`. It opens with a short change log in prose: what changed in the proposition and why, citing the Evolution and Scenarios report by section.
 
@@ -55,6 +55,10 @@ The Decisions and Agenda table separates the no-regret moves (now) from the scen
 ## Gate
 
 Every change in the redline cites the change or scenario that justifies it; every scenario has signposts and a pre-decided response; the revised Formula has no factor near zero.
+
+## Fine-tune or Realign
+
+Fine-tune starts from the world: something changed outside or in the strategy. Realign starts from the plan: what the team did and what it produced. When a Realign finds that an assumption was falsified, it runs the redline of this job on the affected elements only. When a Fine-tune changes the proposition and a Value to Market plan exists, offer Realign afterwards to bring the plan in line.
 
 ## Memory
 

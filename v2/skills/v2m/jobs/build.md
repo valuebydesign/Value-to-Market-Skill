@@ -41,7 +41,7 @@ Reuse before running: if an Assess job already produced the benchmark, category 
 | 3 Foundations: Assets and Core Values | yes | yes | yes |
 | 4 Customer and Fit | no | yes | yes |
 | 5 Value Proposition Design | yes | yes | yes |
-| 8 Evolution and Scenarios | no | no | yes (from the triggers in place) |
+| 7 Evolution and Scenarios | no | no | yes (from the triggers in place) |
 | Guidelines | no | no | yes |
 
 In B3, the Decisions and Agenda table leads with the validation plan: the riskiest assumptions, the cheapest test for each, and the signal that would kill the direction.
@@ -52,4 +52,4 @@ The filled Formula has no factor near zero, the 3P passes its scorecards, and fi
 
 ## Hand-off
 
-Offer Strategy when the user has several lines of business or the category itself needs designing, and Fine-tune as the routine to rerun when the triggers fire.
+Offer Strategy when the user has several lines of business or the category itself needs designing, Value to Market when the proposition is ready to be put into execution, and Fine-tune as the routine to rerun when the triggers fire.

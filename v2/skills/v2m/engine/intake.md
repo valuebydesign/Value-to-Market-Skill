@@ -59,6 +59,23 @@ From scratch, replace 2 to 5 with: the space or industry, the ambition (size, ti
 4. **Decision makers and dates.** Who signs, and any launch or board date the strategy must meet.
 5. **Agentic mode.** On or off, and the agent budget (see `engine/agentic.md`). Offer it when the host supports subagents, recommend it for multi-line or contested markets, and state the cost in plain terms before starting.
 
+### Value to Market
+
+1. **The strategy to execute.** Confirm the decisions found in the workspace or the documents, and the lines of business in scope.
+2. **Dates.** The launch window, the date of the big event, any fixed dates (trade fairs, seasons, board meetings).
+3. **Team and capacity.** Who is available, how much of their time, which skills are missing, which agencies or partners help.
+4. **Budget.** What is approved, what is hoped for, and who releases it.
+5. **Channels and tools.** The social accounts and channels in use and their audience, the publishing and CRM tools, the events already committed.
+6. **Approvals.** Who signs content, events and spend, and how long it takes.
+
+### Realign
+
+1. **Period.** The span under review and the plan version it is measured against.
+2. **Evidence.** Where results live: analytics, CRM, social reports, project board, event results, finance.
+3. **The user's account.** What they believe was done, not done, delayed, or done without the expected result.
+4. **Surprises.** What happened that nobody planned: a rival move, a client loss, a hire, a budget cut, an unexpected success.
+5. **Changes inside.** Team, budget or priority shifts since the plan was set.
+
 ## After the intake
 
 Write `assumptions.md` in the run folder with every assumption, its owner (user or analyst), and what evidence would settle it. Update `Value Workspace/context.md` with what you learned: project, offering type, business model, lines of business, market and audiences, goal and horizon, constraints, known assets, triggers in place, preferences (language, tone, formats, terms to use and avoid), sources read, open questions.

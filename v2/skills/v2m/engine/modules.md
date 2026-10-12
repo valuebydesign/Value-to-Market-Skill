@@ -218,23 +218,56 @@ Modules are grouped by what they do. Run them in the method's order: assets, val
 
 ---
 
-## F. Market and execution
+## F. Value to Market (execution)
+
+These modules belong to the Value to Market job. They take a strategy as given and turn it into work people can start on Monday. Every action they plan cites the strategic decision it executes; an action that executes nothing is cut or flagged as a proposal.
 
 ### tactics
 - **Purpose:** carry the value into the market without a frontal fight.
 - **Reads:** `method/method-core.md`, `method/frameworks.md`.
-- **Steps:** 1. The priority: get to value, shake pursuers, gain advantage. 2. Condition the category the launch enters. 3. The beachhead, its "won" definition and crossing signal. 4. Moves from the field manual (Win Without Fighting, Running Toward Value, Taking Off, Divergence, Evacuation, Line Breaking, Stealth, Weaponizing, Area Exploitation, Fighting When You Must, Protecting Others, Synergy). 5. Three strikes (condition, prove, mobilize) into the big event, each with timing, owner, best action and confirming signal. 6. Kickstart launch content. 7. Expansion on H1, H2, H3 with triggers and pre-decided responses. 8. Wastes audit. 9. Viability: cost, exposure, reversibility.
-- **Produces:** launch plan and horizons; tabs "Launch", "Horizons".
+- **Steps:** 1. The priority: get to value, shake pursuers, gain advantage. 2. Condition the category the launch enters. 3. The beachhead, its "won" definition and crossing signal. 4. Moves from the field manual (Win Without Fighting, Running Toward Value, Taking Off, Divergence, Evacuation, Line Breaking, Stealth, Weaponizing, Area Exploitation, Fighting When You Must, Protecting Others, Synergy). 5. Three strikes (condition, prove, mobilize) into the big event, each with timing, owner, best action and confirming signal. 6. Kickstart launch content. 7. Expansion on H1, H2, H3 with triggers and pre-decided responses (detailed by horizon-playbooks). 8. Wastes audit. 9. Viability: cost, exposure, reversibility.
+- **Produces:** launch sequence and expansion outline; tab "Launch".
 - **Score:** Tactics.
-- **Feeds:** engineering.
+- **Feeds:** workplan, events, social, horizon-playbooks.
+
+### workplan
+- **Purpose:** one coherent execution plan, traceable to the strategy.
+- **Reads:** the `Knowledge/` pages of the strategy, `method/method-core.md` (cadence, 6%).
+- **Steps:** 1. Traceability list: every strategic decision that needs execution (proofs to build, features kept, channels and repairs, launch strikes, bridges and leverages, validation tests, pricing moves, guidelines rollout). 2. Group into workstreams, for example: proof and product, channels and content, social and community, events and strikes, sales and partners, measurement and validation, internal onboarding. 3. Per workstream: deliverables, owner, start and end, dependencies, budget, and the decision each deliverable executes. 4. Milestones locked to the strikes and the big event. 5. RACI. 6. Capacity and budget check against the constraints; say what does not fit and propose the cut. 7. Critical path and the top risks with mitigations. 8. Operating rhythm: weekly execution check, monthly review, and the date of the first realignment review.
+- **Produces:** plan, timeline, RACI, budget; tabs "Plan", "Timeline", "RACI", "Budget".
+- **Score:** Workplan.
+- **Feeds:** social, events, engineering, realign.
+
+### social
+- **Purpose:** run social and content coherently with the strategy.
+- **Reads:** the proposition and verbalization pages, `method/frameworks.md` (Power Shifting, MOA, Proof).
+- **Steps:** 1. Platforms chosen from the channel triplets: each platform carries a named value for a named recipient; drop platforms that carry none. 2. Three to five content pillars drawn from the core values and the semantic spaces, each tied to a proof family and a ladder rung. 3. Formats and cadence per platform, always-on versus campaign. 4. Editorial calendar locked to the strikes: condition-phase content seeds the frame, prove-phase content shows the costly proof, mobilize-phase content drives pre-commitment, then the big event and its follow-through. 5. Community playbook: answers to recurring questions, praise, complaints, the courteous farewell for customers the premise excludes, crisis escalation, and the signals of confused power to avoid. 6. Advocacy: employees, partners, creators, customers. 7. Roles, tools, approval workflow, scheduling automation. 8. KPIs per pillar mapped to Motivation, Opportunity and Ability, with a decay guard. 9. Sample posts for the first month, per pillar and platform, humanized.
+- **Produces:** social plan, calendar, playbook, sample posts; tabs "Social pillars", "Editorial calendar", "Community playbook".
+- **Score:** Social.
+- **Feeds:** events (content before, during, after), engineering (automation).
+
+### events
+- **Purpose:** design and plan the events that carry the strikes and the big event.
+- **Steps:** For each strike and for the big event: 1. Concept and format matched to the strike's job (a manifesto talk or a data release to condition; a live demonstration, a private preview or a customer panel to prove; a partner summit, a waitlist opening or a founders' dinner to mobilize; the reveal for the big event). 2. Objective and the confirming signal that gates the next strike. 3. Audience (personas and ecosystem actors), invitation list and invitation sequence. 4. The single message and the proof shown, with at least one costly proof. 5. Date, place, run of show. 6. Content before, during and after, handed to the social calendar. 7. Logistics checklist, budget, owner, suppliers. 8. Contingency and the fallback if the signal does not come. Add the recurring H1 events (meetups, webinars, field days) that keep the beachhead warm.
+- **Produces:** one brief per event; tab "Events".
+- **Score:** Events.
+- **Feeds:** workplan, social.
+
+### horizon-playbooks
+- **Purpose:** make the three horizons happen when their conditions are met, with moves that rhyme.
+- **Reads:** `method/rhyming.md` (Chains and horizons), the scenarios and rhyming pages in `Knowledge/`.
+- **Steps:** For H1, H2 and H3: 1. Entry conditions: the triggers and thresholds from tactics, scenarios and the beachhead's crossing signal. 2. The move on the staff: the Singleton to add, substitute or remove, and what it rhymes with internally (the asset, engine or audience it reuses) and externally (the market tempo it lands on). 3. The play: workstreams activated, owner, budget reserve, the first thirty days. 4. Lead time: what must be prepared before the trigger fires so the play is ready (offer, pricing scenario, partner list, messages, event concept). 5. Readiness state for each playbook: dormant, prepare, armed, fire; the condition that moves it from one state to the next. 6. Abort conditions and the signal the play worked. 7. Tempo check: the beats the organization can sustain against the market's tempo.
+- **Produces:** three playbooks with their states; tab "Horizon playbooks".
+- **Score:** Horizon Playbooks.
+- **Feeds:** engineering (trigger monitor), realign.
 
 ### engineering
-- **Purpose:** turn the strategy into instructions for the people who execute it.
+- **Purpose:** the instructions, measures and automation for the people who execute.
 - **Reads:** `method/frameworks.md`, `method/glossary.md` (Metric Decay Paradox).
-- **Steps:** 1. Channel briefs. 2. Proof specifications. 3. KPI plan with owners, baselines and a decay guard. 4. Validation plan: a technique per risky assumption (landing page, fake door, pre-sale, concierge, Wizard of Oz, lateral tests) with metric, threshold, sample, owner and the automation that runs and reports it. 5. Launch content automation. 6. Trigger monitor for the horizon and scenario triggers. 7. Onboarding kit.
+- **Steps:** 1. Channel briefs. 2. Proof specifications. 3. KPI plan with owners, baselines, targets and a decay guard. 4. Validation plan: a technique per risky assumption (landing page, fake door, pre-sale, concierge, Wizard of Oz, lateral tests) with metric, threshold, sample, owner and the automation that runs and reports it. 5. Launch content automation wired to the editorial calendar. 6. Trigger monitor: every horizon and scenario trigger as a watched signal with threshold, alert, owner and the playbook it arms. 7. Internal onboarding kit.
 - **Produces:** engineering pack; tabs "KPIs", "Validation plan", "Trigger monitor".
 - **Score:** Engineering.
-- **Feeds:** Execution report, Decisions and Agenda.
+- **Feeds:** the Value to Market Plan, realign.
 
 ---
 
@@ -273,7 +306,41 @@ Modules are grouped by what they do. Run them in the method's order: assets, val
 
 ---
 
-## H. Packaging
+## H. Alignment with reality
+
+These modules belong to the Realign job. They compare what was planned with what happened, find out why, and decide what changes: in the plan, in the strategy, and in the documents.
+
+### progress-review
+- **Purpose:** the true status of every planned item.
+- **Steps:** 1. Load the plan (the workplan, events, social calendar, playbooks, validation tests, open items). 2. For each item, a status with evidence: done, partly done, not done, delayed (with the new date), done and not working (delivered without the expected result), dropped. 3. Separate the user's account from the evidence (analytics, CRM, reports, published material) and note where they disagree. 4. List what was done that the plan did not contain, and why.
+- **Produces:** status register; tab "Status".
+- **Score:** Progress Review.
+- **Feeds:** root-cause, realign.
+
+### kpi-readout
+- **Purpose:** what the numbers say against the targets and the triggers.
+- **Steps:** 1. Actual against target and baseline for each KPI, with its source. 2. Validation tests: passed, failed, inconclusive, not run. 3. Triggers: which fired, which are close, which are silent; the playbook states they change. 4. Metric decay: indicators that no longer track the outcome, to replace.
+- **Produces:** readout; tab "KPI readout".
+- **Score:** KPI Readout.
+- **Feeds:** root-cause, realign.
+
+### root-cause
+- **Purpose:** why each gap happened, so the fix lands at the right level.
+- **Steps:** 1. For every item not done, delayed or not working, ask why until the answer is actionable (five whys at most). 2. Classify the cause: execution (capacity, skills, budget, priority, dependency, tooling), plan (sequencing, effort underestimated, owner unclear), strategy (an assumption falsified: the premise, the promise, the proof, the price, an MOA bottleneck, the category), market (conditions changed, a rival moved), measurement (not measured, wrong metric). 3. Mark each cause with its evidence and confidence. 4. Group repeated causes: three items failing for the same reason are one problem.
+- **Produces:** cause register; tab "Causes".
+- **Score:** Root Cause.
+- **Feeds:** realign.
+
+### realign
+- **Purpose:** decide what changes and bring every document back in line with reality.
+- **Steps:** 1. A decision per item: continue, fix and continue, re-plan (new date, owner or budget), drop, or escalate to a strategy change. 2. Strategy implications: map each falsified assumption to the Formula factor and the P it touches, and run the redline module on those elements only; if the world changed, run change-scan first. 3. Rebuild the plan: re-sequence, rebalance capacity, re-date strikes and events, update playbook states. 4. Document alignment: list every document in `Value Strategy/`, mark the sections reality has made stale, and plan the updates (archive, then rewrite). 5. Lessons: what to do differently in the next cycle. 6. Next review date.
+- **Produces:** realignment decisions, revised plan, document update list; tab "Realignment".
+- **Score:** Realignment.
+- **Feeds:** the Alignment Review, and the updated versions of every affected document.
+
+---
+
+## I. Packaging
 
 ### guidelines
 - **Purpose:** keep the strategy consistent across the people who execute it.

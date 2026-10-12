@@ -23,16 +23,21 @@ Value Strategy/
     Guidelines - <Subject>.docx
   Strategy/
     Company Strategy - <Subject>.docx
-    Go-to-Market and Execution - <Subject>.docx
     Evolution and Scenarios - <Subject>.docx
     Strategy Deck - <Subject>.pptx (and .pdf)
+  Value to Market/
+    Value to Market Plan - <Subject>.docx
+    Launch and Events Playbook - <Subject>.docx
+    Social and Content Plan - <Subject>.docx
+    Horizons Playbook - <Subject>.docx
+    Alignment Review - <Subject>.docx      the latest review; earlier ones go to Archive/
   Archive/
     <YYYY-MM-DD> <Job>/                      superseded versions, moved here untouched
 ```
 
 Rules:
 
-- Three subject folders and an archive. Create a subject folder only when a document goes into it.
+- Four subject folders and an archive: Market and Value Proposition (what the offer is), Strategy (where the company goes), Value to Market (how it gets done). Create a subject folder only when a document goes into it.
 - File names carry the subject, never a date or a version number. The current version is the one in its subject folder.
 - When a job replaces a document, move the old one into `Archive/<YYYY-MM-DD> <Job>/` first, then write the new one. Never overwrite without archiving.
 - Per line of business, documents carry the line's name in the file name, inside the same subject folder.
@@ -55,6 +60,8 @@ Value Workspace/
     Market/<Player>.md            one page per competitor or alternative, with dated moves
     Changes and Triggers.md       change register, triggers in place, signposts being watched
     Scenarios.md                  live scenarios and their pre-decided responses
+    Plan.md                       the execution plan in force: workstreams, owners, dates, playbook states
+    Progress Log.md               dated status of every planned item, results and causes, one entry per review
     Decisions.md                  decision log: date, decision, who decided, rationale, what would reopen it
     Glossary.md                   the project's own terms and codes
   Runs/

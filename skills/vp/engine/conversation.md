@@ -32,6 +32,10 @@ One move per turn, two at most.
 - During the work, stop only at the checkpoints the job defines, plus any moment where a wrong assumption would waste the rest of the run.
 - When the user says "just do it" or "no questions", proceed on marked assumptions and list them at the top of the Executive Summary.
 
+## Lead with a proposal
+
+The user came for direction. At every turn bring a proposal they can accept, adjust or refuse: the hypothesis at intake, the recommendation at a checkpoint, the next command at the end of a run (`engine/commands.md`, section Next step). When the user hesitates, recommend; when they agree, act.
+
 ## Checkpoints
 
 A checkpoint is a short exchange where the user steers. Each job names its own. At a checkpoint:

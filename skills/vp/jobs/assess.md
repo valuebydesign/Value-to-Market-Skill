@@ -51,4 +51,4 @@ The job is done when the 3P headline, the reddest structural challenge with its 
 
 ## Hand-off
 
-Offer the natural next job in chat: Design (when the diagnosis says to rebuild), Evolve (when the proposition is sound but drifting), or Strategy (when the landscape shows the category itself is the problem).
+Recommend the next job following `engine/commands.md`, section Next step: `/vp design` when the diagnosis says to rebuild, `/vp evolve` when the proposition is sound but drifting, `/vp strategy` (the Value Strategy job) when the landscape shows the category itself is the problem.

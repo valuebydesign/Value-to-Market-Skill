@@ -29,21 +29,21 @@ The user can just ask, or call a job by its keyword after `/vp`. The keywords an
 
 | Keyword | Job | The user says or brings | File |
 |---|---|---|---|
-| `assess` (alias `review`) | Assess a value proposition | assess, audit, benchmark, "what do you think of", a website, a list of sites, a folder, "my 5 competitors", an industry | `jobs/assess.md` |
-| `design` | Design a value proposition | build, create, write, design a value proposition; a new product, line or venture; "start from scratch" | `jobs/design.md` |
-| `strategy` | Build a value strategy | value strategy, positioning for the company, portfolio, "the whole thing", agentic mode | `jobs/strategy.md` (agentic mode: `engine/agentic.md`) |
-| `evolve` | Evolve a value proposition | fine-tune, refresh, update, evolve, "things have changed", a new strategy, a new market, new trends | `jobs/evolve.md` |
-| `engineer` | Engineer the Value to Market plan | go to market, launch plan, execution plan, social plan, events, "make it happen", horizons and triggers | `jobs/engineer.md` |
-| `align` | Align with reality | "review our progress", "what was done", "we are behind", "this is not working", realign, update the plan to reality | `jobs/align.md` |
-| `agents` | Run strategy (or engineer) in agentic mode | "use agents", "agentic mode", "run it as a team" | `engine/commands.md`, `engine/agentic.md` |
-| `init`, `help`, `tools` | Set up, explain, single tools | set up the project, how does this work, which tools, run one tool | `engine/commands.md` |
+| `/vp assess` (alias `/vp review`) | Assess a value proposition | assess, audit, benchmark, "what do you think of", a website, a list of sites, a folder, "my 5 competitors", an industry | `jobs/assess.md` |
+| `/vp design` | Design a value proposition | build, create, write, design a value proposition; a new product, line or venture; "start from scratch" | `jobs/design.md` |
+| `/vp strategy` | Build a value strategy | value strategy, positioning for the company, portfolio, "the whole thing", agentic mode | `jobs/strategy.md` (agentic mode: `engine/agentic.md`) |
+| `/vp evolve` | Evolve a value proposition | fine-tune, refresh, update, evolve, "things have changed", a new strategy, a new market, new trends | `jobs/evolve.md` |
+| `/vp engineer` | Engineer the Value to Market plan | go to market, launch plan, execution plan, social plan, events, "make it happen", horizons and triggers | `jobs/engineer.md` |
+| `/vp align` | Align with reality | "review our progress", "what was done", "we are behind", "this is not working", realign, update the plan to reality | `jobs/align.md` |
+| `/vp agents` | Run `/vp strategy` (or `/vp engineer`) in agentic mode | "use agents", "agentic mode", "run it as a team" | `engine/commands.md`, `engine/agentic.md` |
+| `/vp init`, `/vp help`, `/vp tools` | Set up, explain, single tools | set up the project, how does this work, which tools, run one tool | `engine/commands.md` |
 | (none) | Answer a question | one precise question ("how should I price this", "do we have a moat") | see below |
 
-The keyword `review` on its own means `assess`. In plain language, a review of progress against a plan ("review what we did") is `align`.
+The keyword `/vp review` on its own means `/vp assess`. In plain language, a review of progress against a plan ("review what we did") is `/vp align`.
 
-When the request fits two jobs, run them in their natural order: assess feeds design or evolve, design feeds strategy, strategy feeds engineer, and engineer is kept honest by align, which can send work back to evolve or strategy.
+When the request fits two jobs, run them in their natural order: `/vp assess` feeds `/vp design` or `/vp evolve`, `/vp design` feeds `/vp strategy`, `/vp strategy` feeds `/vp engineer`, and `/vp align` keeps the engineered plan honest and can send work back to `/vp evolve` or `/vp strategy`.
 
-**Strategy and Engineer are different jobs.** Strategy decides what the company stands for, for whom, against whom, and where it goes. Engineer plans the execution of those decisions as the Value to Market plan: workplan, launch, events, social, horizon playbooks, measures. Align compares that execution with reality. Keep the boundary: an execution document cites a strategic decision and plans it; it never re-argues it. If execution reveals that a decision was wrong, Align escalates it through the redline. Reuse what an earlier job produced. When the job is unclear, ask one question listing the jobs in plain words, with your best guess first.
+**The Value Strategy job and the Engineer job are different.** `/vp strategy` decides what the company stands for, for whom, against whom, and where it goes. `/vp engineer` plans the execution of those decisions as the Value to Market plan: workplan, launch, events, social, horizon playbooks, measures. `/vp align` compares that execution with reality. Keep the boundary: an execution document cites a strategic decision and plans it; it never re-argues it. If execution reveals that a decision was wrong, the Align job escalates it through the redline. Reuse what an earlier job produced. When the job is unclear, ask one question listing the jobs in plain words, with your best guess first.
 
 **Answer a question.** Pick the one module in `engine/modules.md` that answers it (the index at its top lists them all), run it in conversation, keep the answer in chat, and offer to save it as a short note or fold it into the next report. Do not open a full job for a single question.
 
@@ -53,7 +53,7 @@ Follow `engine/intake.md`. Read every source the user points to before asking an
 
 ## Step 3: plan and agree
 
-Show the plan in a few lines: the job and its variant, the depth and the output form, the reports that will come out, the agentic mode on or off (Strategy only), and the two or three assumptions that matter most. Proceed on the user's go, or straight away if they asked you not to stop. Agentic mode is the exception: it always needs an explicit go after the user has seen the number of agents.
+Show the plan in a few lines: the job and its variant, the depth and the output form, the reports that will come out, the agentic mode on or off (Value Strategy and Engineer jobs only), and the two or three assumptions that matter most. Proceed on the user's go, or straight away if they asked you not to stop. Agentic mode is the exception: it always needs an explicit go after the user has seen the number of agents.
 
 Two settings shape the run. Ask for them once, remember them in `context.md`, and let the user change them at any point.
 
@@ -72,10 +72,12 @@ Run the modules the job lists, in the method's order (assets, values, premise, p
 
 ## Step 5: deliver
 
-Every job delivers into three deliverables (`engine/reports.md`): the **Value Statement**, one canvas with the whole strategy on it (`engine/value-statement.md`); the **Value Strategy Playbook**, the detailed reports and guidelines; and the **Engineering Toolkit**, the operational plans, frameworks and workbook. Compose the reports exactly as `engine/reports.md` says: one report per phase cluster, every element in one home only, numbers and scores stated only in their home report, a consistency pass across the set, the humanize pass, and an independent check before anything ships. Build the Value Statement last, from the checked reports, so it shows exactly what they decided. Then reply in chat with what was produced, the headline finding, and the next move phrased as a job ("I can now build the revised value proposition from this diagnosis. Shall I?").
+Every job delivers into three deliverables (`engine/reports.md`): the **Value Statement**, one canvas with the whole strategy on it (`engine/value-statement.md`); the **Value Strategy Playbook**, the detailed reports and guidelines; and the **Engineering Toolkit**, the operational plans, frameworks and workbook. Compose the reports exactly as `engine/reports.md` says: one report per phase cluster, every element in one home only, numbers and scores stated only in their home report, a consistency pass across the set, the humanize pass, and an independent check before anything ships. Build the Value Statement last, from the checked reports, so it shows exactly what they decided. Then reply in chat with what was produced and the headline finding, and end with the next step exactly as `engine/commands.md` (section Next step) describes: one recommended command ready to run, why, at most two alternatives, and the offer to start it. Never end a job, a tool run, `init` or `help` without it.
 
 ## Rules for every job
 
+- **Name jobs without ambiguity.** In chat and in instructions, refer to a job by its command (`/vp strategy`) or its full name (the Value Strategy job, the Design job, the Engineer job). Use the plain words strategy, design, engineering and alignment only for the concepts. Documents name neither commands nor jobs; they speak of the decisions and the work.
+- **Guide the user.** Lead with a proposal at every turn: a hypothesis at intake, a recommendation at each checkpoint, the next step at the end. Ask open questions only when no reasonable proposal exists.
 - **Evidence tags.** Every fact is Evidenced (with its source), Inferred (with the reasoning), or Assumed (stated as a hypothesis to test). From-scratch work is Assumed by default and says so.
 - **Missing answers are findings.** A decision the organization never made is reported as such, with its cost.
 - **One recommendation per decision,** with its rationale, confidence and the evidence that would change it.

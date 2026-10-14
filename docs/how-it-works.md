@@ -27,7 +27,7 @@ Six keywords cover everything the skill does. Type them after `/vp`, or just ask
                                          ▲                        │
                                          └──────── evolve ◄───────┘
 
-  Scale up      agents     run strategy (or engineer) as a team of parallel agents:
+  Scale up      agents     run /vp strategy or /vp engineer with a team of agents:
                            scouts, rival strategies, red team, scenario stress test
 
   Anytime       help       how to use it, and where your project stands
@@ -40,17 +40,17 @@ Six keywords cover everything the skill does. Type them after `/vp`, or just ask
 
 | Keyword | You want to | Say something like | You get |
 |---|---|---|---|
-| `assess` (or `review`) | Assess a value proposition | "Assess our value proposition from our website", "Compare us with these four competitors", "How do players in industrial cleaning position themselves?" | a diagnosis of the proposition, the competitive landscape, the costliest gap and the quickest fix |
-| `design` | Design a value proposition | "Design a value proposition for our new consulting line", "I want to start a business in pet insurance, build it from scratch" | what the business really owns, the values it will stand for, who it serves and turns away, the promise and its proof, price logic, channels, and the words to say it |
-| `strategy` | Build a value strategy | "Build our value strategy", or `/vp agents` to run it as a team of agents | the category, the company's values and defense, the proposition of each line of business, and the scenarios the strategy must survive |
-| `engineer` | Put the strategy into the market | "Engineer the Value to Market plan for our strategy" | a workplan with owners and budget, the launch with its three preparatory strikes and their events, a social and content plan, and playbooks for the three horizons that fire when their conditions are met |
-| `evolve` | Adapt to what changed | "Our market changed, evolve our value proposition" | what changed and what it hits, plausible scenarios of what comes next, and a revised proposition with the order of the changes |
-| `align` | Check reality against the plan | "We are three months in: align the plan with what we actually did" | the status of every planned item, why the gaps opened, what changes, and every document updated to match |
+| `/vp assess` (or `/vp review`) | Assess a value proposition | "Assess our value proposition from our website", "Compare us with these four competitors", "How do players in industrial cleaning position themselves?" | a diagnosis of the proposition, the competitive landscape, the costliest gap and the quickest fix |
+| `/vp design` | Design a value proposition | "Design a value proposition for our new consulting line", "I want to start a business in pet insurance, build it from scratch" | what the business really owns, the values it will stand for, who it serves and turns away, the promise and its proof, price logic, channels, and the words to say it |
+| `/vp strategy` | Build a value strategy | "Build our value strategy", or `/vp agents` to run it as a team of agents | the category, the company's values and defense, the proposition of each line of business, and the scenarios the strategy must survive |
+| `/vp engineer` | Put the strategy into the market | "Engineer the Value to Market plan for our strategy" | a workplan with owners and budget, the launch with its three preparatory strikes and their events, a social and content plan, and playbooks for the three horizons that fire when their conditions are met |
+| `/vp evolve` | Adapt to what changed | "Our market changed, evolve our value proposition" | what changed and what it hits, plausible scenarios of what comes next, and a revised proposition with the order of the changes |
+| `/vp align` | Check reality against the plan | "We are three months in: align the plan with what we actually did" | the status of every planned item, why the gaps opened, what changes, and every document updated to match |
 | (none) | Ask one question | "How should I price this?", "Do we have a moat?" | an answer in the conversation, without a full report |
 
 The keywords follow each other naturally. An assessment shows what to design or evolve. A value proposition grows into a strategy. The strategy is engineered into a Value to Market plan, and the plan is kept honest by regular alignment reviews, which send anything reality disproved back to the strategy through evolve.
 
-Note that the keyword `review` means `assess`. When you want to review your progress against the plan, use `align` or say so in plain words ("review what we did against the plan").
+Note that the keyword `/vp review` means `/vp assess`. When you want to review your progress against the plan, use `/vp align` or say so in plain words ("review what we did against the plan").
 
 ## How the skill is called
 
@@ -171,6 +171,17 @@ The skill reads what you gave it before asking anything. Then it tells you what 
 
 Expect at most two short rounds of questions at the start, then a few checkpoints during the work where one decision of yours shapes what follows: signing the values, choosing which customer groups matter most, reading the premise aloud to check that the wrong customer would walk away. If you say "no questions, just do it", the skill proceeds and lists its assumptions at the top of the summary.
 
+Every run ends with a recommended next step, ready to run:
+
+```
+Next: /vp design a value proposition for the facility line, starting from the assets we found
+Why: the diagnosis shows no premise, and the response-time records are a proof you already own.
+Also possible: /vp evolve if you would rather adjust the current proposition; /vp tools pricing for the price question alone.
+Shall I start it now?
+```
+
+Answer yes and it starts, without asking again what it already knows.
+
 ## Two settings
 
 **Depth** decides how much analysis runs: Quick, Standard (the default) or Full.
@@ -200,13 +211,13 @@ Each document answers one question and holds its own facts and figures. The Valu
 
 ## Agentic mode
 
-**How to start it.** Type `/vp agents`, or ask in plain words: "use agents", "run it in agentic mode", "run it as a team". The skill can also offer it during a `strategy` job when your market is contested or you have several lines of business. Agentic mode is a way of running a job, and it applies to two of them:
+**How to start it.** Type `/vp agents`, or ask in plain words: "use agents", "run it in agentic mode", "run it as a team". The skill can also offer it during a `/vp strategy` job when your market is contested or you have several lines of business. Agentic mode is a way of running a job, and it applies to two of them:
 
 | You type | What runs |
 |---|---|
-| `/vp agents` | the `strategy` job, as a team of agents |
-| `/vp agents <request>` | the `strategy` job on your request |
-| `/vp agents engineer <request>` | the `engineer` job, with parallel agents drafting the social plan, the events and the horizon playbooks |
+| `/vp agents` | the `/vp strategy` job, as a team of agents |
+| `/vp agents <request>` | the `/vp strategy` job on your request |
+| `/vp agents engineer <request>` | the `/vp engineer` job, with parallel agents drafting the social plan, the events and the horizon playbooks |
 
 Examples:
 
@@ -219,7 +230,7 @@ Examples:
 "Run the strategy as a team, but keep it lean: five agents at most"
 ```
 
-Asking for agents with `assess`, `design`, `evolve` or `align` runs those jobs normally: they do not use agentic mode.
+Asking for agents with `/vp assess`, `/vp design`, `/vp evolve` or `/vp align` runs those jobs normally: they do not use agentic mode.
 
 **What happens.**
 

@@ -1,10 +1,10 @@
-# Job: Build a value strategy
+# Job: Value Strategy (`/vp strategy`)
 
 The company-level job that decides what the company stands for and where it goes. It reads the field, settles what the company owns and stands for, designs the category and the defense, builds the value proposition of each line of business, and sets the scenarios the strategy must survive. It can run with a single analyst (you) or in agentic mode with parallel agents (`engine/agentic.md`).
 
 ## Scope
 
-This job takes the strategic decisions: category, values, premise, promise and proof, defense, posture, the next moves on the staff, and the futures to prepare for. It names the beachhead and the horizons as choices and leaves their execution to the Engineer job, under the boundary rule in `SKILL.md`. When the user asks for the whole journey, run this job, then hand over to Engineer in the same session.
+This job takes the strategic decisions: category, values, premise, promise and proof, defense, posture, the next moves on the staff, and the futures to prepare for. It names the beachhead and the horizons as choices and leaves their execution to the Engineer job (`/vp engineer`), under the boundary rule in `SKILL.md`. When the user asks for the whole journey, run this job, then hand over to the Engineer job in the same session.
 
 ## Intake
 
@@ -31,7 +31,7 @@ Depth: Quick runs Field, Foundations, Company strategy and a single-line Design 
 ## Gates
 
 - Do not design any line of business while core values or the category are below pass.
-- Do not hand over to Engineer while a line's Formula has a factor near zero, or while the scenarios lack signposts and pre-decided responses.
+- Do not hand over to the Engineer job while a line's Formula has a factor near zero, or while the scenarios lack signposts and pre-decided responses.
 
 ## Checkpoints
 
@@ -55,4 +55,4 @@ The Executive Summary's Decisions and Agenda table gathers the open items of eve
 
 ## Hand-off
 
-Offer Engineer next, to turn the decisions into an executable plan. Evolve is the routine that keeps the strategy alive when a trigger in `Knowledge/Changes and Triggers.md` fires.
+Recommend `/vp engineer` next, to turn the decisions into an executable plan (see `engine/commands.md`, section Next step). `/vp evolve` is the routine that keeps the strategy current when a trigger in `Knowledge/Changes and Triggers.md` fires.

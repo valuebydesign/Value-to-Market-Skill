@@ -24,7 +24,7 @@ In B3, ask the reduced set (space, ambition, founder's assets, choose or let the
 | Standard | business-sketch, benchmark (lite), category-scan, assets, core-values, jobs, personas, canvas, 3p, ladder, pricing, channels, adoption, formula, verbalization |
 | Full | Standard + archetypes (before personas), scenarios (light: the triggers in place turned into H1, H2, H3 responses), guidelines |
 
-Reuse before running: if an Assess job already produced the benchmark, category scan, audit or a first asset read, start from them (in `Knowledge/`) and run only what is missing.
+Reuse before running: if the Assess job already produced the benchmark, category scan, audit or a first asset read, start from them (in `Knowledge/`) and run only what is missing.
 
 ## Checkpoints
 
@@ -53,4 +53,4 @@ The filled Formula has no factor near zero, the 3P passes its scorecards, and fi
 
 ## Hand-off
 
-Offer Strategy when the user has several lines of business or the category itself needs designing, Engineer when the proposition is ready to be put into execution, and Evolve as the routine to rerun when the triggers fire.
+Recommend the next job following `engine/commands.md`, section Next step: `/vp strategy` (the Value Strategy job) when the user has several lines of business or the category itself needs designing, `/vp engineer` when the proposition is ready to be put into execution, and `/vp evolve` as the routine to rerun when the triggers fire.

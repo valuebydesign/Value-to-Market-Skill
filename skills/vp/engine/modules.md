@@ -10,51 +10,51 @@ Modules are grouped by what they do. Run them in the method's order: assets, val
 
 ## Index
 
-Every module can also run on its own (see `engine/commands.md`, Tools). The jobs column says where it runs inside a job.
+Every module can also run on its own (see `engine/commands.md`, Tools). The jobs column says where it runs inside a job; "Value Strategy" is the job called by `/vp strategy`.
 
 | Group | Module | What it answers | Jobs |
 |---|---|---|---|
-| Read the field | `source-read` | reconstruct the declared value proposition of one player from its public material | Assess, Evolve, Strategy |
-| Read the field | `benchmark` | read the field with the customer's yardstick | Assess, Design, Evolve, Strategy |
-| Read the field | `category-scan` | the values customers already expect from the category and its neighbours | Assess, Design, Evolve, Strategy |
+| Read the field | `source-read` | reconstruct the declared value proposition of one player from its public material | Assess, Evolve, Value Strategy |
+| Read the field | `benchmark` | read the field with the customer's yardstick | Assess, Design, Evolve, Value Strategy |
+| Read the field | `category-scan` | the values customers already expect from the category and its neighbours | Assess, Design, Evolve, Value Strategy |
 | Read the field | `vp-audit` | the fifteen-challenge diagnosis of one value proposition | Assess, Evolve |
-| Foundations | `business-sketch` | a working model of the business before designing anything on it | Design, Strategy |
-| Foundations | `assets` | inventory what the company truly owns and how defensible it is | Assess, Design, Evolve, Strategy |
-| Foundations | `core-values` | the values the company will invest in, extracted from its assets | Design, Evolve, Strategy |
-| Customer and fit | `jobs` | the progress customers hire the offer to make | Design, Evolve, Strategy |
-| Customer and fit | `archetypes` | customer and ecosystem types defined by the jobs they hire you for | Design, Strategy |
-| Customer and fit | `personas` | concrete faces for targeting, messaging and repelling | Design, Evolve, Strategy |
-| Customer and fit | `canvas` | test fit before building | Design, Evolve, Strategy |
-| Customer and fit | `adoption` | can each persona receive the value, and how to test it | Design, Evolve, Strategy |
-| Design the proposition | `3p` | the contract with the market, built in one pass | Design, Evolve, Strategy |
-| Design the proposition | `ladder` | the height of the promise and the climb | Design, Evolve, Strategy |
-| Design the proposition | `pricing` | price from evidence on the Value Stick | Design, Evolve, Strategy |
-| Design the proposition | `channels` | carry the value without dispersing it | Design, Evolve, Strategy |
-| Design the proposition | `formula` | assemble VP = [ Channels x Core Values x Promise ] + USP for one line of business | Design, Strategy |
-| Design the proposition | `verbalization` | turn the designed value into language people can say | Design, Evolve, Strategy |
-| Company strategy | `category-design` | design the frame of reference before the offer | Evolve, Strategy |
-| Company strategy | `value-matrix` | how value moves through the whole ecosystem (after Simone Cicero) | Strategy |
-| Company strategy | `defense` | Leverage, Bridge and Moat | Assess, Evolve, Strategy |
-| Company strategy | `power` | the posture the brand executes and the one it should | Assess, Evolve, Strategy |
-| Company strategy | `rhyming` | make the portfolio compound over time | Evolve, Strategy |
-| Company strategy | `bmc` | the business model as a reference and as a deliverable | Strategy |
+| Foundations | `business-sketch` | a working model of the business before designing anything on it | Design, Value Strategy |
+| Foundations | `assets` | inventory what the company truly owns and how defensible it is | Assess, Design, Evolve, Value Strategy |
+| Foundations | `core-values` | the values the company will invest in, extracted from its assets | Design, Evolve, Value Strategy |
+| Customer and fit | `jobs` | the progress customers hire the offer to make | Design, Evolve, Value Strategy |
+| Customer and fit | `archetypes` | customer and ecosystem types defined by the jobs they hire you for | Design, Value Strategy |
+| Customer and fit | `personas` | concrete faces for targeting, messaging and repelling | Design, Evolve, Value Strategy |
+| Customer and fit | `canvas` | test fit before building | Design, Evolve, Value Strategy |
+| Customer and fit | `adoption` | can each persona receive the value, and how to test it | Design, Evolve, Value Strategy |
+| Design the proposition | `3p` | the contract with the market, built in one pass | Design, Evolve, Value Strategy |
+| Design the proposition | `ladder` | the height of the promise and the climb | Design, Evolve, Value Strategy |
+| Design the proposition | `pricing` | price from evidence on the Value Stick | Design, Evolve, Value Strategy |
+| Design the proposition | `channels` | carry the value without dispersing it | Design, Evolve, Value Strategy |
+| Design the proposition | `formula` | assemble VP = [ Channels x Core Values x Promise ] + USP for one line of business | Design, Value Strategy |
+| Design the proposition | `verbalization` | turn the designed value into language people can say | Design, Evolve, Value Strategy |
+| Company strategy | `category-design` | design the frame of reference before the offer | Evolve, Value Strategy |
+| Company strategy | `value-matrix` | how value moves through the whole ecosystem (after Simone Cicero) | Value Strategy |
+| Company strategy | `defense` | Leverage, Bridge and Moat | Assess, Evolve, Value Strategy |
+| Company strategy | `power` | the posture the brand executes and the one it should | Assess, Evolve, Value Strategy |
+| Company strategy | `rhyming` | make the portfolio compound over time | Evolve, Value Strategy |
+| Company strategy | `bmc` | the business model as a reference and as a deliverable | Value Strategy |
 | Value to Market (execution) | `tactics` | carry the value into the market without a frontal fight | Evolve, Engineer |
 | Value to Market (execution) | `workplan` | one coherent execution plan, traceable to the strategy | Engineer |
 | Value to Market (execution) | `social` | run social and content coherently with the strategy | Engineer |
 | Value to Market (execution) | `events` | design and plan the events that carry the strikes and the big event | Engineer |
 | Value to Market (execution) | `horizon-playbooks` | make the three horizons happen when their conditions are met, with moves that rhyme | Evolve, Engineer, Align |
 | Value to Market (execution) | `engineering` | the instructions, measures and automation for the people who execute | Evolve, Engineer, Align |
-| Change and evolution | `change-scan` | what has changed since the current value proposition was set, and what it hits | Evolve, Strategy, Align |
+| Change and evolution | `change-scan` | what has changed since the current value proposition was set, and what it hits | Evolve, Value Strategy, Align |
 | Change and evolution | `drift-test` | how far the current proposition has drifted from the world it now lives in | Evolve |
-| Change and evolution | `scenarios` | plausible futures, so the value proposition evolves on evidence | Design, Evolve, Strategy |
+| Change and evolution | `scenarios` | plausible futures, so the value proposition evolves on evidence | Design, Evolve, Value Strategy |
 | Change and evolution | `redline` | the fine-tuned value proposition, element by element | Evolve, Align |
 | Alignment with reality | `progress-review` | the true status of every planned item | Align |
 | Alignment with reality | `kpi-readout` | what the numbers say against the targets and the triggers | Align |
 | Alignment with reality | `root-cause` | why each gap happened, so the fix lands at the right level | Align |
 | Alignment with reality | `realign` | decide what changes and bring every document back in line with reality | Align |
 | Packaging | `value-statement` | the whole strategy on one canvas | every job |
-| Packaging | `guidelines` | keep the strategy consistent across the people who execute it | Design, Strategy |
-| Packaging | `deck` | present the job's conclusions as an argument on slides | Strategy, Engineer |
+| Packaging | `guidelines` | keep the strategy consistent across the people who execute it | Design, Value Strategy |
+| Packaging | `deck` | present the job's conclusions as an argument on slides | Value Strategy, Engineer |
 | Packaging | `cheatsheet` | one-page essentials for a team, on request | Engineer |
 | Packaging | `independent-check` | re-score a report from the artifact alone | every job, before delivery |
 
@@ -403,7 +403,7 @@ These modules belong to the Align job. They compare what was planned with what h
 ### guidelines
 - **Purpose:** keep the strategy consistent across the people who execute it.
 - **Steps:** values with the antithesis; premise and the courteous farewell; promise wording, rung and enforcer; the proof the team must always show; the power figure and confused-power signals; tone of voice; brand personality; mission, vision, purpose; do and do-not phrasing; the triggers that would change a value.
-- **Produces:** the Guidelines document (Full depth, Design and Strategy).
+- **Produces:** the Guidelines document (Full depth, Design and Value Strategy jobs).
 
 ### deck
 - **Purpose:** present the job's conclusions as an argument on slides.

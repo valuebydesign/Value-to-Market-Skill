@@ -1,6 +1,6 @@
 # Agentic mode
 
-For the strategy job (and, in a lighter form, for the engineer job), the work can be split across several agents running in parallel. Scouts gather evidence, architects draft rival strategies, a red team attacks them, and the orchestrator (you) synthesizes the strongest strategy and writes the reports. Use it when the market is contested, when there are several lines of business, or when the user wants several strategic options weighed against each other.
+For the Value Strategy job (`/vp strategy`), and in a lighter form for the Engineer job (`/vp engineer`), the work can be split across several agents running in parallel. Scouts gather evidence, architects draft rival strategies, a red team attacks them, and the orchestrator (you) synthesizes the strongest strategy and writes the reports. Use it when the market is contested, when there are several lines of business, or when the user wants several strategic options weighed against each other.
 
 An architect that scores its own strategy goes easy on it, so drafting, attacking and scoring run in separate contexts.
 
@@ -10,7 +10,7 @@ The user types `/vp agents` (or asks for agents in plain words), or accepts the 
 
 ## When to offer it
 
-- Offer it in the Strategy job when the host can spawn subagents (in Claude Code, the Agent tool; in other hosts, their equivalent).
+- Offer it in the Value Strategy job when the host can spawn subagents (in Claude Code, the Agent tool; in other hosts, their equivalent).
 - Recommend it for contested markets, multi-line portfolios, high-stakes decisions, or when the user asks for alternatives.
 - Before starting, state the plan and the cost in plain terms: how many agents, in how many waves, and that it uses several times the effort of a single run. Start only on the user's go.
 - If the host cannot spawn agents, run the same roles as sequential, isolated passes: each role writes its output to its file before reading any other role's output. Say that this is the fallback.

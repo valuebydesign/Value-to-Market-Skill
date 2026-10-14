@@ -25,7 +25,7 @@ For the keywords, see the [command map](how-it-works.md#the-command-map); for ea
 - "Who should this business refuse? An owner looking for the cheapest option, a clinic that wants a white-label tool, someone else?"
 - "Do you want to choose between two or three directions, or should I pick one and tell you why?"
 
-**What runs.** `design` from scratch: `business-sketch` proposes three directions (a post-diagnosis guidance service for owners, a referral network for clinics, a subscription for chronic conditions) and recommends one. Marta picks the guidance service. Then `assets`, `core-values`, `jobs`, `personas`, `canvas`, `3p`, `ladder`, `pricing`, `channels`, `adoption`, `formula`, `verbalization`.
+**What runs.** `/vp design` from scratch: `business-sketch` proposes three directions (a post-diagnosis guidance service for owners, a referral network for clinics, a subscription for chronic conditions) and recommends one. Marta picks the guidance service. Then `assets`, `core-values`, `jobs`, `personas`, `canvas`, `3p`, `ladder`, `pricing`, `channels`, `adoption`, `formula`, `verbalization`.
 
 **What she receives.**
 
@@ -51,14 +51,14 @@ For the keywords, see the [command map](how-it-works.md#the-command-map); for ea
 /vp assess brightline.example against our five main competitors
 ```
 
-He points `init` at the website, a folder of tender responses and the names of five rivals.
+He points `/vp init` at the website, a folder of tender responses and the names of five rivals.
 
 **What the skill asks.**
 
 - "Your tender documents promise 'quality and reliability', and so do four of the five rivals. Whose eyes do we assess through: procurement, the facility manager, or the employees in the building?"
 - "Your site never says who you are not for. Is that a choice?"
 
-**What runs.** `assess` on the field: `source-read` on all six sites, `benchmark`, `category-scan`, `vp-audit` on each player with the same yardstick.
+**What runs.** `/vp assess` on the field: `source-read` on all six sites, `benchmark`, `category-scan`, `vp-audit` on each player with the same yardstick.
 
 **What he receives.**
 
@@ -87,7 +87,7 @@ He points `init` at the website, a folder of tender responses and the names of f
 - "Your promise was 'month-end closed in a day'. Which part of that still needs you, now that an assistant drafts the entries?"
 - "Two years ago you refused firms above fifty people. With the price pressure, is that still the line?"
 
-**What runs.** `evolve`: `change-scan`, a `benchmark` refresh on the players that moved, `drift-test`, `scenarios`, `redline`, then the tools the changes reopen (`pricing` for the rival, `canvas` and `3p` for the shifted customer jobs).
+**What runs.** `/vp evolve`: `change-scan`, a `benchmark` refresh on the players that moved, `drift-test`, `scenarios`, `redline`, then the tools the changes reopen (`pricing` for the rival, `canvas` and `3p` for the shifted customer jobs).
 
 **What she receives.**
 
@@ -115,7 +115,7 @@ He points `init` at the website, a folder of tender responses and the names of f
 /vp strategy for the firm, both lines, three-year horizon
 ```
 
-`init` reads the website, the last two years of proposals and the partners' notes.
+`/vp init` reads the website, the last two years of proposals and the partners' notes.
 
 **How the run goes.** The skill opens with a stage check (what is already decided and what is not), writes the plan, and then works through five checkpoints:
 
@@ -125,7 +125,7 @@ He points `init` at the website, a folder of tender responses and the names of f
 4. **Each line's 3P.** For inspection and then for design, the premise read aloud ("would the owner who only wants the cheapest certificate walk away?"), the promise, and the proof gap.
 5. **Before writing.** The scenarios (a new inspection regulation, a downturn in development) and the open decisions.
 
-**What runs.** `strategy`: `source-read` on the rivals, `benchmark`, `category-scan`, `change-scan`, `business-sketch`, `assets`, `core-values`, `category-design`, `value-matrix`, `defense`, `power`, `rhyming`, then for each line `jobs`, `personas`, `canvas`, `adoption`, `3p`, `ladder`, `pricing`, `channels`, `formula`, `verbalization`, and finally `scenarios` and `bmc`.
+**What runs.** `/vp strategy`: `source-read` on the rivals, `benchmark`, `category-scan`, `change-scan`, `business-sketch`, `assets`, `core-values`, `category-design`, `value-matrix`, `defense`, `power`, `rhyming`, then for each line `jobs`, `personas`, `canvas`, `adoption`, `3p`, `ladder`, `pricing`, `channels`, `formula`, `verbalization`, and finally `scenarios` and `bmc`.
 
 **What she receives.**
 
@@ -190,7 +190,7 @@ He points `init` at the website, a folder of tender responses and the names of f
 - "Who on the team owns social today, and how many hours a week can they give it?"
 - "Which commitments are already booked: the fair stand, any press, any restaurant partners?"
 
-**What runs.** `engineer`: `tactics`, `workplan`, `social`, `events`, `horizon-playbooks`, `engineering`.
+**What runs.** `/vp engineer`: `tactics`, `workplan`, `social`, `events`, `horizon-playbooks`, `engineering`.
 
 **What she receives.**
 
@@ -230,7 +230,7 @@ She points it at the social analytics, the waitlist export and the team's status
 
 Then the causes: "What would have to be true for the tasting to happen next month?"
 
-**What runs.** `align`: `progress-review`, `kpi-readout`, `root-cause`, `realign`.
+**What runs.** `/vp align`: `progress-review`, `kpi-readout`, `root-cause`, `realign`.
 
 **What she receives.**
 
@@ -239,7 +239,7 @@ Then the causes: "What would have to be true for the tasting to happen next mont
 - Decisions: re-plan the tasting with a new owner; escalate the chef promise through the redline, which adjusts one sub-promise and leaves the rest of the strategy untouched.
 - Updated Value to Market Plan and Launch and Events Playbook in the Engineering Toolkit, each opening with "Changes in this version"; the old versions in `Archive/`.
 
-**What comes next.** The next review date; `evolve` only if the review had found the market itself had changed.
+**What comes next.** The next review date; `/vp evolve` only if the review had found the market itself had changed.
 
 ---
 
@@ -253,13 +253,13 @@ Then the causes: "What would have to be true for the tasting to happen next mont
 
 or simply: "Should I raise my prices?"
 
-**What runs.** Only `pricing`: a benchmark of comparable studios, the value stick, moves that widen it before touching the price, and three price scenarios with their risks. The answer comes in the conversation; a short brief is written only if she asks. The skill notes that the premise was never defined and offers `design` if she wants to know who the higher price is for.
+**What runs.** Only `pricing`: a benchmark of comparable studios, the value stick, moves that widen it before touching the price, and three price scenarios with their risks. The answer comes in the conversation; a short brief is written only if she asks. The skill notes that the premise was never defined and offers `/vp design` if she wants to know who the higher price is for.
 
 ---
 
 ## Scenarios: how the skill handles the future
 
-Scenarios appear wherever the future matters: in `evolve`, in `strategy`, in `design` at full depth, and in the horizon playbooks of `engineer`. The `scenarios` tool always works the same way.
+Scenarios appear wherever the future matters: in `/vp evolve`, in `/vp strategy`, in `/vp design` at full depth, and in the horizon playbooks of `/vp engineer`. The `scenarios` tool always works the same way.
 
 **1. Drivers.** It lists what is moving, from your answers, the change scan, the triggers already in motion and the rivals' visible direction. For Ledgerly (Case 3): the rival's pricing, AI assistants doing bookkeeping tasks, firms' appetite for outsourcing, a regulatory change in e-invoicing.
 
@@ -290,14 +290,14 @@ How Brightline (Case 2) uses the skill over twelve months:
 
 | When | Keyword | What happens |
 |---|---|---|
-| Month 1 | `init`, `assess` | The diagnosis: irrelevant more than expensive. |
-| Month 2 | `design` | The facility management proposition, with a premise that refuses price-only tenders and a proof built on response-time records. |
-| Month 3 | `strategy` | The category reframed around guaranteed building uptime; scenarios on labor costs and smart-building sensors. |
-| Month 4 | `engineer` | The plan: three strikes into the regional facility managers' conference, a social plan aimed at facility managers, horizon playbooks for a sensor-based service. |
-| Month 7 | `align` | The first review: two strikes landed, one slipped for capacity; the plan is re-dated. |
-| Month 9 | `evolve` | A sensor manufacturer starts selling direct to buildings; the sensor scenario's signpost fires, and the armed H2 playbook moves to "fire". |
-| Month 10 | `align` | The review checks the H2 launch against its signals. |
-| Month 12 | `assess` | A fresh assessment against the same five rivals, measured against month 1. |
+| Month 1 | `/vp init`, `/vp assess` | The diagnosis: irrelevant more than expensive. |
+| Month 2 | `/vp design` | The facility management proposition, with a premise that refuses price-only tenders and a proof built on response-time records. |
+| Month 3 | `/vp strategy` | The category reframed around guaranteed building uptime; scenarios on labor costs and smart-building sensors. |
+| Month 4 | `/vp engineer` | The plan: three strikes into the regional facility managers' conference, a social plan aimed at facility managers, horizon playbooks for a sensor-based service. |
+| Month 7 | `/vp align` | The first review: two strikes landed, one slipped for capacity; the plan is re-dated. |
+| Month 9 | `/vp evolve` | A sensor manufacturer starts selling direct to buildings; the sensor scenario's signpost fires, and the armed H2 playbook moves to "fire". |
+| Month 10 | `/vp align` | The review checks the H2 launch against its signals. |
+| Month 12 | `/vp assess` | A fresh assessment against the same five rivals, measured against month 1. |
 
 Each step reads the memory left by the previous one, so nothing is asked twice and every document stays current in `Value Strategy/`, the Value Statement included.
 

@@ -59,8 +59,12 @@ Every change in the redline cites the change or scenario that justifies it; ever
 
 ## Evolve or Align
 
-Evolve starts from the world: something changed outside or in the strategy. Align starts from the plan: what the team did and what it produced. When a Align finds that an assumption was falsified, it runs the redline of this job on the affected elements only. When a Evolve changes the proposition and a Value to Market plan exists, offer Align afterwards to bring the plan in line.
+The Evolve job starts from the world: something changed outside the company or in its strategy. The Align job starts from the plan: what the team did and what it produced. When an alignment review finds that an assumption was falsified, it runs the redline of this job on the affected elements only. When this job changes the proposition and a Value to Market plan exists, recommend `/vp align` afterwards to bring the plan in line.
 
 ## Memory
 
 Update `Knowledge/Changes and Triggers.md`, `Knowledge/Scenarios.md`, the proposition page and `Knowledge/Decisions.md` (mark the decisions the changes reopened and how they were resolved).
+
+## Hand-off
+
+End with the next step (`engine/commands.md`, section Next step): `/vp engineer` to relaunch the revised promise, or `/vp align` when a Value to Market plan is already running.

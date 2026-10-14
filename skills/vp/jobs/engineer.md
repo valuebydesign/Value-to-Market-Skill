@@ -4,9 +4,9 @@ Turn a value strategy into an operational plan the team can execute: who does wh
 
 ## Starting point
 
-- **A strategy exists** in `Knowledge/` (from a Strategy or Design job, from version 1 of this skill, or from the user's own documents): load it, list the decisions that need execution, and confirm the list with the user.
+- **A strategy exists** in `Knowledge/` (from a Value Strategy or Design job, from version 1 of this skill, or from the user's own documents): load it, list the decisions that need execution, and confirm the list with the user.
 - **Only a value proposition exists** (a Design job, no company strategy): proceed for that line of business; note that the category, defense and horizons were not designed and keep the horizon playbooks short.
-- **Nothing exists:** say that without a strategy every plan item rests on assumptions. Offer to run Design (Quick) or Strategy first; proceed without it only if the user insists, and mark every strategic input as Assumed.
+- **Nothing exists:** say that without a strategy every plan item rests on assumptions. Recommend `/vp design` (Quick) or `/vp strategy` first; proceed without it only if the user insists, and mark every strategic input as Assumed.
 
 ## Intake
 
@@ -61,4 +61,4 @@ Write `Knowledge/Plan.md` (the plan in force, with playbook states) and seed `Kn
 
 ## Hand-off
 
-Remind the user of the first Align review date set in the plan (offer to create a reminder only if the host supports it and the user says yes), and say what evidence to collect until then (the KPI sources, the status updates, the event results).
+End with the next step (`engine/commands.md`, section Next step): `/vp align` on the first review date set in the plan, with the evidence to collect until then (the KPI sources, the status updates, the event results). Offer to create a reminder only if the host supports it and the user says yes.

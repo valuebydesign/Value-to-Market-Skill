@@ -7,8 +7,8 @@ It is a visual index of decisions. The detail, the evidence and every figure liv
 ## When it is produced
 
 - Every job refreshes it, in the Synthetic and Documents output forms, and in Conversational form when the user asks.
-- `assess` produces the as-is version: the proposition as the market reads it today, with the gaps marked.
-- `design`, `strategy` and `evolve` produce the designed version; `engineer` and `align` update the movement band.
+- `/vp assess` produces the as-is version: the proposition as the market reads it today, with the gaps marked.
+- `/vp design`, `/vp strategy` and `/vp evolve` produce the designed version; `/vp engineer` and `/vp align` update the movement band.
 - Zones a job has not worked yet are drawn as open (a dashed outline and the word "Open", with the keyword that would fill it). An empty zone is information: it shows what the company has not decided.
 - One canvas per line of business when lines differ in premise or promise; otherwise one canvas for the company with the line named in the header.
 

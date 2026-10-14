@@ -31,12 +31,12 @@ You bring a need, not a command. The skill recognizes the job, picks the method'
 
 | Keyword | You want to | You get |
 | --- | --- | --- |
-| `assess` | **Assess** a value proposition: yours, a competitor's, a list of websites, a folder, your five competitors, a whole industry | a diagnosis of the proposition, the competitive landscape, the costliest gap and the quickest fix |
-| `design` | **Design** a value proposition, for an existing business or from scratch | what the business really owns, the values it stands for, who it serves and turns away, the promise and its proof, price logic, channels, and the words to say it |
-| `strategy` | Build a value **strategy** for the company, optionally with a team of agents (`agents`) | the category, the values, the defense, the proposition of each line of business, and the scenarios the strategy must survive |
-| `engineer` | **Engineer** the Value to Market plan that puts the strategy into the market | a workplan with owners and budget, the three launch strikes and their events, a social and content plan, and horizon playbooks that fire when their conditions are met |
-| `evolve` | **Evolve** the proposition when the market, the strategy or the trends move | what changed and what it hits, plausible scenarios of what comes next, and the revised proposition with the order of the changes |
-| `align` | **Align** the plan and the strategy with what really happened | the status of every planned item, why the gaps opened, what changes, and every document updated to match |
+| `/vp assess` | **Assess** a value proposition: yours, a competitor's, a list of websites, a folder, your five competitors, a whole industry | a diagnosis of the proposition, the competitive landscape, the costliest gap and the quickest fix |
+| `/vp design` | **Design** a value proposition, for an existing business or from scratch | what the business really owns, the values it stands for, who it serves and turns away, the promise and its proof, price logic, channels, and the words to say it |
+| `/vp strategy` | Build a value **strategy** for the company, optionally with a team of agents (`/vp agents`) | the category, the values, the defense, the proposition of each line of business, and the scenarios the strategy must survive |
+| `/vp engineer` | **Engineer** the Value to Market plan that puts the strategy into the market | a workplan with owners and budget, the three launch strikes and their events, a social and content plan, and horizon playbooks that fire when their conditions are met |
+| `/vp evolve` | **Evolve** the proposition when the market, the strategy or the trends move | what changed and what it hits, plausible scenarios of what comes next, and the revised proposition with the order of the changes |
+| `/vp align` | **Align** the plan and the strategy with what really happened | the status of every planned item, why the gaps opened, what changes, and every document updated to match |
 
 Single questions work too: "how should I price this?", "do we have a moat?".
 
@@ -44,7 +44,7 @@ Single questions work too: "how should I price this?", "do we have a moat?".
 
 ## How it works
 
-**It talks with you.** The skill reads your website, documents or competitors first, then tells you what it thinks and asks you to confirm or correct it. Expect a couple of short rounds of questions and a few checkpoints where one decision of yours shapes the rest.
+**It talks with you.** The skill reads your website, documents or competitors first, then tells you what it thinks and asks you to confirm or correct it. Expect a couple of short rounds of questions and a few checkpoints where one decision of yours shapes the rest. Every run ends with one recommended next command, its reason and an offer to start it, so you always know where to go next.
 
 **It delivers three things.** The **Value Statement** puts the whole strategy on one large canvas, an elegant infographic of every decision, from the value proposition sentence to the horizons and scenarios. The **Value Strategy Playbook** holds the detailed reports and guidelines for the people who own the strategy. The **Engineering Toolkit** holds the operational material for the people who execute: the Value to Market plan, launch and events, social and content, horizon playbooks, the KPI and validation framework, and the operations workbook.
 
@@ -52,7 +52,7 @@ Single questions work too: "how should I price this?", "do we have a moat?".
 
 **It writes one coherent set of documents.** Each document answers one question and holds its own facts and figures; the others point to it instead of copying it. You choose the form: a conversation, short briefs, or full documents.
 
-**It separates strategy from execution.** `strategy` decides; `engineer` turns the decisions into the Value to Market plan; `align` checks the plan against what happened and sends only what reality disproved back to the strategy.
+**It separates strategy from execution.** `/vp strategy` decides; `/vp engineer` turns the decisions into the Value to Market plan; `/vp align` checks the plan against what happened and sends only what reality disproved back to the strategy.
 
 **It can work as a team of agents.** Type `/vp agents` and the value strategy runs as a team: scouts on competitors and trends, several architects drafting rival strategies, a red team and a scenario stress test, then the strongest strategy assembled from what survives. `/vp agents engineer` does the same for the Value to Market plan. It always shows the plan and the number of agents first, and starts only on your go.
 
@@ -94,7 +94,7 @@ Or call it by name with a keyword. In Claude Code and Cowork, type `/vp <keyword
                                          ▲                        │
                                          └──────── evolve ◄───────┘
 
-  Scale up      agents     run strategy (or engineer) as a team of parallel agents:
+  Scale up      agents     run /vp strategy or /vp engineer with a team of agents:
                            scouts, rival strategies, red team, scenario stress test
 
   Anytime       help       how to use it, and where your project stands
@@ -172,7 +172,7 @@ Some tools require turning on Agent Skills in their settings first. If the skill
 
 At the core sits the **Value Proposition Formula**: VP = [ Channels x Core Values x Promise ] + USP. The bracket multiplies, so a factor near zero sinks the whole proposition; the USP is added on top. Around it the method works in a fixed order: assets first, then the core values drawn from them, the premise (who it is for and who it is not), the promise, the proof, the category, and the channels. The **3P of Value** (Premise, Promise, Proof) is the contract with the market, the **Promise Ladder** measures how high a promise reaches, and **Rhyming** plans a portfolio whose launches compound over time.
 
-The keywords map onto the method's run. `assess`, `design`, `strategy` and `evolve` cover envisioning and strategy design. `engineer` covers engineering: turning the strategy into specifications, plans and measures for the people who execute. `align` closes the loop against reality.
+The keywords map onto the method's run. `/vp assess`, `/vp design`, `/vp strategy` and `/vp evolve` cover envisioning and strategy design. `/vp engineer` covers engineering: turning the strategy into specifications, plans and measures for the people who execute. `/vp align` closes the loop against reality.
 
 ---
 

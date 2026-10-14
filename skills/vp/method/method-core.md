@@ -44,7 +44,7 @@ Value to Market is the shortest path to value: the discipline that carries desig
 
 Cadence: **3 days** to set up with an aligned team, **12 weeks** to design and equip, **6 months** for the system to show effects. Perception's inertia is not negotiable.
 
-**How the jobs of this skill map to the run.** The strategy job, with assess, design and evolve, covers Envisioning and Strategy Design. The engineer job covers Engineering and the operational plan that carries it into the market: the workplan, the launch strikes and their events, social and content, the horizon playbooks, the measures. The align job closes the loop against reality and sends falsified assumptions back to the strategy.
+**How the jobs of this skill map to the run.** The Value Strategy job (`/vp strategy`), with the Assess, Design and Evolve jobs, covers Envisioning and Strategy Design. The Engineer job (`/vp engineer`) covers Engineering and the operational plan that carries it into the market: the workplan, the launch strikes and their events, social and content, the horizon playbooks, the measures. The Align job (`/vp align`) closes the loop against reality and sends falsified assumptions back to the strategy.
 
 The **Seven Wastes of Value** (audit first): undeclared, unproven, delivered-to-those-who-don't-appreciate, late, diluted-in-handover, contradicted, uncollected. Before hunting new value, stop throwing value away.
 

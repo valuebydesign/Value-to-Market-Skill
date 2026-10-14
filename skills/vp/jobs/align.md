@@ -55,4 +55,4 @@ Append the review to `Knowledge/Progress Log.md` (dated statuses, results, cause
 
 ## Hand-off
 
-Confirm the next review date. If the review found the world had changed, offer Evolve. If it found the strategy itself failing in several places, say so plainly and offer a Strategy job on the affected parts.
+End with the next step (`engine/commands.md`, section Next step): by default the next `/vp align` on the new review date, with the evidence to collect until then. If the review found the world had changed, recommend `/vp evolve` instead. If it found the strategy itself failing in several places, say so plainly and recommend `/vp strategy` (the Value Strategy job) on the affected parts.

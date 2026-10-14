@@ -9,6 +9,7 @@ One skill, organized by the job you need done.
 - **Renamed to Value Proposition.** The skill is now `vp` (command `/vp`) and the plugin `value-proposition`; it crafts a Value Proposition Strategy using the V2M Framework. Packages are named `value-proposition-*`.
 
 - **Jobs instead of phases.** The phase and tool skills are replaced by a single skill, `vp`, with six jobs called by keyword: `assess` (alias `review`), `design`, `strategy`, `engineer` (the Value to Market plan), `evolve` and `align`. The skill also recognizes the job from a plain-language request and picks the method's tools for it.
+- **Design, then Value Strategy.** `/vp design` shapes one value proposition for one line in a single run, inside the company frame (provisional when none is settled), and ends with a signed proposition. `/vp strategy` settles the company frame, runs the signed line in full, and extends it across lines and over time.
 - **Setup, help and tools.** `init` sets up a project (folders, data ingestion, context, preferences), `help` explains the skill for where the project stands, `tools` lists every tool and runs one on its own. A job can also be limited to named tools. `init` and `help` show a command map of every keyword and the flow between them.
 - **Any source.** A website, a list of websites, competitors by name, an industry, a folder, a pasted pitch, a previous run, or nothing at all.
 - **Socratic conversation.** Hypothesis first, few questions, a handful of checkpoints.

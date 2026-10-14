@@ -41,14 +41,20 @@ Six keywords cover everything the skill does. Type them after `/vp`, or just ask
 | Keyword | You want to | Say something like | You get |
 |---|---|---|---|
 | `/vp assess` (or `/vp review`) | Assess a value proposition | "Assess our value proposition from our website", "Compare us with these four competitors", "How do players in industrial cleaning position themselves?" | a diagnosis of the proposition, the competitive landscape, the costliest gap and the quickest fix |
-| `/vp design` | Design a value proposition | "Design a value proposition for our new consulting line", "I want to start a business in pet insurance, build it from scratch" | what the business really owns, the values it will stand for, who it serves and turns away, the promise and its proof, price logic, channels, and the words to say it |
-| `/vp strategy` | Build a value strategy | "Build our value strategy", or `/vp agents` to run it as a team of agents | the category, the company's values and defense, the proposition of each line of business, and the scenarios the strategy must survive |
+| `/vp design` | Design a value proposition for one line, in one run | "Design a value proposition for our new consulting line", "I want to start a business in pet insurance, build it from scratch" | what the business really owns, the values it will stand for, who it serves and turns away, the promise and its proof, price logic, channels, and the words to say it, ready for you to sign |
+| `/vp strategy` | Turn the signed proposition into the company's value strategy | "Build our value strategy", or `/vp agents` to run it as a team of agents | the company frame (which line carries the brand, the category, how the lines relate), the signed line designed in full, the proposition of every other line, and the evolution over time: rhyming, horizons, scenarios |
 | `/vp engineer` | Put the strategy into the market | "Engineer the Value to Market plan for our strategy" | a workplan with owners and budget, the launch with its three preparatory strikes and their events, a social and content plan, and playbooks for the three horizons that fire when their conditions are met |
 | `/vp evolve` | Adapt to what changed | "Our market changed, evolve our value proposition" | what changed and what it hits, plausible scenarios of what comes next, and a revised proposition with the order of the changes |
 | `/vp align` | Check reality against the plan | "We are three months in: align the plan with what we actually did" | the status of every planned item, why the gaps opened, what changes, and every document updated to match |
 | (none) | Ask one question | "How should I price this?", "Do we have a moat?" | an answer in the conversation, without a full report |
 
 The keywords follow each other in the order of the flow. `/vp assess` tells you whether to build a new proposition with `/vp design` or adjust the current one with `/vp evolve`. A designed proposition then goes to `/vp strategy`, which sets the category, the defense and the scenarios around it. `/vp engineer` turns that into a Value to Market plan, and regular reviews with `/vp align` keep the plan honest, sending anything reality disproved back through `/vp evolve`.
+
+### Design or Value Strategy?
+
+`/vp design` works on one line of business in a single run. It takes the company frame as given: which line carries the brand, the category you play in, and how your lines relate. When no frame has been settled yet, it proposes a provisional one for you to confirm and designs inside it. It ends with a value proposition you sign.
+
+`/vp strategy` takes that signed proposition and makes it the company's. It works in three stages: it settles the company frame the design assumed; it runs the same design chain in full for the signed line, completing what a single run skipped; and it carries the design across your other lines and over time, with the portfolio's next moves, the three horizons and the scenarios.
 
 Note that the keyword `/vp review` means `/vp assess`. When you want to review your progress against the plan, use `/vp align` or say so in plain words ("review what we did against the plan").
 

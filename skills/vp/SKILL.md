@@ -30,8 +30,8 @@ The user can just ask, or call a job by its keyword after `/vp`. The keywords an
 | Keyword | Job | The user says or brings | File |
 |---|---|---|---|
 | `/vp assess` (alias `/vp review`) | Assess a value proposition | assess, audit, benchmark, "what do you think of", a website, a list of sites, a folder, "my 5 competitors", an industry | `jobs/assess.md` |
-| `/vp design` | Design a value proposition | build, create, write, design a value proposition; a new product, line or venture; "start from scratch" | `jobs/design.md` |
-| `/vp strategy` | Build a value strategy | value strategy, positioning for the company, portfolio, "the whole thing", agentic mode | `jobs/strategy.md` (agentic mode: `engine/agentic.md`) |
+| `/vp design` | Design a value proposition for one line, in one run, inside the company frame | build, create, write, design a value proposition; a new product, line or venture; "start from scratch" | `jobs/design.md` |
+| `/vp strategy` | Value Strategy: settle the company frame, run the signed line in full, extend across lines and over time | value strategy, positioning for the company, portfolio, several lines, horizons, "the whole thing", agentic mode | `jobs/strategy.md` (agentic mode: `engine/agentic.md`) |
 | `/vp evolve` | Evolve a value proposition | fine-tune, refresh, update, evolve, "things have changed", a new strategy, a new market, new trends | `jobs/evolve.md` |
 | `/vp engineer` | Engineer the Value to Market plan | go to market, launch plan, execution plan, social plan, events, "make it happen", horizons and triggers | `jobs/engineer.md` |
 | `/vp align` | Align with reality | "review our progress", "what was done", "we are behind", "this is not working", realign, update the plan to reality | `jobs/align.md` |
@@ -42,6 +42,8 @@ The user can just ask, or call a job by its keyword after `/vp`. The keywords an
 The keyword `/vp review` on its own means `/vp assess`. In plain language, a review of progress against a plan ("review what we did") is `/vp align`.
 
 When the request fits two jobs, run them in their natural order: `/vp assess` feeds `/vp design` or `/vp evolve`, `/vp design` feeds `/vp strategy`, `/vp strategy` feeds `/vp engineer`, and `/vp align` keeps the engineered plan honest and can send work back to `/vp evolve` or `/vp strategy`.
+
+**The Design job and the Value Strategy job are different.** `/vp design` shapes one value proposition for one line in a single run and takes the company frame as given (which line carries the brand, the category, how the lines relate), starting from a provisional frame when none is settled. `/vp strategy` settles that frame, runs the same Design chain in full for the signed value proposition line, and carries it across the other lines and over time (rhyming, horizons, scenarios). See the Scope sections of `jobs/design.md` and `jobs/strategy.md`.
 
 **The Value Strategy job and the Engineer job are different.** `/vp strategy` decides what the company stands for, for whom, against whom, and where it goes. `/vp engineer` plans the execution of those decisions as the Value to Market plan: workplan, launch, events, social, horizon playbooks, measures. `/vp align` compares that execution with reality. Keep the boundary: an execution document cites a strategic decision and plans it; it never re-argues it. If execution reveals that a decision was wrong, the Align job escalates it through the redline. Reuse what an earlier job produced. When the job is unclear, ask one question listing the jobs in plain words, with your best guess first.
 

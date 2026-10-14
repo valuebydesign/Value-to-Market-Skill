@@ -44,6 +44,7 @@ Skip any question the sources, `context.md` or the `Knowledge/` pages already an
 4. **Triggers already in place.** Events already under way that will force change whatever you decide: a regulation coming into force, a technology shift, a contract signed or lost, a rival's launch, a funding round, a key hire or departure, a price change in your inputs.
 5. **Assets.** What you own or control that others would struggle to get. Prompt with the eight families: physical, technological, relational, human, reputational, community, institutional, narrative.
 6. **Constraints.** Budget, team, launch date, things you will not do.
+7. **The company frame.** Read it from `Knowledge/Strategy.md` when it exists. Otherwise propose a provisional one for the user to confirm: which line carries the brand, the category, and how this line relates to the others.
 
 From scratch, replace 2 to 5 with: the space or industry, the ambition (size, timeline), the founder's own assets and unfair advantages, and whether the user wants to choose among generated directions or let you pick.
 

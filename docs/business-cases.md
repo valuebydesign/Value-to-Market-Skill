@@ -34,7 +34,7 @@ For the keywords, see the [command map](how-it-works.md#the-command-map); for ea
 - `Value Strategy Playbook/Executive Summary`: the recommended direction, and a Decisions and Agenda table that leads with the validation plan: the three riskiest assumptions, the cheapest test for each (a concierge pilot with two clinics, a landing page with a waitlist deposit, ten owner interviews), and the signal that would kill the direction.
 - `Value Workspace/`: the memory of everything she said, so the next session starts where this one stopped.
 
-**Decisions that stay with her.** The direction, the values she signs, who the business turns away, the price corridor to test.
+**Decisions that stay with her.** The direction, the provisional company frame the design works inside (one line that carries the brand, in the category of post-diagnosis guidance), the values she signs, who the business turns away, the price corridor to test, and the signature on the proposition.
 
 **What comes next.** After the pilot, `/vp evolve` with what the tests showed.
 
@@ -117,15 +117,21 @@ He points `/vp init` at the website, a folder of tender responses and the names 
 
 `/vp init` reads the website, the last two years of proposals and the partners' notes.
 
-**How the run goes.** The skill opens with a stage check (what is already decided and what is not), writes the plan, and then works through five checkpoints:
+**How the run goes.** The skill opens with a stage check (what is already decided and what is not), writes the plan, and works in three stages. No value proposition has been signed yet, so stage 2 starts from the line the frame puts first.
 
+*Stage 1, the company frame.*
 1. **The field.** After the benchmark and the category scan: "Developers file you with the large engineering firms; owners file you with local inspectors. Which comparison do you want to win, and which do you want to leave?"
 2. **Foundations.** After the asset inventory: the value set drawn from what the firm owns (a decade of inspection records on the same buildings, two partners on the regional standards committee), with one antithesis. The partners sign it or change it before anything else is designed.
-3. **Company strategy.** The category, the defense and the posture: "If a national firm with ten times your resources copied your inspection offer tomorrow, what would it still fail to replicate?" The answer, the building history only Calder & Wynn holds, becomes the spine of the category: building lifecycle assurance, joining the two lines.
-4. **Each line's 3P.** For inspection and then for design, the premise read aloud ("would the owner who only wants the cheapest certificate walk away?"), the promise, and the proof gap.
-5. **Before writing.** The scenarios (a new inspection regulation, a downturn in development) and the open decisions.
+3. **The frame.** "If a national firm with ten times your resources copied your inspection offer tomorrow, what would it still fail to replicate?" The answer, the building history only Calder & Wynn holds, settles the frame: inspection carries the brand, the category is building lifecycle assurance, and structural design becomes the line that feeds inspection with new buildings to follow. The partners sign the frame.
 
-**What runs.** `/vp strategy`: `source-read` on the rivals, `benchmark`, `category-scan`, `change-scan`, `business-sketch`, `assets`, `core-values`, `category-design`, `value-matrix`, `defense`, `power`, `rhyming`, then for each line `jobs`, `personas`, `canvas`, `adoption`, `3p`, `ladder`, `pricing`, `channels`, `formula`, `verbalization`, and finally `scenarios` and `bmc`.
+*Stage 2, the signed line in full.*
+4. **Inspection, end to end.** The whole design chain for the inspection line: jobs, personas, the canvas, adoption, the 3P read aloud ("would the owner who only wants the cheapest certificate walk away?"), the ladder, pricing and channels. The partners sign the proposition.
+
+*Stage 3, across lines and over time.*
+5. **The design line.** Its proposition derived from the signed one, inside the frame: the same values, the same category, a promise that hands each building over to inspection.
+6. **Over time.** The next moves on the portfolio, the three horizons with their triggers, and the scenarios (a new inspection regulation, a downturn in development), then the open decisions.
+
+**What runs.** `/vp strategy`. Stage 1: `source-read` on the rivals, `benchmark`, `category-scan`, `change-scan`, `business-sketch`, `assets`, `core-values`, `category-design`, `value-matrix`, `defense`, `power`. Stage 2, for inspection: `jobs`, `archetypes`, `personas`, `canvas`, `adoption`, `3p`, `ladder`, `pricing`, `channels`, `formula`, `verbalization`. Stage 3: the same chain for design, then `rhyming`, `scenarios` and `bmc`.
 
 **What she receives.**
 

@@ -64,7 +64,7 @@ Value Workspace/
     Values.md                     current value set and its evolution plan
     Customers.md                  job clusters, archetype codes, personas, antithetical personas
     Proposition - <Line>.md       the current 3P, rung, Formula, pricing logic, channels, sentence
-    Strategy.md                   category, value matrix, defense, power, rhyming, business model
+    Strategy.md                   the company frame (brand-carrying line, category, relations between lines), value matrix, defense, power, rhyming, business model
     Market/<Player>.md            one page per competitor or alternative, with dated moves
     Changes and Triggers.md       change register, triggers in place, signposts being watched
     Scenarios.md                  live scenarios and their pre-decided responses

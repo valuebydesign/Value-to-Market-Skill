@@ -1,6 +1,19 @@
-# Job: Design a value proposition
+# Job: Design (`/vp design`)
 
 Design a value proposition for one line of business, in the method's order: what the business owns, what it stands for, who it is for, what it promises, how it proves it, how it is priced, where it is said and how it sounds.
+
+## Scope: one line, one run, inside a company frame
+
+The Design job works on a single line of business in a single run. It takes the company frame as given:
+
+- which line carries the brand, and where this line sits next to it;
+- the category the company plays in;
+- how the lines relate to each other (what they share, what they must not contradict);
+- the company's core values, when they are already signed.
+
+Read the frame from `Knowledge/Strategy.md` (section Company frame). When no frame has been settled yet, start with a provisional one: propose it in a few lines at the first checkpoint (for a single-line business it is usually "this line carries the brand, in the category customers already file it under"), mark it Assumed, and design inside it. The Design job never settles the frame itself: the category design, the defense, the portfolio and the evolution over time belong to the Value Strategy job (`/vp strategy`), which takes this design as its starting point.
+
+The job ends with a value proposition the user signs: the filled Formula and the 3P, recorded in `Knowledge/Proposition - <Line>.md` with the status Signed (or Draft when the user wants to revisit it).
 
 ## Variants
 
@@ -28,9 +41,11 @@ Reuse before running: if the Assess job already produced the benchmark, category
 
 ## Checkpoints
 
+0. Before designing: the company frame, read from `Knowledge/` or proposed as provisional. One line each for the brand-carrying line, the category and the relation to other lines; the user confirms or corrects.
 1. After assets and core values: show the value set with its backing assets and the antithesis, and ask the user to sign it or change it. Nothing downstream is designed until the values are agreed.
 2. After jobs and personas: ask the user to mark the job clusters Core, Important or Irrelevant, and to confirm the primary and antithetical personas.
 3. After the 3P: read the premise aloud and ask whether the wrong customer would walk away; show the promise and the proof gap.
+4. At the end: present the filled Formula and the 3P for signature. A signed proposition is what the Value Strategy job carries forward.
 
 ## Reports
 
@@ -49,8 +64,8 @@ In B3, the Decisions and Agenda table leads with the validation plan: the riskie
 
 ## Gate
 
-The filled Formula has no factor near zero, the 3P passes its scorecards, and fit holds for the pains and gains customers rank high. If a factor is near zero, say so before polishing anything else, and propose the iteration.
+The filled Formula has no factor near zero, the 3P passes its scorecards, fit holds for the pains and gains customers rank high, and the user has signed the proposition (or chosen to leave it as Draft). If a factor is near zero, say so before polishing anything else, and propose the iteration.
 
 ## Hand-off
 
-Recommend the next job following `engine/commands.md`, section Next step: `/vp strategy` (the Value Strategy job) by default, because the category, the defense and the scenarios come after the proposition in the order of work; `/vp agents` when the market is contested; `/vp engineer` only when a company strategy already exists in `Knowledge/`. `/vp evolve` is the routine to rerun when the triggers fire.
+Recommend the next job following `engine/commands.md`, section Next step: `/vp strategy` (the Value Strategy job) by default, because it settles the company frame this run assumed, runs this signed line in full, and carries it across lines and over time; `/vp agents` when the market is contested; `/vp engineer` only when a company strategy already exists in `Knowledge/`. `/vp evolve` is the routine to rerun when the triggers fire.

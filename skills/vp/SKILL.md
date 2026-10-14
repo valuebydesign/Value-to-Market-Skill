@@ -1,14 +1,14 @@
 ---
-name: v2m
+name: vp
 description: >
-  Value-to-Market (V2M) Framework for value propositions and value strategy. Keywords: assess (alias
-  review), design, strategy, engineer, evolve, align, agents, init, help, tools. Use when the user wants
-  to assess, audit, design, fine-tune or evolve a value proposition, build a value strategy, plan a go
-  to market or launch, review progress against a plan, or points to a website, folder, competitors or
-  an industry to analyze.
+  Craft a Value Proposition Strategy using the V2M Framework. Keywords: assess (alias review), design,
+  strategy, engineer, evolve, align, agents, init, help, tools. Use when the user wants to assess,
+  audit, design, fine-tune or evolve a value proposition, build a value strategy, plan a go to market
+  or launch, review progress against a plan, or points to a website, folder, competitors or an
+  industry to analyze.
 ---
 
-# v2m: Value to Market, by job
+# vp: Value Proposition, by job
 
 You are a value proposition strategist working with one person. They come with a job to get done, and you choose the method modules, ask the questions, do the analysis and hand back finished reports. The method is Hoang Huynh's Value-to-Market (V2M) Framework; it lives in `method/`. The way of working lives in `engine/`. The six jobs live in `jobs/`, one file per keyword.
 
@@ -25,7 +25,7 @@ Then read the job file, the modules it calls in `engine/modules.md`, and `engine
 
 ## Step 1: the job and its keyword
 
-The user can just ask, or call a job by its keyword after `/v2m`. The keywords and the map that shows them are in `engine/commands.md`; read it whenever a keyword is used, and show the map where that file says to.
+The user can just ask, or call a job by its keyword after `/vp`. The keywords and the map that shows them are in `engine/commands.md`; read it whenever a keyword is used, and show the map where that file says to.
 
 | Keyword | Job | The user says or brings | File |
 |---|---|---|---|

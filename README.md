@@ -1,10 +1,10 @@
 <div align="center">
 
-# Value to Market
+# Value Proposition
 
-### The Value-to-Market (V2M) Framework, as an AI Agent Skill
+### Craft a Value Proposition Strategy using the V2M Framework
 
-Turn your AI into a value proposition strategist. Ask it to assess, build or fine-tune a value proposition, to build your value strategy, to turn that strategy into a launch plan, or to check the plan against what really happened. It reads what you already have, asks only what it cannot find, and hands back documents you can share with your team or your board.
+An AI agent skill that works as a value proposition strategist. Ask it to assess, design or evolve a value proposition, to build your value strategy, to turn that strategy into a launch plan, or to check the plan against what really happened. It reads what you already have, asks only what it cannot find, and hands back documents you can share with your team or your board.
 
 [![Version](https://img.shields.io/badge/version-2.0.0-8E0044)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-111111)](LICENSE)
@@ -52,12 +52,12 @@ Single questions work too: "how should I price this?", "do we have a moat?".
 
 **It separates strategy from execution.** `strategy` decides; `engineer` turns the decisions into the Value to Market plan; `align` checks the plan against what happened and sends only what reality disproved back to the strategy.
 
-**It can work as a team of agents.** Type `/v2m agents` and the value strategy runs as a team: scouts on competitors and trends, several architects drafting rival strategies, a red team and a scenario stress test, then the strongest strategy assembled from what survives. `/v2m agents engineer` does the same for the Value to Market plan. It always shows the plan and the number of agents first, and starts only on your go.
+**It can work as a team of agents.** Type `/vp agents` and the value strategy runs as a team: scouts on competitors and trends, several architects drafting rival strategies, a red team and a scenario stress test, then the strongest strategy assembled from what survives. `/vp agents engineer` does the same for the Value to Market plan. It always shows the plan and the number of agents first, and starts only on your go.
 
 ```
-/v2m agents
-/v2m agents strategy for our three business lines, against Acme, Globex and Initech
-/v2m agents engineer the launch plan for the premium line, big event in March
+/vp agents
+/vp agents strategy for our three business lines, against Acme, Globex and Initech
+/vp agents engineer the launch plan for the premium line, big event in March
 "Use agents to build our value strategy, and stress-test it against a price war"
 ```
 
@@ -71,10 +71,10 @@ The full documentation is listed below, in [Documentation](#documentation).
 
 Just ask, in your own words: "Assess our value proposition against these four competitors", "Design a value proposition for our new consulting line", "Engineer the launch plan for our strategy". Your assistant recognizes the request from the skill's description and opens it.
 
-Or call it by name with a keyword. In Claude Code and Cowork, type `/v2m <keyword> <request>`:
+Or call it by name with a keyword. In Claude Code and Cowork, type `/vp <keyword> <request>`:
 
 ```
-  VALUE TO MARKET                                         /v2m <keyword> <request>
+  VALUE PROPOSITION                                        /vp <keyword> <request>
 
   Set up        init       create the folders, read your sources, draft the context
 
@@ -102,17 +102,17 @@ Or call it by name with a keyword. In Claude Code and Cowork, type `/v2m <keywor
 For example:
 
 ```
-/v2m init
-/v2m assess example.com against acme.com and globex.com
-/v2m design a value proposition for our new consulting line
-/v2m strategy for the company, three business lines
-/v2m engineer the launch plan, big event in March
-/v2m evolve: a new competitor entered with half our price
-/v2m align: we are three months into the plan
-/v2m tools pricing
+/vp init
+/vp assess example.com against acme.com and globex.com
+/vp design a value proposition for our new consulting line
+/vp strategy for the company, three business lines
+/vp engineer the launch plan, big event in March
+/vp evolve: a new competitor entered with half our price
+/vp align: we are three months into the plan
+/vp tools pricing
 ```
 
-`/v2m help` shows this map with what makes sense next for your project; `/v2m tools <name>` runs a single tool. In other assistants, name the skill in your message or pick it from the skills menu. Calling it by name is the safer route when your request is vague or when other installed skills cover similar ground.
+`/vp help` shows this map with what makes sense next for your project; `/vp tools <name>` runs a single tool. In other assistants, name the skill in your message or pick it from the skills menu. Calling it by name is the safer route when your request is vague or when other installed skills cover similar ground.
 
 ---
 
@@ -120,7 +120,7 @@ For example:
 
 | Guide | Read it to |
 | --- | --- |
-| **[How Value to Market works](docs/how-it-works.md)** | learn the keywords and the command map, what to point the skill to, the settings, the folders, agentic mode, and privacy |
+| **[How the Value Proposition skill works](docs/how-it-works.md)** | learn the keywords and the command map, what to point the skill to, the settings, the folders, agentic mode, and privacy |
 | **[Business cases and scenarios](docs/business-cases.md)** | follow fictional companies through every keyword, see how scenarios of the future are built, and watch one company use the skill over a year |
 | **[The tools of the Value-to-Market Framework](docs/tools.md)** | see every tool in detail, with the book of the *Value by Design* collection that goes deeper on each |
 
@@ -140,7 +140,7 @@ It detects your agent and installs the skill in the right place. Add `-a <agent>
 
 ```
 /plugin marketplace add valuebydesign/Value-to-Market-Skill
-/plugin install value-to-market@value-by-design
+/plugin install value-proposition@value-by-design
 ```
 
 **ChatGPT, Microsoft 365 Copilot** and other upload-based apps: download the `chatgpt` package from the release and upload the `skills/` folder inside it through the app's Skills settings.
@@ -151,18 +151,18 @@ Every release ships one archive per tool, laid out in that tool's own directory.
 
 | Tool | Package | Unzips into |
 | --- | --- | --- |
-| Claude Code / Cowork | `value-to-market-claude-v<version>.plugin` | the plugin (or use the marketplace above) |
-| Cursor | `value-to-market-cursor-v<version>.zip` | `.cursor/skills/` |
-| OpenAI Codex | `value-to-market-codex-v<version>.zip` | `.agents/skills/` |
-| GitHub Copilot | `value-to-market-github-v<version>.zip` | `.github/skills/` |
-| Gemini CLI | `value-to-market-gemini-v<version>.zip` | `.gemini/skills/` |
-| OpenCode | `value-to-market-opencode-v<version>.zip` | `.opencode/skills/` |
-| ChatGPT, M365 Copilot, other apps | `value-to-market-chatgpt-v<version>.zip` | upload the `skills/` folder |
-| Any agent | `value-to-market-v<version>.zip` | your agent's skills directory |
+| Claude Code / Cowork | `value-proposition-claude-v<version>.plugin` | the plugin (or use the marketplace above) |
+| Cursor | `value-proposition-cursor-v<version>.zip` | `.cursor/skills/` |
+| OpenAI Codex | `value-proposition-codex-v<version>.zip` | `.agents/skills/` |
+| GitHub Copilot | `value-proposition-github-v<version>.zip` | `.github/skills/` |
+| Gemini CLI | `value-proposition-gemini-v<version>.zip` | `.gemini/skills/` |
+| OpenCode | `value-proposition-opencode-v<version>.zip` | `.opencode/skills/` |
+| ChatGPT, M365 Copilot, other apps | `value-proposition-chatgpt-v<version>.zip` | upload the `skills/` folder |
+| Any agent | `value-proposition-v<version>.zip` | your agent's skills directory |
 
 Some tools require turning on Agent Skills in their settings first. If the skill does not appear, enable skills and reload.
 
-**Coming from version 1?** The phase and tool commands (`/v2m-init`, `/v2m-value-strategy`, `/v2m-set-...`, `/v2m-tool-...`) are retired. Uninstall them, install this version, and run `/v2m init` in your project: it reads your existing `.value-to-market/context.md` and leaves your old `Value Strategy/` documents untouched.
+**Coming from version 1?** The skill was called Value to Market (plugin `value-to-market`); it is now Value Proposition (plugin `value-proposition`, command `/vp`). The phase and tool commands (`/v2m-init`, `/v2m-value-strategy`, `/v2m-set-...`, `/v2m-tool-...`) are retired. Uninstall them, install this version, and run `/vp init` in your project: it reads your existing `.value-to-market/context.md` and leaves your old `Value Strategy/` documents untouched.
 
 ---
 
@@ -197,12 +197,12 @@ The skill applies the method; the books give you the judgement behind it: why th
 ## Repository layout
 
 ```
-skills/v2m/SKILL.md      the skill: recognizes the job, runs the intake, plans, works, delivers
-skills/v2m/jobs/         assess, build, finetune, strategy, valuetomarket, realign
-skills/v2m/engine/       commands, conversation, intake, modules (the tools), reports, workspace, agentic mode
-skills/v2m/method/       the V2M method: core, frameworks, glossary, principles, checklist, customer fit,
+skills/vp/SKILL.md      the skill: recognizes the job, runs the intake, plans, works, delivers
+skills/vp/jobs/         assess, build, finetune, strategy, valuetomarket, realign
+skills/vp/engine/       commands, conversation, intake, modules (the tools), reports, workspace, agentic mode
+skills/vp/method/       the V2M method: core, frameworks, glossary, principles, checklist, customer fit,
                          rhyming, scorecards, humanize, report format
-skills/v2m/CREDITS.md    attributions; LICENSE ships with the skill
+skills/vp/CREDITS.md    attributions; LICENSE ships with the skill
 docs/                    the user guide, business cases and scenarios, the tools reference
 .claude-plugin/          Claude plugin and marketplace manifests
 dist/                    one ready-to-drop package per tool, plus a universal package
@@ -227,7 +227,7 @@ The Value-to-Market (V2M) Framework contains derivative work built on the work o
 | Category Design | Al Ramadan, Dave Peterson, Christopher Lochhead, Kevin Maney (*Play Bigger*) |
 | Stages of economic value used in Rhyming | B. Joseph Pine II and James H. Gilmore |
 
-The full list, including further credits for the Rhyming model, is in [`skills/v2m/CREDITS.md`](skills/v2m/CREDITS.md). All other constructs, including the Value Proposition Formula and the Value to Market framework, along with Rhyming, the 3P of Value, the Promise Ladder, Power Shifting, and the Confrontational Model, are original to Hoang Huynh's *Value by Design* collection.
+The full list, including further credits for the Rhyming model, is in [`skills/vp/CREDITS.md`](skills/vp/CREDITS.md). All other constructs, including the Value Proposition Formula and the Value to Market framework, along with Rhyming, the 3P of Value, the Promise Ladder, Power Shifting, and the Confrontational Model, are original to Hoang Huynh's *Value by Design* collection.
 
 ---
 

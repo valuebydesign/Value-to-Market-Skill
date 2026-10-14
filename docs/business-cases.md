@@ -15,8 +15,8 @@ For the keywords, see the [command map](how-it-works.md#the-command-map); for ea
 **What she types.**
 
 ```
-/v2m init
-/v2m design a business in pet health, from scratch
+/vp init
+/vp design a business in pet health, from scratch
 ```
 
 **What the skill asks.** With nothing to read, it starts from what Marta knows. A few of its questions:
@@ -35,7 +35,7 @@ For the keywords, see the [command map](how-it-works.md#the-command-map); for ea
 
 **Decisions that stay with her.** The direction, the values she signs, who the business turns away, the price corridor to test.
 
-**What comes next.** After the pilot, `/v2m evolve` with what the tests showed.
+**What comes next.** After the pilot, `/vp evolve` with what the tests showed.
 
 ---
 
@@ -46,8 +46,8 @@ For the keywords, see the [command map](how-it-works.md#the-command-map); for ea
 **What he types.**
 
 ```
-/v2m init
-/v2m assess brightline.example against our five main competitors
+/vp init
+/vp assess brightline.example against our five main competitors
 ```
 
 He points `init` at the website, a folder of tender responses and the names of five rivals.
@@ -66,7 +66,7 @@ He points `init` at the website, a folder of tender responses and the names of f
 
 **Decisions that stay with him.** Whether to hold rates and fix the proposition first.
 
-**What comes next.** `/v2m design` for the facility management line, starting from the assets the assessment surfaced.
+**What comes next.** `/vp design` for the facility management line, starting from the assets the assessment surfaced.
 
 ---
 
@@ -77,7 +77,7 @@ He points `init` at the website, a folder of tender responses and the names of f
 **What she types.**
 
 ```
-/v2m evolve: a rival launched at half our price and AI assistants now cover part of our features
+/vp evolve: a rival launched at half our price and AI assistants now cover part of our features
 ```
 
 **What the skill asks.** It opens the memory from the earlier run and reads the change against it:
@@ -95,7 +95,7 @@ He points `init` at the website, a folder of tender responses and the names of f
 
 **Decisions that stay with her.** Whether to answer the rival on price or on meaning; which scenario response to pre-approve.
 
-**What comes next.** `/v2m engineer` for the relaunch of the revised promise.
+**What comes next.** `/vp engineer` for the relaunch of the revised promise.
 
 ---
 
@@ -108,8 +108,8 @@ He points `init` at the website, a folder of tender responses and the names of f
 **What she types.**
 
 ```
-/v2m init
-/v2m strategy for the firm, both lines, three-year horizon
+/vp init
+/vp strategy for the firm, both lines, three-year horizon
 ```
 
 `init` reads the website, the last two years of proposals and the partners' notes.
@@ -133,7 +133,7 @@ He points `init` at the website, a folder of tender responses and the names of f
 
 **Decisions that stay with the partners.** The value set, the category, who each line turns away, the price corridor, which scenario responses to pre-approve.
 
-**What comes next.** `/v2m engineer` to turn the strategy into a plan, starting with the inspection line. Had the field been crowded with aggressive rivals, `/v2m agents` would have been the better start.
+**What comes next.** `/vp engineer` to turn the strategy into a plan, starting with the inspection line. Had the field been crowded with aggressive rivals, `/vp agents` would have been the better start.
 
 ---
 
@@ -144,8 +144,8 @@ He points `init` at the website, a folder of tender responses and the names of f
 **What he types.**
 
 ```
-/v2m init
-/v2m agents strategy for our three business lines, against our two largest competitors
+/vp init
+/vp agents strategy for our three business lines, against our two largest competitors
 ```
 
 **What the skill shows before starting.** The plan: four scouts (two competitors, trends, customers), an inside analyst, a scenario builder, three strategy architects, a red team, a stress test, an independent checker; three waves; the research budget. It waits for his go.
@@ -165,7 +165,7 @@ He points `init` at the website, a folder of tender responses and the names of f
 
 **Decisions that stay with him and the board.** The thesis, the category name, the investment in the software line.
 
-**What comes next.** `/v2m agents engineer` for the first line to launch.
+**What comes next.** `/vp agents engineer` for the first line to launch.
 
 ---
 
@@ -176,7 +176,7 @@ He points `init` at the website, a folder of tender responses and the names of f
 **What she types.**
 
 ```
-/v2m engineer the launch of the single-estate line, big event at the spring food fair
+/vp engineer the launch of the single-estate line, big event at the spring food fair
 ```
 
 **What the skill asks.**
@@ -197,7 +197,7 @@ He points `init` at the website, a folder of tender responses and the names of f
 
 **Decisions that stay with her.** Owners, budget release, the fair date, the restaurant shortlist.
 
-**What comes next.** The plan sets the first review date for `/v2m align`.
+**What comes next.** The plan sets the first review date for `/vp align`.
 
 ---
 
@@ -208,7 +208,7 @@ He points `init` at the website, a folder of tender responses and the names of f
 **What she types.**
 
 ```
-/v2m align: we are three months into the launch plan
+/vp align: we are three months into the launch plan
 ```
 
 She points it at the social analytics, the waitlist export and the team's status sheet.
@@ -237,7 +237,7 @@ Then the causes: "What would have to be true for the tasting to happen next mont
 **Situation.** A studio owner wants to raise prices and only needs that answered.
 
 ```
-/v2m tools pricing
+/vp tools pricing
 ```
 
 or simply: "Should I raise my prices?"

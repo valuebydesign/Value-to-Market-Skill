@@ -7,9 +7,9 @@
   },
   "plugins": [
     {
-      "name": "value-to-market",
-      "displayName": "Value to Market",
-      "description": "One skill for the Value-to-Market (V2M) Framework: assess, design and evolve value propositions, build a value strategy, plan the launch, and review it against reality.",
+      "name": "value-proposition",
+      "displayName": "Value Proposition",
+      "description": "Craft a Value Proposition Strategy using the V2M Framework: assess, design and evolve value propositions, build the strategy, plan the launch, and review it against reality.",
       "source": {
         "type": "github",
         "repo": "valuebydesign/Value-to-Market-Skill",

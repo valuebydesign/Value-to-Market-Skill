@@ -1,6 +1,6 @@
-# Value to Market v2.0.0
+# Value Proposition v2.0.0
 
-A new way to work with the method. The phase-by-phase skills of version 1 are replaced by one skill that starts from the job you need done, talks with you about it, and hands back one coherent set of documents.
+Craft a Value Proposition Strategy using the V2M Framework. The skill is renamed from Value to Market to Value Proposition, with the command `/vp`, and it is a new way to work with the method. The phase-by-phase skills of version 1 are replaced by one skill that starts from the job you need done, talks with you about it, and hands back one coherent set of documents.
 
 ## What is new
 
@@ -17,7 +17,7 @@ A new way to work with the method. The phase-by-phase skills of version 1 are re
 
 ## Coming from version 1
 
-The version 1 commands (`/v2m-init`, `/v2m-value-strategy`, `/v2m-set-...`, `/v2m-tool-...`) are retired. Uninstall them, install this release, and run `/v2m init` in your project: it reads your existing `.value-to-market/context.md` and leaves your earlier `Value Strategy/` documents untouched.
+The plugin is renamed from `value-to-market` to `value-proposition`. The version 1 commands (`/v2m-init`, `/v2m-value-strategy`, `/v2m-set-...`, `/v2m-tool-...`) are retired. Uninstall them, install this release, and run `/vp init` in your project: it reads your existing `.value-to-market/context.md` and leaves your earlier `Value Strategy/` documents untouched.
 
 ## Install
 
@@ -31,10 +31,10 @@ In Claude Code or Cowork, from the marketplace:
 
 ```
 /plugin marketplace add valuebydesign/Value-to-Market-Skill
-/plugin install value-to-market@value-by-design
+/plugin install value-proposition@value-by-design
 ```
 
-For ChatGPT, Microsoft 365 Copilot, and other upload-based apps, download `value-to-market-chatgpt-v2.0.0.zip` and upload the `skills/` folder through the app's Skills settings. For a manual install on any other tool, use the matching package from the assets. Once installed, type `/v2m init`, or ask your assistant to set up a value strategy project.
+For ChatGPT, Microsoft 365 Copilot, and other upload-based apps, download `value-proposition-chatgpt-v2.0.0.zip` and upload the `skills/` folder through the app's Skills settings. For a manual install on any other tool, use the matching package from the assets. Once installed, type `/vp init`, or ask your assistant to set up a value strategy project.
 
 ## Learn the method
 

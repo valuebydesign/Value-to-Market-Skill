@@ -1,13 +1,13 @@
 # Commands: the keywords and the map
 
-Most of the time the user simply asks for what they need and the router in `SKILL.md` picks the job. Keywords give direct control. They work after the slash command (`/v2m assess example.com`) and in plain language ("assess our site", "set up the project", "which tools do you have"). Anything after the keyword is the request: `/v2m design a value proposition for our consulting line`.
+Most of the time the user simply asks for what they need and the router in `SKILL.md` picks the job. Keywords give direct control. They work after the slash command (`/vp assess example.com`) and in plain language ("assess our site", "set up the project", "which tools do you have"). Anything after the keyword is the request: `/vp design a value proposition for our consulting line`.
 
 ## The command map
 
 Show this map, exactly as drawn, at the end of `init`, at the top of `help`, and whenever the user asks what they can do. Below it, add one line suggesting the keyword that fits the project's state.
 
 ```
-  VALUE TO MARKET                                         /v2m <keyword> <request>
+  VALUE PROPOSITION                                        /vp <keyword> <request>
 
   Set up        init       create the folders, read your sources, draft the context
 
@@ -38,8 +38,8 @@ The keyword `review` is an alias for `assess`.
 
 `agents` is a mode, not a job: it runs a job as a team of parallel agents, following `engine/agentic.md`.
 
-- `/v2m agents` or `/v2m agents <request>`: the `strategy` job in agentic mode.
-- `/v2m agents engineer <request>`: the `engineer` job with parallel agents for social, events and horizon playbooks.
+- `/vp agents` or `/vp agents <request>`: the `strategy` job in agentic mode.
+- `/vp agents engineer <request>`: the `engineer` job with parallel agents for social, events and horizon playbooks.
 - Plain language: "use agents", "agentic mode", "run it as a team".
 
 Typing the keyword is the request for agentic mode, so do not ask whether to use it. Still show the plan (roles, number of agents, waves, the research budget) and wait for an explicit go before launching anything. If the host cannot run agents in parallel, say so and offer the sequential fallback. Any other job named after `agents` (assess, design, evolve, align) runs normally; say that agentic mode applies to strategy and engineer only.
@@ -53,7 +53,7 @@ Run once per project, before or instead of the first job. Re-running it refreshe
 3. **Build the context.** From the sources, draft `context.md` (project, offering type, business model, lines of business, market and audiences, goal and horizon, constraints, known assets, triggers in place) and show the draft to the user as a hypothesis to confirm or correct. Ask only what the sources leave open, in one round.
 4. **Seed the memory.** Create `Home.md`, and seed `Knowledge/Company.md`, `Knowledge/Assets.md` (assets visible so far, unscored) and one `Knowledge/Market/<Player>.md` page per competitor read. Mark everything as a first read.
 5. **Preferences.** Language, tone, the default depth and output form, the document formats wanted, terms to use and to avoid. Record them in `context.md`.
-6. **Close.** Say in a few lines what was set up and read and the gaps that matter. Then show the command map and recommend the first keyword with a ready-to-use example ("Next: `/v2m assess` our proposition against the three rivals we read").
+6. **Close.** Say in a few lines what was set up and read and the gaps that matter. Then show the command map and recommend the first keyword with a ready-to-use example ("Next: `/vp assess` our proposition against the three rivals we read").
 
 `init` produces no report. It writes only into `Value Workspace/` and creates the empty `Value Strategy/` folder.
 
@@ -61,7 +61,7 @@ Run once per project, before or instead of the first job. Re-running it refreshe
 
 Answer in conversation, short, and adapted to the project's state. Always open with the command map.
 
-- **No workspace yet:** under the map, how to call the skill (plain language or `/v2m <keyword>`), what to point it to, the two settings (depth and output form), and the suggestion to start with `init` or with `assess`.
+- **No workspace yet:** under the map, how to call the skill (plain language or `/vp <keyword>`), what to point it to, the two settings (depth and output form), and the suggestion to start with `init` or with `assess`.
 - **A workspace exists:** read `Home.md` first. Say where the project stands (last jobs, open decisions, triggers being watched, the next review date) and the one or two jobs that make sense next.
 - **`help <topic>`:** explain that topic only. Topics: any keyword, sources, settings, folders, memory, agentic mode, reports, scoring, privacy, or the name of a tool.
 

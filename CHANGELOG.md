@@ -1,12 +1,14 @@
 # Changelog
 
-All notable changes to the Value to Market plugin are documented here. This project follows [Semantic Versioning](https://semver.org).
+All notable changes to the Value Proposition skill (called Value to Market before 2.0.0) are documented here. This project follows [Semantic Versioning](https://semver.org).
 
 ## [2.0.0] - 2026-10-14
 
 One skill, organized by the job you need done.
 
-- **Jobs instead of phases.** The phase and tool skills are replaced by a single skill, `v2m`, with six jobs called by keyword: `assess` (alias `review`), `design`, `strategy`, `engineer` (the Value to Market plan), `evolve` and `align`. The skill also recognizes the job from a plain-language request and picks the method's tools for it.
+- **Renamed to Value Proposition.** The skill is now `vp` (command `/vp`) and the plugin `value-proposition`; it crafts a Value Proposition Strategy using the V2M Framework. Packages are named `value-proposition-*`.
+
+- **Jobs instead of phases.** The phase and tool skills are replaced by a single skill, `vp`, with six jobs called by keyword: `assess` (alias `review`), `design`, `strategy`, `engineer` (the Value to Market plan), `evolve` and `align`. The skill also recognizes the job from a plain-language request and picks the method's tools for it.
 - **Setup, help and tools.** `init` sets up a project (folders, data ingestion, context, preferences), `help` explains the skill for where the project stands, `tools` lists every tool and runs one on its own. A job can also be limited to named tools. `init` and `help` show a command map of every keyword and the flow between them.
 - **Any source.** A website, a list of websites, competitors by name, an industry, a folder, a pasted pitch, a previous run, or nothing at all.
 - **Socratic conversation.** Hypothesis first, few questions, a handful of checkpoints.
@@ -18,7 +20,7 @@ One skill, organized by the job you need done.
 - **Delivery apart from work.** `Value Strategy/` holds finished documents in four subject folders and an archive; `Value Workspace/` holds notes, sources and the project's memory as a markdown vault.
 - **Safer by design.** Sources and memory are treated as data, the skill plans and never acts in the world, confidential details stay out of web searches, personal data stays in aggregate, statements about real companies carry source and date. License and credits ship inside the skill.
 - **One copy of the method,** shared by every job. New user guide in `docs/how-it-works.md`.
-- **Migration.** The version 1 commands are retired. `/v2m init` reads an existing `.value-to-market/context.md` and leaves old documents untouched.
+- **Migration.** The version 1 commands are retired. `/vp init` reads an existing `.value-to-market/context.md` and leaves old documents untouched.
 
 ## [1.1.0] - 2026-09-17
 

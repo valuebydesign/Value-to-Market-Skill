@@ -6,7 +6,7 @@ An architect that scores its own strategy goes easy on it, so drafting, attackin
 
 ## How it starts
 
-The user types `/v2m agents` (or asks for agents in plain words), or accepts the offer below. The keyword counts as the request; the explicit go after seeing the plan is still required.
+The user types `/vp agents` (or asks for agents in plain words), or accepts the offer below. The keyword counts as the request; the explicit go after seeing the plan is still required.
 
 ## When to offer it
 

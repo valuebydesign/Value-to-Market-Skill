@@ -1,8 +1,8 @@
 {
-  "name": "value-to-market",
-  "displayName": "Value to Market",
+  "name": "value-proposition",
+  "displayName": "Value Proposition",
   "version": "2.0.0",
-  "description": "The Value-to-Market (V2M) Framework by Hoang Huynh as one skill. Assess, design and evolve a value proposition, build a value strategy, turn it into a launch plan, and check the plan against what happened. Start with /v2m init.",
+  "description": "Craft a Value Proposition Strategy using the V2M Framework by Hoang Huynh. Assess, design and evolve a value proposition, build the strategy, plan the launch, and review it against what happened. Start with /vp init.",
   "author": {
     "name": "Hoang Huynh",
     "url": "https://valueproposition.design"
@@ -25,7 +25,6 @@
     "v2m",
     "value-proposition",
     "value-proposition-canvas",
-    "value-strategy",
-    "value-to-market"
+    "value-strategy"
   ]
 }

@@ -2,7 +2,7 @@
 
 This reference describes every tool the skill can run, grouped the way the method works: read the field, lay the foundations, understand the customer, design the proposition, set the company strategy, take it to market, keep it current, check it against reality, and package it.
 
-Each tool runs inside a job (see the [command map](how-it-works.md#the-command-map)) or on its own with `/v2m tools <name>`. For each one you will find what it answers, when to reach for it, what to give it, what you get back, how it reasons, and which book of the *Value by Design* collection goes deeper.
+Each tool runs inside a job (see the [command map](how-it-works.md#the-command-map)) or on its own with `/vp tools <name>`. For each one you will find what it answers, when to reach for it, what to give it, what you get back, how it reasons, and which book of the *Value by Design* collection goes deeper.
 
 ## The three books behind the tools
 

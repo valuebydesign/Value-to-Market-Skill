@@ -178,8 +178,8 @@ Expect at most two short rounds of questions at the start, then a few checkpoint
 **Output** decides the form of the result:
 
 - **Conversational:** the findings are talked through in the chat, one topic at a time. No documents unless you ask for them.
-- **Synthetic:** a short brief per topic, one or two pages each, plus the summary and the workbook.
-- **Documents:** the full reports, the summary and the workbook.
+- **Synthetic:** the Value Statement, plus a short brief per topic, one or two pages each, the summary and the workbooks.
+- **Documents:** the Value Statement, the full Playbook and Toolkit reports, the summary and the workbooks.
 
 You can change either setting at any time, and ask for the documents later from a conversational run without redoing the analysis.
 
@@ -187,16 +187,14 @@ You can change either setting at any time, and ask for the documents later from 
 
 Two folders appear in your project.
 
-**`Value Strategy/`** contains only finished documents, always in their current version:
+**`Value Strategy/`** contains only finished documents, always in their current version, as three deliverables:
 
-- the Executive Summary with its Decisions and Agenda table, and the Workbook with every table;
-- `Market/`: the landscape and the diagnosis;
-- `Value Proposition/`: the foundations, the customer and fit analysis, the value proposition design, the guidelines;
-- `Strategy/`: the company strategy, evolution and scenarios, the deck;
-- `Value to Market/`: the plan, the launch and events playbook, the social and content plan, the horizons playbook, the latest alignment review;
+- **Value Statement**: the whole strategy on one large canvas, an infographic of every decision: the value proposition sentence and the Formula, the assets, values and category, the premise, promise and proof, the customer, the strategy, and the movement from the launch strikes to the three horizons and the scenarios. Undecided zones are marked Open, so the canvas also shows what is still missing. Delivered as PDF, PNG and HTML.
+- **Value Strategy Playbook**: the detailed reports for the people who own the strategy. The Executive Summary with its Decisions and Agenda table; `Market/` (the landscape and the diagnosis); `Value Proposition/` (foundations, customer and fit, value proposition design, guidelines); `Strategy/` (company strategy, evolution and scenarios, the deck); and the Strategy Workbook with every table behind them.
+- **Engineering Toolkit**: the operational material for the people who execute. The Value to Market plan, the launch and events playbook, the social and content plan, the horizons playbook, the measurement and validation framework (KPIs, tests, trigger monitor), the latest alignment review, a one-page team cheatsheet, and the Operations Workbook with the timeline, RACI, budget, calendar and KPIs.
 - `Archive/`: earlier versions, moved there before anything is replaced.
 
-Each document answers one question and holds its own facts and figures. When it needs something from another document it names that document and section instead of copying it, so nothing goes stale when one document is updated.
+Each document answers one question and holds its own facts and figures. The Value Statement shows decisions in words only, never figures, so it always matches the documents behind it. When it needs something from another document it names that document and section instead of copying it, so nothing goes stale when one document is updated.
 
 **`Value Workspace/`** is the working space and the project's memory, written as plain markdown you can open in any notes app, Obsidian included. It holds a Home page with the current state and the open decisions, knowledge pages (company, assets, values, customers, each proposition, the strategy, one page per competitor with its moves over time, triggers, scenarios, the plan in force, the progress log, the decision log), one folder per run with the working notes, and extracts of the sources read. Each new job reads this memory first, so you are not asked the same thing twice.
 

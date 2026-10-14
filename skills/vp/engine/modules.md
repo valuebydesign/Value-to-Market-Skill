@@ -52,6 +52,7 @@ Every module can also run on its own (see `engine/commands.md`, Tools). The jobs
 | Alignment with reality | `kpi-readout` | what the numbers say against the targets and the triggers | Align |
 | Alignment with reality | `root-cause` | why each gap happened, so the fix lands at the right level | Align |
 | Alignment with reality | `realign` | decide what changes and bring every document back in line with reality | Align |
+| Packaging | `value-statement` | the whole strategy on one canvas | every job |
 | Packaging | `guidelines` | keep the strategy consistent across the people who execute it | Design, Strategy |
 | Packaging | `deck` | present the job's conclusions as an argument on slides | Strategy, Engineer |
 | Packaging | `cheatsheet` | one-page essentials for a team, on request | Engineer |
@@ -316,9 +317,9 @@ These modules belong to the Engineer job and follow the boundary rule in `SKILL.
 - **Purpose:** the instructions, measures and automation for the people who execute.
 - **Reads:** `method/frameworks.md`, `method/glossary.md` (Metric Decay Paradox).
 - **Steps:** 1. Channel briefs. 2. Proof specifications. 3. KPI plan with owners, baselines, targets and a decay guard. 4. Validation plan: a technique per risky assumption (landing page, fake door, pre-sale, concierge, Wizard of Oz, lateral tests) with metric, threshold, sample, owner and the automation that runs and reports it. 5. Launch content automation wired to the editorial calendar. 6. Trigger monitor: every horizon and scenario trigger as a watched signal with threshold, alert, owner and the playbook it arms. 7. Internal onboarding kit.
-- **Produces:** engineering pack; tabs "KPIs", "Validation plan", "Trigger monitor".
+- **Produces:** the Measurement and Validation Framework; tabs "KPIs", "Validation plan", "Trigger monitor".
 - **Score:** Engineering.
-- **Feeds:** the Value to Market Plan, realign.
+- **Feeds:** realign, and the movement band of the Value Statement.
 
 ---
 
@@ -393,6 +394,12 @@ These modules belong to the Align job. They compare what was planned with what h
 
 ## I. Packaging
 
+### value-statement
+- **Purpose:** put every decision of the method on one large, elegant canvas.
+- **Reads:** `engine/value-statement.md`, `method/report-format.md`.
+- **Steps:** follow `engine/value-statement.md`: collect the decisions from the job's notes and `Knowledge/`, fill the six bands, mark undecided zones Open, build the HTML canvas, render it to PDF and PNG, and check the render.
+- **Produces:** the Value Statement (PDF, PNG and HTML).
+
 ### guidelines
 - **Purpose:** keep the strategy consistent across the people who execute it.
 - **Steps:** values with the antithesis; premise and the courteous farewell; promise wording, rung and enforcer; the proof the team must always show; the power figure and confused-power signals; tone of voice; brand personality; mission, vision, purpose; do and do-not phrasing; the triggers that would change a value.
@@ -407,6 +414,6 @@ These modules belong to the Align job. They compare what was planned with what h
 - **Purpose:** one-page essentials for a team, from `method/report-format.md` and the run's conclusions. On request only.
 
 ### independent-check
-- **Purpose:** re-score a report from the artifact alone.
+- **Purpose:** re-score a report, or the Value Statement, from the artifact alone.
 - **Steps:** start from the assumption it might fail; cite the evidence for each criterion or score it 0; take the lower score when torn; report divergence from the self-score. Prefer a separate subagent that sees the report and not the notes; otherwise a fresh pass that does not reread the self-scores.
 - **Produces:** `checks/<report>.md` in the run folder; the score in the report's appendix is the independent one.

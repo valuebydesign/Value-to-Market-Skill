@@ -36,6 +36,7 @@ Reuse before running: if an Assess job already produced the benchmark, category 
 
 | Report | Quick | Standard | Full |
 |---|---|---|---|
+| Value Statement | yes | yes | yes |
 | 0 Executive Summary | yes | yes | yes |
 | 1 Market and Category Landscape | no | yes (lite) | yes |
 | 3 Foundations: Assets and Core Values | yes | yes | yes |

@@ -35,10 +35,11 @@ Ask what is open from the Align questions in `engine/intake.md`: the period unde
 
 | Output | Quick | Standard | Full |
 |---|---|---|---|
+| Value Statement (refreshed) | the movement band | the movement band and every zone a change touched | the movement band and every zone a change touched |
 | 12 Alignment Review | yes | yes | yes |
 | 0 Executive Summary (refreshed) | yes | yes | yes |
-| Updated Value to Market documents (8 to 11) | the plan only | every document the review made stale | every document the review made stale |
-| Updated strategy documents (5, 6, 7) | no | when a strategic assumption was falsified | when a strategic assumption was falsified |
+| Updated Engineering Toolkit documents (8 to 11, 13) | the plan only | every document the review made stale | every document the review made stale |
+| Updated Playbook documents (5, 6, 7) | no | when a strategic assumption was falsified | when a strategic assumption was falsified |
 
 The Alignment Review covers: what was planned, what happened (status with evidence), the results against targets, the causes grouped by kind, the decision per item, the strategy changes and why, the revised plan in summary, the documents updated, the lessons, and the next review date. It states each number once; the updated documents carry their own.
 

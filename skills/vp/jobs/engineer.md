@@ -35,14 +35,16 @@ Agentic mode is available here too (`engine/agentic.md`), after stating the numb
 
 | Report | Quick | Standard | Full |
 |---|---|---|---|
+| Value Statement (movement band) | yes | yes | yes |
 | 0 Executive Summary | yes | yes | yes |
 | 8 Value to Market Plan | yes | yes | yes |
 | 9 Launch and Events Playbook | yes (short) | yes | yes |
 | 10 Social and Content Plan | no | yes | yes |
 | 11 Horizons Playbook | yes (short) | yes | yes |
-| Plan deck, team cheatsheet | no | no | yes |
+| 13 Measurement and Validation Framework | no | yes | yes |
+| Team Cheatsheet, plan deck | no | no | yes |
 
-The workbook carries the operational tables the team will live in: the timeline, the RACI, the budget, the editorial calendar, the events, the KPIs, the validation plan and the trigger monitor. Prefer it over long tables in the documents.
+Everything above goes into the Engineering Toolkit. The Operations Workbook carries the tables the team will live in: the timeline, the RACI, the budget, the editorial calendar, the events, the KPIs, the validation plan and the trigger monitor. Prefer it over long tables in the documents.
 
 The Executive Summary's Decisions and Agenda table holds the commitments needed to start: owners to confirm, budget to release, dates to lock, and the first review date.
 

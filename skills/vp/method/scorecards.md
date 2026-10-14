@@ -317,6 +317,14 @@ Each criterion scores 0 to 3:
 4. Every stale document section listed and updated, with the old version archived.
 5. Lessons recorded and the next review dated.
 
+## Value Statement (module: value-statement)
+
+1. Every zone is filled from a recorded decision or marked Open; nothing is invented for the canvas.
+2. The words match the reports it indexes, with the same names, codes and terms.
+3. No figures, scores, percentages or prices appear on the canvas; positions and verdicts are in words.
+4. The hierarchy reads at a glance: the sentence first, the Formula verdicts, then the bands in the order of work.
+5. The render is checked: nothing clipped or overlapping, legible at full-page view, status never shown by color alone.
+
 ## Overall Readiness (every job)
 
 Roll up the section readiness scores. Report:

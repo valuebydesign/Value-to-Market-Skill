@@ -72,7 +72,7 @@ Run the modules the job lists, in the method's order (assets, values, premise, p
 
 ## Step 5: deliver
 
-Compose the reports exactly as `engine/reports.md` says: one report per phase cluster, every element in one home only, numbers and scores stated only in their home report, a consistency pass across the set, the humanize pass, and an independent check before anything ships. Then reply in chat with what was produced, the headline finding, and the next move phrased as a job ("I can now build the revised value proposition from this diagnosis. Shall I?").
+Every job delivers into three deliverables (`engine/reports.md`): the **Value Statement**, one canvas with the whole strategy on it (`engine/value-statement.md`); the **Value Strategy Playbook**, the detailed reports and guidelines; and the **Engineering Toolkit**, the operational plans, frameworks and workbook. Compose the reports exactly as `engine/reports.md` says: one report per phase cluster, every element in one home only, numbers and scores stated only in their home report, a consistency pass across the set, the humanize pass, and an independent check before anything ships. Build the Value Statement last, from the checked reports, so it shows exactly what they decided. Then reply in chat with what was produced, the headline finding, and the next move phrased as a job ("I can now build the revised value proposition from this diagnosis. Shall I?").
 
 ## Rules for every job
 

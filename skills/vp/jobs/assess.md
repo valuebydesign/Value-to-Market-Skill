@@ -37,6 +37,7 @@ Notes:
 
 | Report | A1 | A2 | A3 | A4 |
 |---|---|---|---|---|
+| Value Statement (as-is) | yes | yes (the rival's) | Standard and Full (one per player) | no |
 | 0 Executive Summary | yes | yes | yes | yes |
 | 1 Market and Category Landscape | Standard and Full | Standard and Full | yes | yes |
 | 2 Value Proposition Diagnosis | yes | yes | yes (comparative) | Standard and Full (the leader) |

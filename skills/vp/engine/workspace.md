@@ -11,28 +11,33 @@ Working files never go into `Value Strategy/`, and every client-facing document 
 
 ```
 Value Strategy/
-  Executive Summary - <Subject>.docx         the latest summary, with Decisions and Agenda
-  Workbook - <Subject>.xlsx                  every table of the latest job, one tab per analysis
-  Market/
-    Market and Category Landscape - <Subject>.docx
-    Value Proposition Diagnosis - <Subject>.docx
-  Value Proposition/
-    Foundations - Assets and Core Values - <Subject>.docx
-    Customer and Fit - <Line of business>.docx
-    Value Proposition Design - <Line of business>.docx
-    Guidelines - <Subject>.docx
-  Strategy/
-    Company Strategy - <Subject>.docx
-    Evolution and Scenarios - <Subject>.docx
-    Strategy Deck - <Subject>.pptx (and .pdf)
-  Value to Market/
+  Value Statement - <Subject>.pdf (.png, .html)      the whole strategy on one canvas
+  Value Strategy Playbook/
+    Executive Summary - <Subject>.docx               the latest summary, with Decisions and Agenda
+    Strategy Workbook - <Subject>.xlsx               every table behind the Playbook reports
+    Market/
+      Market and Category Landscape - <Subject>.docx
+      Value Proposition Diagnosis - <Subject>.docx
+    Value Proposition/
+      Foundations - Assets and Core Values - <Subject>.docx
+      Customer and Fit - <Line of business>.docx
+      Value Proposition Design - <Line of business>.docx
+      Guidelines - <Subject>.docx
+    Strategy/
+      Company Strategy - <Subject>.docx
+      Evolution and Scenarios - <Subject>.docx
+      Strategy Deck - <Subject>.pptx (and .pdf)
+  Engineering Toolkit/
     Value to Market Plan - <Subject>.docx
     Launch and Events Playbook - <Subject>.docx
     Social and Content Plan - <Subject>.docx
     Horizons Playbook - <Subject>.docx
-    Alignment Review - <Subject>.docx      the latest review; earlier ones go to Archive/
+    Measurement and Validation Framework - <Subject>.docx
+    Alignment Review - <Subject>.docx                the latest review; earlier ones go to Archive/
+    Team Cheatsheet - <Subject>.pdf
+    Operations Workbook - <Subject>.xlsx             timeline, RACI, budget, calendar, events, KPIs, tests, triggers, status
   Archive/
-    <YYYY-MM-DD> <Job>/                      superseded versions, moved here untouched
+    <YYYY-MM-DD> <Job>/                              superseded versions, moved here untouched
 ```
 
 Rules:
@@ -40,10 +45,10 @@ Rules:
 - Create `Value Strategy/` and `Value Workspace/` in the project folder the user names; if unsure, ask once. If a folder with either name exists and this skill did not create it (no `Value Workspace/Home.md`, no documents in the layout below), ask before writing into it. These two folders are the only places the skill writes, even when the project folder is also a reference folder.
 - Build file names from player and subject names with the characters `/ \ : * ? " < > |` removed and no leading dot, so a scraped name can never point outside these folders.
 
-- Four subject folders and an archive: Market and Value Proposition (what the offer is), Strategy (where the company goes), Value to Market (how it gets done). Create a subject folder only when a document goes into it.
-- File names carry the subject, never a date or a version number. The current version is the one in its subject folder.
+- Three deliverables and an archive: the Value Statement at the top, the Value Strategy Playbook (what we decided and why, organized as Market, Value Proposition and Strategy), and the Engineering Toolkit (how it gets done). Create a folder only when a document goes into it.
+- File names carry the subject, never a date or a version number. The current version is the one in its folder.
 - When a job replaces a document, move the old one into `Archive/<YYYY-MM-DD> <Job>/` first, then write the new one. If that archive folder already exists, add ` (2)`, ` (3)` and so on. Nothing in `Archive/` is ever overwritten or deleted.
-- Per line of business, documents carry the line's name in the file name, inside the same subject folder.
+- Per line of business, documents carry the line's name in the file name, inside the same folder.
 - PDFs sit next to their source document with the same name.
 - If the user already has a version 1 `Value Strategy/` tree with numbered phase folders, leave it untouched and tell the user; write the new structure alongside it only after they agree.
 

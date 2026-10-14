@@ -282,7 +282,7 @@ Each tool below names the book where its thinking is developed. The skill runs t
 **What it answers:** which KPIs, tests and automations keep it measurable?
 **Use it** before a launch, or when the dashboard has stopped meaning anything.
 **Give it** the plan and your tools.
-**You get** channel briefs, proof specifications, a short KPI plan with a guard against metric decay, a validation plan with a technique per risky assumption (landing page, fake door, pre-sale, concierge, Wizard of Oz, lateral tests), the automation for launch content, a trigger monitor and an onboarding kit.
+**You get** the Measurement and Validation Framework of the Engineering Toolkit: channel briefs, proof specifications, a short KPI plan with a guard against metric decay, a validation plan with a technique per risky assumption (landing page, fake door, pre-sale, concierge, Wizard of Oz, lateral tests), the automation for launch content, a trigger monitor and an onboarding kit.
 **How it reasons:** metrics multiply and decay; a few renewed indicators tied to the promise beat a dashboard nobody reads.
 **Read more in** *Value Proposition Engineering*.
 
@@ -361,6 +361,14 @@ Each tool below names the book where its thinking is developed. The skill runs t
 ---
 
 ## Package it
+
+### value-statement
+**What it answers:** what does the whole strategy look like on one page?
+**Use it** at the end of every job; it refreshes automatically, and `/vp tools value-statement` redraws it on demand.
+**Give it** nothing: it reads the decisions already recorded.
+**You get** one large canvas, as PDF, PNG and HTML: the value proposition sentence and the Formula with a verdict on each factor, then foundations, the contract, the customer, the strategy and the movement over time, each zone in a few words with small diagrams (the ladder, the proof families, the value stick, the strikes, the horizons, the scenarios). Undecided zones are marked Open.
+**How it reasons:** the canvas is an index of decisions; it shows them in words and leaves every figure to the Playbook and the Toolkit, so it never contradicts them.
+**Read more in** all three books: the canvas brings together the design, the strategy and the engineering.
 
 ### guidelines
 **What it answers:** how does the team apply the proposition consistently?

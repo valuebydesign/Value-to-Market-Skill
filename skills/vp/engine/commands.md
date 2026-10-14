@@ -48,7 +48,7 @@ Typing the keyword is the request for agentic mode, so do not ask whether to use
 
 Run once per project, before or instead of the first job. Re-running it refreshes the context without overwriting it.
 
-1. **Folders.** Ask where the project lives if it is not obvious, then create `Value Strategy/` and `Value Workspace/` with the layout in `engine/workspace.md` (the delivery subject folders are created later, when a document needs them). Follow the rules there for existing folders, file names and the version 1 context.
+1. **Folders.** Ask where the project lives if it is not obvious, then create `Value Strategy/` and `Value Workspace/` with the layout in `engine/workspace.md` (the deliverable folders are created later, when a document needs them). Follow the rules there for existing folders, file names and the version 1 context.
 2. **Ingest the data.** Ask what to read: the company's website, a folder of documents, competitors' sites, an industry name. Read each source as `engine/intake.md` describes, save the extracts in `Sources/`, and write the source ledger.
 3. **Build the context.** From the sources, draft `context.md` (project, offering type, business model, lines of business, market and audiences, goal and horizon, constraints, known assets, triggers in place) and show the draft to the user as a hypothesis to confirm or correct. Ask only what the sources leave open, in one round.
 4. **Seed the memory.** Create `Home.md`, and seed `Knowledge/Company.md`, `Knowledge/Assets.md` (assets visible so far, unscored) and one `Knowledge/Market/<Player>.md` page per competitor read. Mark everything as a first read.
@@ -77,7 +77,7 @@ Never paste the reference files into the answer. Keep it to what the user needs 
 2. Read the workspace first. If the module needs an upstream input that is missing (for example `personas` without `jobs`), say so and offer two options: run the upstream module first, or proceed on stated assumptions.
 3. Ask only the questions that module needs, following `engine/conversation.md`.
 4. Run the steps, self-score against the module's scorecard, and write the note to a run folder named `<YYYY-MM-DD> Tool - <module> - <Subject>`.
-5. Deliver in conversation by default. If the user wants a document, write a brief (decision, findings, recommendation, open decisions) and save it as `<Module title> Brief - <Subject>.docx` in the subject folder of the report that owns this module (`engine/reports.md`), plus its workbook tab.
+5. Deliver in conversation by default. If the user wants a document, write a brief (decision, findings, recommendation, open decisions) and save it as `<Module title> Brief - <Subject>.docx` in the folder of the report that owns this module (`engine/reports.md`), plus its workbook tab.
 6. Promote the conclusion to the matching `Knowledge/` page, and say which job would put the result in context.
 
 **A job limited to named tools** ("assess example.com, only benchmark and vp-audit"): run the job with only those modules, in the method's order. Name any upstream input the job would normally produce first and is now missing, and proceed on stated assumptions if the user confirms. The job's reports are written with only the sections those modules feed, and each says which parts of the job did not run.

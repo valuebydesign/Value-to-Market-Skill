@@ -29,8 +29,9 @@ For the keywords, see the [command map](how-it-works.md#the-command-map); for ea
 
 **What she receives.**
 
-- `Value Strategy/Value Proposition/`: Foundations (assets and core values) and Value Proposition Design, both stating up front that the work rests on assumptions to test.
-- `Value Strategy/Executive Summary`: the recommended direction, and a Decisions and Agenda table that leads with the validation plan: the three riskiest assumptions, the cheapest test for each (a concierge pilot with two clinics, a landing page with a waitlist deposit, ten owner interviews), and the signal that would kill the direction.
+- **Value Statement**: the whole proposition on one canvas, with the zones still resting on assumptions labelled Assumed, and the movement band Open until a plan exists.
+- `Value Strategy Playbook/Value Proposition/`: Foundations (assets and core values) and Value Proposition Design, both stating up front that the work rests on assumptions to test.
+- `Value Strategy Playbook/Executive Summary`: the recommended direction, and a Decisions and Agenda table that leads with the validation plan: the three riskiest assumptions, the cheapest test for each (a concierge pilot with two clinics, a landing page with a waitlist deposit, ten owner interviews), and the signal that would kill the direction.
 - `Value Workspace/`: the memory of everything she said, so the next session starts where this one stopped.
 
 **Decisions that stay with her.** The direction, the values she signs, who the business turns away, the price corridor to test.
@@ -61,7 +62,8 @@ He points `init` at the website, a folder of tender responses and the names of f
 
 **What he receives.**
 
-- `Value Strategy/Market/`: the Market and Category Landscape (the field in four rings, the ocean read, where the open water is) and the Value Proposition Diagnosis, comparative, one section per player.
+- **Value Statement** (as-is): Brightline's proposition as the market reads it today; the premise zone stands Open and the proof zone shows the response-time records as an unused asset.
+- `Value Strategy Playbook/Market/`: the Market and Category Landscape (the field in four rings, the ocean read, where the open water is) and the Value Proposition Diagnosis, comparative, one section per player.
 - The headline: Brightline's proposition is irrelevant more than expensive (no premise, so procurement compares it on the only thing left, price). The costliest gap is challenge 7, the customer it should refuse. The quickest fix is the proof it already owns and never shows: twenty years of response-time records.
 
 **Decisions that stay with him.** Whether to hold rates and fix the proposition first.
@@ -89,8 +91,9 @@ He points `init` at the website, a folder of tender responses and the names of f
 
 **What she receives.**
 
-- `Value Strategy/Strategy/Evolution and Scenarios`: the change register and three scenarios (see the scenario section below).
-- `Value Strategy/Value Proposition/Value Proposition Design` (revised), opening with what changed and why; the previous version is in `Archive/`.
+- **Value Statement** (revised): the promise and proof zones updated, and the scenario 2x2 added to the movement band.
+- `Value Strategy Playbook/Strategy/Evolution and Scenarios`: the change register and three scenarios (see the scenario section below).
+- `Value Strategy Playbook/Value Proposition/Value Proposition Design` (revised), opening with what changed and why; the previous version is in `Archive/`.
 - The redline: keep the premise, move the promise from speed of closing to confidence in the numbers (what the assistant cannot sign for), add a proof that costs something (a guarantee on audit adjustments), and hold the price while widening the value stick.
 
 **Decisions that stay with her.** Whether to answer the rival on price or on meaning; which scenario response to pre-approve.
@@ -126,9 +129,10 @@ He points `init` at the website, a folder of tender responses and the names of f
 
 **What she receives.**
 
-- `Value Strategy/Market/`: the Market and Category Landscape.
-- `Value Strategy/Value Proposition/`: Foundations, and for each line a Customer and Fit report and a Value Proposition Design.
-- `Value Strategy/Strategy/`: the Company Strategy (category, value matrix, defense, posture, next moves, business model per horizon) and Evolution and Scenarios.
+- **Value Statement**: the firm's strategy on one canvas, with building lifecycle assurance as the category and both lines side by side in the contract band.
+- `Value Strategy Playbook/Market/`: the Market and Category Landscape.
+- `Value Strategy Playbook/Value Proposition/`: Foundations, and for each line a Customer and Fit report and a Value Proposition Design.
+- `Value Strategy Playbook/Strategy/`: the Company Strategy (category, value matrix, defense, posture, next moves, business model per horizon) and Evolution and Scenarios.
 - The Executive Summary, whose Decisions and Agenda table lists every open promise element next to its proof, the proofs to build, the tests to run and the scenario triggers to watch: the input for the plan.
 
 **Decisions that stay with the partners.** The value set, the category, who each line turns away, the price corridor, which scenario responses to pre-approve.
@@ -159,9 +163,10 @@ He points `init` at the website, a folder of tender responses and the names of f
 
 **What he receives.**
 
-- `Value Strategy/Strategy/Company Strategy`, with a section "Options considered" showing what lost and why.
-- `Value Strategy/Value Proposition/`: a Value Proposition Design for each of the three lines.
-- `Value Strategy/Strategy/Evolution and Scenarios` and the Strategy Deck for the board.
+- **Value Statement** for each line, sharing the category and the defense, for the board pack.
+- `Value Strategy Playbook/Strategy/Company Strategy`, with a section "Options considered" showing what lost and why.
+- `Value Strategy Playbook/Value Proposition/`: a Value Proposition Design for each of the three lines.
+- `Value Strategy Playbook/Strategy/Evolution and Scenarios` and the Strategy Deck for the board.
 
 **Decisions that stay with him and the board.** The thesis, the category name, the investment in the software line.
 
@@ -187,13 +192,18 @@ He points `init` at the website, a folder of tender responses and the names of f
 
 **What runs.** `engineer`: `tactics`, `workplan`, `social`, `events`, `horizon-playbooks`, `engineering`.
 
-**What she receives,** in `Value Strategy/Value to Market/`:
+**What she receives.**
+
+- **Value Statement**: the movement band now shows the beachhead, the three strikes into the fair, and the three horizons with their triggers.
+
+In the `Engineering Toolkit/`:
 
 - **Value to Market Plan**: workstreams (proof and product, channels and content, social, events, restaurant partners, measurement), owners, dates, budget, the RACI, and the cut: the e-commerce relaunch moves after the fair because capacity does not cover both.
 - **Launch and Events Playbook**: the beachhead (twenty restaurants in two cities), three strikes before the fair (a harvest-day dinner for chefs to condition, a blind tasting against the supermarket line to prove, a waitlist for the first pressing to mobilize), and the fair reveal with its single message and landing metric.
 - **Social and Content Plan**: two platforms kept, one dropped, four content pillars from the brand's values, a calendar locked to the strikes, a community playbook, sample posts.
 - **Horizons Playbook**: H1 holds the restaurant beachhead; H2 opens direct sales when restaurant reorders cross a threshold; H3 adds tasting experiences, armed when direct sales repeat.
-- The workbook holds the calendar, the RACI, the budget, the KPIs and the trigger monitor.
+- **Measurement and Validation Framework**: a short KPI set per strike and per pillar with a guard against metric decay, the blind-tasting and waitlist tests with their thresholds, and the trigger monitor that arms H2 and H3.
+- **Operations Workbook**: the calendar, the RACI, the budget, the KPIs, the tests and the trigger monitor, ready for the team to work from.
 
 **Decisions that stay with her.** Owners, budget release, the fair date, the restaurant shortlist.
 
@@ -224,9 +234,10 @@ Then the causes: "What would have to be true for the tasting to happen next mont
 
 **What she receives.**
 
-- `Value Strategy/Value to Market/Alignment Review`: each item's status with evidence; the causes grouped (the tasting failed for capacity, an execution cause; the waitlist failed because restaurants did not see why to join before the fair, a strategy cause in the promise to chefs).
+- **Value Statement**: the movement band redrawn with the new dates; one promise item updated after the redline.
+- `Engineering Toolkit/Alignment Review`: each item's status with evidence; the causes grouped (the tasting failed for capacity, an execution cause; the waitlist failed because restaurants did not see why to join before the fair, a strategy cause in the promise to chefs).
 - Decisions: re-plan the tasting with a new owner; escalate the chef promise through the redline, which adjusts one sub-promise and leaves the rest of the strategy untouched.
-- Updated Value to Market Plan and Launch and Events Playbook, each opening with "Changes in this version"; the old versions in `Archive/`.
+- Updated Value to Market Plan and Launch and Events Playbook in the Engineering Toolkit, each opening with "Changes in this version"; the old versions in `Archive/`.
 
 **What comes next.** The next review date; `evolve` only if the review had found the market itself had changed.
 
@@ -288,7 +299,7 @@ How Brightline (Case 2) uses the skill over twelve months:
 | Month 10 | `align` | The review checks the H2 launch against its signals. |
 | Month 12 | `assess` | A fresh assessment against the same five rivals, measured against month 1. |
 
-Each step reads the memory left by the previous one, so nothing is asked twice and every document stays current in `Value Strategy/`.
+Each step reads the memory left by the previous one, so nothing is asked twice and every document stays current in `Value Strategy/`, the Value Statement included.
 
 ---
 

@@ -42,13 +42,14 @@ Re-run only what the change touches. Everything else is carried forward from `Kn
 
 | Report | Quick | Standard | Full |
 |---|---|---|---|
+| Value Statement (revised) | yes | yes | yes |
 | 0 Executive Summary | yes | yes | yes |
 | 2 Value Proposition Diagnosis (drift) | no | yes | yes |
 | 5 Value Proposition Design (revised) | yes | yes | yes |
 | 7 Evolution and Scenarios | no | yes | yes |
-| 11 Horizons Playbook (updated triggers and playbook states) | no | no | yes, when a Value to Market plan exists |
+| 11 Horizons Playbook and 13 Measurement and Validation Framework (updated triggers, playbook states and tests) | no | no | yes, when a Value to Market plan exists |
 
-The revised Value Proposition Design replaces the previous one in `Value Strategy/Value Proposition/`; the previous version moves to `Archive/`. It opens with a short change log in prose: what changed in the proposition and why, citing the Evolution and Scenarios report by section.
+The revised Value Proposition Design replaces the previous one in `Value Strategy/Value Strategy Playbook/Value Proposition/`; the previous version moves to `Archive/`. It opens with a short change log in prose: what changed in the proposition and why, citing the Evolution and Scenarios report by section.
 
 The Decisions and Agenda table separates the no-regret moves (now) from the scenario-dependent moves (each with its trigger).
 

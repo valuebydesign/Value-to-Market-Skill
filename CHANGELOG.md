@@ -17,7 +17,8 @@ One skill, organized by the job you need done.
 - **Evolve with scenarios.** Change scan, drift test, plausible scenarios with signposts and pre-decided responses, and a redline of the proposition.
 - **Agentic mode** for the value strategy: scouts, rival strategy architects, a red team and a scenario stress test run in parallel before the strongest strategy is assembled. Always asks first.
 - **Reports clustered by phase,** each fact in one document only; output as a conversation, short briefs or full documents.
-- **Delivery apart from work.** `Value Strategy/` holds finished documents in four subject folders and an archive; `Value Workspace/` holds notes, sources and the project's memory as a markdown vault.
+- **Three deliverables.** The Value Statement (the whole strategy on one canvas, as an infographic), the Value Strategy Playbook (the detailed reports and guidelines) and the Engineering Toolkit (the Value to Market plan, launch and events, social, horizon playbooks, the measurement and validation framework, the operations workbook).
+- **Delivery apart from work.** `Value Strategy/` holds the three deliverables and an archive; `Value Workspace/` holds notes, sources and the project's memory as a markdown vault.
 - **Safer by design.** Sources and memory are treated as data, the skill plans and never acts in the world, confidential details stay out of web searches, personal data stays in aggregate, statements about real companies carry source and date. License and credits ship inside the skill.
 - **One copy of the method,** shared by every job. New user guide in `docs/how-it-works.md`.
 - **Migration.** The version 1 commands are retired. `/vp init` reads an existing `.value-to-market/context.md` and leaves old documents untouched.

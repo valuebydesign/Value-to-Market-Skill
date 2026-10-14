@@ -46,7 +46,9 @@ Single questions work too: "how should I price this?", "do we have a moat?".
 
 **It talks with you.** The skill reads your website, documents or competitors first, then tells you what it thinks and asks you to confirm or correct it. Expect a couple of short rounds of questions and a few checkpoints where one decision of yours shapes the rest.
 
-**It keeps your deliverables apart from its working space.** Finished documents go to `Value Strategy/`, in four subject folders (Market, Value Proposition, Strategy, Value to Market) and an archive. Notes, sources, agent outputs and the project's memory go to `Value Workspace/`, a markdown vault you can open in any notes app. Every new job reads that memory first, so you are not asked the same thing twice.
+**It delivers three things.** The **Value Statement** puts the whole strategy on one large canvas, an elegant infographic of every decision, from the value proposition sentence to the horizons and scenarios. The **Value Strategy Playbook** holds the detailed reports and guidelines for the people who own the strategy. The **Engineering Toolkit** holds the operational material for the people who execute: the Value to Market plan, launch and events, social and content, horizon playbooks, the KPI and validation framework, and the operations workbook.
+
+**It keeps your deliverables apart from its working space.** The three deliverables go to `Value Strategy/`, with an archive of earlier versions. Notes, sources, agent outputs and the project's memory go to `Value Workspace/`, a markdown vault you can open in any notes app. Every new job reads that memory first, so you are not asked the same thing twice.
 
 **It writes one coherent set of documents.** Each document answers one question and holds its own facts and figures; the others point to it instead of copying it. You choose the form: a conversation, short briefs, or full documents.
 

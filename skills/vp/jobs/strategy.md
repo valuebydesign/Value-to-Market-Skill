@@ -41,6 +41,7 @@ Single-analyst mode: after Field (the rivals and the ocean), after Foundations (
 
 | Report | Quick | Standard | Full |
 |---|---|---|---|
+| Value Statement (one per line where lines differ) | yes | yes | yes |
 | 0 Executive Summary | yes | yes | yes |
 | 1 Market and Category Landscape | yes | yes | yes |
 | 3 Foundations | yes | yes | yes |

@@ -112,7 +112,7 @@ Which move to recommend, unless the run's findings point elsewhere:
 |---|---|---|
 | `/vp init` | `/vp assess` when the sources include a proposition or competitors; `/vp design` when starting from scratch | `/vp help` |
 | `/vp assess` | `/vp design` when the diagnosis says rebuild | `/vp evolve` when the proposition is sound but drifting; `/vp strategy` when the category itself is the problem |
-| `/vp design` | `/vp engineer` for a single line ready to launch | `/vp strategy` with several lines or a category to design; `/vp agents` in a contested market |
+| `/vp design` | `/vp strategy`, to set the category, the defense and the scenarios around the proposition | `/vp agents` in a contested market; `/vp engineer` only when a company strategy already exists in `Knowledge/` |
 | `/vp strategy` or `/vp agents` | `/vp engineer` for the first line to launch | `/vp evolve` when a trigger is already close |
 | `/vp engineer` | `/vp align` on the first review date in the plan | `/vp tools <name>` for a piece the team wants deepened |
 | `/vp evolve` | `/vp engineer` to relaunch the revised promise | `/vp align` when a plan is already running |

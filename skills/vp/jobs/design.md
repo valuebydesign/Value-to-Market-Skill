@@ -53,4 +53,4 @@ The filled Formula has no factor near zero, the 3P passes its scorecards, and fi
 
 ## Hand-off
 
-Recommend the next job following `engine/commands.md`, section Next step: `/vp strategy` (the Value Strategy job) when the user has several lines of business or the category itself needs designing, `/vp engineer` when the proposition is ready to be put into execution, and `/vp evolve` as the routine to rerun when the triggers fire.
+Recommend the next job following `engine/commands.md`, section Next step: `/vp strategy` (the Value Strategy job) by default, because the category, the defense and the scenarios come after the proposition in the order of work; `/vp agents` when the market is contested; `/vp engineer` only when a company strategy already exists in `Knowledge/`. `/vp evolve` is the routine to rerun when the triggers fire.

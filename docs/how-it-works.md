@@ -48,7 +48,7 @@ Six keywords cover everything the skill does. Type them after `/vp`, or just ask
 | `/vp align` | Check reality against the plan | "We are three months in: align the plan with what we actually did" | the status of every planned item, why the gaps opened, what changes, and every document updated to match |
 | (none) | Ask one question | "How should I price this?", "Do we have a moat?" | an answer in the conversation, without a full report |
 
-The keywords follow each other naturally. An assessment shows what to design or evolve. A value proposition grows into a strategy. The strategy is engineered into a Value to Market plan, and the plan is kept honest by regular alignment reviews, which send anything reality disproved back to the strategy through evolve.
+The keywords follow each other in the order of the flow. `/vp assess` tells you whether to build a new proposition with `/vp design` or adjust the current one with `/vp evolve`. A designed proposition then goes to `/vp strategy`, which sets the category, the defense and the scenarios around it. `/vp engineer` turns that into a Value to Market plan, and regular reviews with `/vp align` keep the plan honest, sending anything reality disproved back through `/vp evolve`.
 
 Note that the keyword `/vp review` means `/vp assess`. When you want to review your progress against the plan, use `/vp align` or say so in plain words ("review what we did against the plan").
 

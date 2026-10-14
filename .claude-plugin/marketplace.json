@@ -9,7 +9,7 @@
     {
       "name": "value-to-market",
       "displayName": "Value to Market",
-      "description": "Value to Market by Hoang Huynh: one skill that assesses, builds and fine-tunes your value proposition, builds your value strategy, turns it into an operational launch plan with events, social and horizon playbooks, and keeps it honest against reality. Socratic, evidence-tagged, with documents kept apart from a working memory vault.",
+      "description": "One skill for the Value-to-Market (V2M) Framework: assess, design and evolve value propositions, build a value strategy, plan the launch, and review it against reality.",
       "source": {
         "type": "github",
         "repo": "valuebydesign/Value-to-Market-Skill",

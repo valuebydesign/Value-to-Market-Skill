@@ -1,16 +1,11 @@
 ---
 name: v2m
 description: >
-  Value to Market: one skill organized by keyword around the job the user wants done. assess (alias
-  review) a value proposition: yours, a rival's, a list of sites, a folder, an industry. design one, from
-  a known business or from scratch. strategy: build the value strategy, optionally in agentic mode.
-  engineer the Value to Market plan: workplan, launch strikes and events, social, horizon playbooks.
-  evolve the proposition when things change, with plausible scenarios. align plan, strategy and
-  documents with what really happened. Also init (project setup), help, tools (single tools), and
-  single questions. Works Socratically. Use when the user says assess, audit, design, build, fine-tune,
-  refresh or evolve a value proposition; value strategy; go to market, launch plan, social plan, events,
-  execution plan; review progress, realign; set up a value strategy project; or points to a website,
-  folder, competitors or an industry.
+  Value-to-Market (V2M) Framework for value propositions and value strategy. Keywords: assess (alias
+  review), design, strategy, engineer, evolve, align, agents, init, help, tools. Use when the user wants
+  to assess, audit, design, fine-tune or evolve a value proposition, build a value strategy, plan a go
+  to market or launch, review progress against a plan, or points to a website, folder, competitors or
+  an industry to analyze.
 ---
 
 # v2m: Value to Market, by job

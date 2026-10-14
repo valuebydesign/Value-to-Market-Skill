@@ -2,7 +2,7 @@
   "name": "value-to-market",
   "displayName": "Value to Market",
   "version": "2.0.0",
-  "description": "Turn great ideas into value customers can feel. Value to Market applies the Value-to-Market (V2M) Framework by Hoang Huynh through one skill organized by the job you need done: assess a value proposition (yours, a rival's, a whole industry), build one from a known business or from scratch, fine-tune it when the market moves, build a value strategy (optionally with parallel agents that scout, draft and attack rival strategies), turn it into a Value to Market plan with launch strikes, events, social and horizon playbooks, and realign plan and strategy with what really happened. Start with /v2m init, or just ask.",
+  "description": "The Value-to-Market (V2M) Framework by Hoang Huynh as one skill. Assess, design and evolve a value proposition, build a value strategy, turn it into a launch plan, and check the plan against what happened. Start with /v2m init.",
   "author": {
     "name": "Hoang Huynh",
     "url": "https://valueproposition.design"

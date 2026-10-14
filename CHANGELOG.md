@@ -2,7 +2,7 @@
 
 All notable changes to the Value to Market plugin are documented here. This project follows [Semantic Versioning](https://semver.org).
 
-## [2.0.0] - 2026-10-12
+## [2.0.0] - 2026-10-14
 
 One skill, organized by the job you need done.
 
